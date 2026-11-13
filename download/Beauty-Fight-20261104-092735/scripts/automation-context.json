@@ -1,0 +1,43 @@
+{
+  "engine": "LayaAir 3D",
+  "prioritizedScripts": [
+    {
+      "file": "game/app-239345.games.s3.yandex.net/239345/ah0ml9s8l3ff12dub6p3bzgqezjbmszq/ru/js/bundle-910497ed1c.js",
+      "bytes": 392932,
+      "extension": ".js",
+      "scope": "game-core",
+      "functionsOrClasses": 110,
+      "automationTerms": [
+        "player",
+        "heel",
+        "grade",
+        "level",
+        "move",
+        "ctrl",
+        "score",
+        "speed",
+        "victory",
+        "fail",
+        "shoes",
+        "diamond",
+        "gold"
+      ],
+      "priority": 150
+    }
+  ],
+  "terms": [
+    "player",
+    "heel",
+    "grade",
+    "level",
+    "move",
+    "ctrl",
+    "score",
+    "speed",
+    "victory",
+    "fail",
+    "shoes",
+    "diamond",
+    "gold"
+  ]
+}

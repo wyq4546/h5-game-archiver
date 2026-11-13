@@ -1,0 +1,38 @@
+{
+  "version": 4,
+  "generatedAt": "2026-11-09T12:55:26.407Z",
+  "engine": "LayaAir 3D",
+  "engineConfidence": "high",
+  "engineEvidence": [
+    {
+      "label": "Laya.init / Laya3D.init",
+      "points": 50
+    },
+    {
+      "label": "Laya 核心库 laya.core.js / laya.d3.js",
+      "points": 30
+    },
+    {
+      "label": "Laya 物理库 laya.physics3D.js",
+      "points": 20
+    }
+  ],
+  "levelSummary": {
+    "kind": "cyclic",
+    "total": 300,
+    "evidence": [
+      "f.getGradeCyclic() = f.getGrade() % 300"
+    ],
+    "reason": "游戏内置300关循环配置表"
+  },
+  "keyClasses": {
+    "characterController": "At / Lt",
+    "gameSceneUI": "Jt",
+    "victorySceneUI": "Dt",
+    "failSceneUI": "Rt",
+    "moveController": "st",
+    "profileData": "f / p",
+    "stateManager": "b",
+    "audioManager": "H"
+  }
+}

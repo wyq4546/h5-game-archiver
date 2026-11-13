@@ -1,0 +1,70 @@
+{
+  "textFiles": [
+    {
+      "file": "game/app-239345.games.s3.yandex.net/239345/ah0ml9s8l3ff12dub6p3bzgqezjbmszq/ru/js/bundle-910497ed1c.js",
+      "bytes": 392932,
+      "extension": ".js",
+      "scope": "game-core",
+      "functionsOrClasses": 110,
+      "automationTerms": [
+        "player",
+        "heel",
+        "grade",
+        "level",
+        "move",
+        "ctrl",
+        "score",
+        "speed",
+        "victory",
+        "fail",
+        "shoes",
+        "diamond",
+        "gold"
+      ],
+      "ast": {
+        "status": "parsed",
+        "sha256": "7651db99ea139fbb18b10b2776bc59218874c53b5ec0357ff0709ad9d5361f4e",
+        "output": "analysis/decompiled/bundle-beautified.js",
+        "classes": 95,
+        "sourceType": "script"
+      }
+    },
+    {
+      "file": "game/app-239345.games.s3.yandex.net/239345/ah0ml9s8l3ff12dub6p3bzgqezjbmszq/ru/libs/laya.core.js",
+      "bytes": 453812,
+      "extension": ".js",
+      "scope": "engine",
+      "functionsOrClasses": 80,
+      "automationTerms": [
+        "stage",
+        "event",
+        "mouse"
+      ]
+    },
+    {
+      "file": "game/app-239345.games.s3.yandex.net/239345/ah0ml9s8l3ff12dub6p3bzgqezjbmszq/ru/libs/laya.d3.js",
+      "bytes": 880953,
+      "extension": ".js",
+      "scope": "engine",
+      "functionsOrClasses": 120,
+      "automationTerms": [
+        "transform",
+        "position",
+        "scene3d"
+      ]
+    },
+    {
+      "file": "game/app-239345.games.s3.yandex.net/239345/ah0ml9s8l3ff12dub6p3bzgqezjbmszq/ru/libs/laya.physics3D.js",
+      "bytes": 841358,
+      "extension": ".js",
+      "scope": "engine",
+      "functionsOrClasses": 90,
+      "automationTerms": [
+        "rigidbody",
+        "collider"
+      ]
+    }
+  ],
+  "gameTextSources": 1,
+  "totalClasses": 95
+}
