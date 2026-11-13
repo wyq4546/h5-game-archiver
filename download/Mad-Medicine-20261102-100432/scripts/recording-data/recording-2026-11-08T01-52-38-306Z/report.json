@@ -1,0 +1,11 @@
+{
+  "batchName": "recording-2026-11-08T01-52-38-306Z",
+  "createdAt": "2026-11-08T01:54:13.740Z",
+  "startLevel": 1,
+  "endLevel": 10,
+  "record": false,
+  "totalCompleted": 0,
+  "levels": [],
+  "status": "failed",
+  "error": "第3关未通关（maxZ=34.6，steps=390，用时 17.1s）：世界平面 12s 无位移 world=(-1.0,34.6) localX=-1.02"
+}

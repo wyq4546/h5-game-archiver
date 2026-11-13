@@ -1,0 +1,315 @@
+{
+  "levelSummary": {
+    "kind": "unknown",
+    "total": null,
+    "evidence": [],
+    "reason": "未提取到完整关卡表或无限生成逻辑"
+  },
+  "version": 4,
+  "generatedAt": "2026-11-07T16:17:04.753Z",
+  "engine": "Unity WebGL",
+  "engineConfidence": "high",
+  "engineEvidence": [
+    {
+      "label": "createUnityInstance",
+      "points": 45
+    },
+    {
+      "label": "Unity loader 文件",
+      "points": 18
+    },
+    {
+      "label": "Unity WASM 构建产物",
+      "points": 18
+    },
+    {
+      "label": "Unity data 构建产物",
+      "points": 18
+    }
+  ],
+  "engineCandidates": [
+    {
+      "name": "Unity WebGL",
+      "score": 99,
+      "entryScore": 0,
+      "pathScore": 54,
+      "evidence": [
+        {
+          "label": "createUnityInstance",
+          "points": 45
+        },
+        {
+          "label": "Unity loader 文件",
+          "points": 18
+        },
+        {
+          "label": "Unity WASM 构建产物",
+          "points": 18
+        },
+        {
+          "label": "Unity data 构建产物",
+          "points": 18
+        }
+      ]
+    }
+  ],
+  "captureRoot": "D:\\code\\h5-game-archiver\\download\\Mad-Medicine-20261102-100432",
+  "analysisRoot": "D:\\code\\h5-game-archiver\\download\\Mad-Medicine-20261102-100432\\analysis",
+  "counts": {
+    "files": 295,
+    "textSources": 117,
+    "gameTextSources": 7,
+    "ignoredNoiseSources": 5,
+    "wasmModules": 1,
+    "watGenerated": 0,
+    "unityDataPackages": 1,
+    "unityDataExtractedFiles": 7,
+    "il2cppGameplayClasses": 55
+  },
+  "prioritizedScripts": [
+    {
+      "file": "game/app-262540.games.s3.yandex.net/262540/89io2yadq5r5vcqn2hdfyj5eij4yi9up/Build/WebGL.loader.js",
+      "bytes": 114404,
+      "extension": ".js",
+      "scope": "game-core",
+      "functionsOrClasses": 30,
+      "automationTerms": [
+        "player",
+        "player",
+        "input"
+      ],
+      "ast": {
+        "status": "parsed",
+        "sha256": "e6704366c0d31dc610c55755e55eb2951735c3d09859a1d77946e16c37a30ef9",
+        "output": "analysis/source-scopes/e6704366c0d31dc610c55755e55eb2951735c3d09859a1d77946e16c37a30ef9.json",
+        "functions": 173,
+        "classes": 0,
+        "scopes": 298,
+        "bindings": 607,
+        "sourceType": "script"
+      },
+      "priority": 116
+    },
+    {
+      "file": "game/app-262540.games.s3.yandex.net/sdk/_/v2.2f14a50521d68e9766e1.js",
+      "bytes": 93931,
+      "extension": ".js",
+      "scope": "game",
+      "functionsOrClasses": 67,
+      "automationTerms": [
+        "player",
+        "score",
+        "score",
+        "controller",
+        "speed",
+        "player",
+        "position"
+      ],
+      "ast": {
+        "status": "parsed",
+        "sha256": "4017844636929ab4f8d54ae79062f3da9b2ca6a904fb6a5d14d46d785264c579",
+        "output": "analysis/source-scopes/4017844636929ab4f8d54ae79062f3da9b2ca6a904fb6a5d14d46d785264c579.json",
+        "functions": 954,
+        "classes": 40,
+        "scopes": 1242,
+        "bindings": 1907,
+        "sourceType": "script"
+      },
+      "priority": 86
+    },
+    {
+      "file": "game/app-262540.games.s3.yandex.net/262540/89io2yadq5r5vcqn2hdfyj5eij4yi9up/index-ac2e58d4ca.html",
+      "bytes": 14707,
+      "extension": ".html",
+      "scope": "game",
+      "functionsOrClasses": 3,
+      "automationTerms": [],
+      "priority": 50
+    },
+    {
+      "file": "game/app-262540.games.s3.yandex.net/sdk.js",
+      "bytes": 3731,
+      "extension": ".js",
+      "scope": "game",
+      "functionsOrClasses": 1,
+      "automationTerms": [],
+      "ast": {
+        "status": "parsed",
+        "sha256": "0ce9a0968aea36afbe58e939ff3f1c83201f708e666410c01086d737cda9d07a",
+        "output": "analysis/source-scopes/0ce9a0968aea36afbe58e939ff3f1c83201f708e666410c01086d737cda9d07a.json",
+        "functions": 32,
+        "classes": 0,
+        "scopes": 46,
+        "bindings": 86,
+        "sourceType": "script"
+      },
+      "priority": 50
+    }
+  ],
+  "wasmFiles": [
+    {
+      "file": "game/app-262540.games.s3.yandex.net/262540/89io2yadq5r5vcqn2hdfyj5eij4yi9up/Build/WebGL.wasm.unityweb",
+      "bytes": 33737797,
+      "compressed": true,
+      "extractedFile": "wasm/game_app-262540.games.s3.yandex.net_262540_89io2yadq5r5vcqn2hdfyj5eij4yi9up_Build_WebGL.wasm.unityweb.wasm",
+      "summaryFile": "wasm/game_app-262540.games.s3.yandex.net_262540_89io2yadq5r5vcqn2hdfyj5eij4yi9up_Build_WebGL.wasm.unityweb.summary.json",
+      "watSkippedReason": "模块超过 32 MiB；完整 WAT 通常会膨胀数倍，已改用 IL2CPP 结构化解析"
+    }
+  ],
+  "unityDataFiles": [
+    {
+      "file": "game/app-262540.games.s3.yandex.net/262540/89io2yadq5r5vcqn2hdfyj5eij4yi9up/Build/WebGL.data.unityweb",
+      "bytes": 11817642,
+      "compressed": true,
+      "extractedDirectory": "unity-data/WebGL.data",
+      "files": 7,
+      "metadataRelative": "unity-data/WebGL.data/Il2CppData/Metadata/global-metadata.dat"
+    }
+  ],
+  "il2cpp": {
+    "status": "completed",
+    "executable": "D:\\code\\h5-game-archiver\\download\\Mad-Medicine-20261102-100432\\analysis\\wasm\\game_app-262540.games.s3.yandex.net_262540_89io2yadq5r5vcqn2hdfyj5eij4yi9up_Build_WebGL.wasm.unityweb.wasm",
+    "metadata": "D:\\code\\h5-game-archiver\\download\\Mad-Medicine-20261102-100432\\analysis\\unity-data\\WebGL.data\\Il2CppData\\Metadata\\global-metadata.dat",
+    "exitCode": 0,
+    "projectClasses": 272,
+    "gameplayClasses": 55,
+    "wasmRepair": {
+      "applied": false,
+      "reason": "Il2CppCodeRegistration 已在 data 段中，无需修复",
+      "log": [
+        "metadata v29, imageCount=80, typeDefinitionsCount=7189",
+        "定位 codeGenModules 数组 @ 4340240（80 项，模块结构共 83 个）",
+        "Il2CppCodeRegistration 已在 data 段中，无需修复"
+      ]
+    },
+    "validation": {
+      "status": "completed",
+      "typeDefinitions": 7189,
+      "mappedMethods": 88103
+    },
+    "outputs": [
+      "DummyDll/Agava.WebUtility.dll",
+      "DummyDll/Agava.YandexGames.dll",
+      "DummyDll/Assembly-CSharp.dll",
+      "DummyDll/Cinemachine.dll",
+      "DummyDll/CrossPromo.Sample.dll",
+      "DummyDll/DOTween.dll",
+      "DummyDll/DOTweenPro.dll",
+      "DummyDll/Dreamteck.Splines.dll",
+      "DummyDll/Dreamteck.Utilities.dll",
+      "DummyDll/GameAnalyticsSDK.dll",
+      "DummyDll/GamePauser.dll",
+      "DummyDll/Il2CppDummyDll.dll",
+      "DummyDll/Leopotam.Ecs.dll",
+      "DummyDll/Localization.I2.dll",
+      "DummyDll/Modules.CameraUtils.dll",
+      "DummyDll/Modules.CrossPromo.dll",
+      "DummyDll/Modules.Currency.dll",
+      "DummyDll/Modules.EventGroup.dll",
+      "DummyDll/Modules.FakePlayerPrefs.dll",
+      "DummyDll/Modules.LevelSpawner.dll",
+      "DummyDll/Modules.Localization.I2.dll",
+      "DummyDll/Modules.PlayerLevel.dll",
+      "DummyDll/Modules.Root.ContainerComponentModel.dll",
+      "DummyDll/Modules.Root.ECS.dll",
+      "DummyDll/Modules.SerializableDictionary.dll",
+      "DummyDll/Modules.UICoreECS.dll",
+      "DummyDll/Modules.UPhysics.dll",
+      "DummyDll/Modules.UserInput.dll",
+      "DummyDll/Modules.Utils.dll",
+      "DummyDll/Modules.ViewHub.dll",
+      "DummyDll/Mono.Security.dll",
+      "DummyDll/System.Configuration.dll",
+      "DummyDll/System.Core.dll",
+      "DummyDll/System.Numerics.dll",
+      "DummyDll/System.Xml.dll",
+      "DummyDll/System.dll",
+      "DummyDll/UAds.Integrations.YandexSDK.dll",
+      "DummyDll/UAds.UAnalyticsProvider.dll",
+      "DummyDll/UAds.dll",
+      "DummyDll/UAnalytics.Integrations.GameAnalytics.dll",
+      "DummyDll/UAnalytics.Trackers.AdEvents.dll",
+      "DummyDll/UAnalytics.Trackers.LevelProgression.dll",
+      "DummyDll/UAnalytics.Trackers.UserIAPStatsTracker.dll",
+      "DummyDll/UAnalytics.Trackers.UserSessionStatsTracker.dll",
+      "DummyDll/UAnalytics.dll",
+      "DummyDll/Unity.Addressables.dll",
+      "DummyDll/Unity.ResourceManager.dll",
+      "DummyDll/Unity.TextMeshPro.dll",
+      "DummyDll/Unity.Timeline.dll",
+      "DummyDll/UnityEngine.AnimationModule.dll",
+      "DummyDll/UnityEngine.AssetBundleModule.dll",
+      "DummyDll/UnityEngine.AudioModule.dll",
+      "DummyDll/UnityEngine.CoreModule.dll",
+      "DummyDll/UnityEngine.DirectorModule.dll",
+      "DummyDll/UnityEngine.GridModule.dll",
+      "DummyDll/UnityEngine.IMGUIModule.dll",
+      "DummyDll/UnityEngine.InputLegacyModule.dll",
+      "DummyDll/UnityEngine.JSONSerializeModule.dll",
+      "DummyDll/UnityEngine.ParticleSystemModule.dll",
+      "DummyDll/UnityEngine.Physics2DModule.dll",
+      "DummyDll/UnityEngine.PhysicsModule.dll",
+      "DummyDll/UnityEngine.PropertiesModule.dll",
+      "DummyDll/UnityEngine.ScreenCaptureModule.dll",
+      "DummyDll/UnityEngine.SharedInternalsModule.dll",
+      "DummyDll/UnityEngine.SpriteShapeModule.dll",
+      "DummyDll/UnityEngine.TextCoreFontEngineModule.dll",
+      "DummyDll/UnityEngine.TextCoreTextEngineModule.dll",
+      "DummyDll/UnityEngine.TextRenderingModule.dll",
+      "DummyDll/UnityEngine.TilemapModule.dll",
+      "DummyDll/UnityEngine.UI.dll",
+      "DummyDll/UnityEngine.UIElementsModule.dll",
+      "DummyDll/UnityEngine.UIModule.dll",
+      "DummyDll/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+      "DummyDll/UnityEngine.UnityWebRequestModule.dll",
+      "DummyDll/UnityEngine.UnityWebRequestTextureModule.dll",
+      "DummyDll/UnityEngine.VideoModule.dll",
+      "DummyDll/UnityEngine.dll",
+      "DummyDll/WebGL.PlatformSelector.Data.dll",
+      "DummyDll/WebGL.PlatformSelector.dll",
+      "DummyDll/__Generated",
+      "DummyDll/mscorlib.dll",
+      "dump.cs",
+      "gameplay-classes.json",
+      "il2cpp.h",
+      "project-classes.json",
+      "script.json",
+      "stringliteral.json"
+    ],
+    "log": "Initializing metadata...\r\nMetadata Version: 29\r\nInitializing il2cpp file...\r\nIl2Cpp Version: 29\r\nSearching...\r\nChange il2cpp version to: 29.1\r\nCodeRegistration : 349b74\r\nMetadataRegistration : 267660\r\nDumping...\r\nDone!\r\nGenerate struct...\r\nDone!\r\nGenerate dummy dll...\r\nDone!"
+  },
+  "automationKeywords": [
+    {
+      "name": "player",
+      "files": 4
+    },
+    {
+      "name": "score",
+      "files": 2
+    },
+    {
+      "name": "input",
+      "files": 1
+    },
+    {
+      "name": "controller",
+      "files": 1
+    },
+    {
+      "name": "speed",
+      "files": 1
+    },
+    {
+      "name": "position",
+      "files": 1
+    }
+  ],
+  "limitations": "这是对发布产物的静态整理和反编译，不等同于开发者原始 Unity 工程。IL2CPP 可以恢复类、字段、方法签名及 WASM 方法映射，但不能恢复原始变量名、注释和完整 C# 方法体。",
+  "botKit": {
+    "status": "ok",
+    "types": 272,
+    "methods": 5523,
+    "derivedDynCalls": 151,
+    "directory": "D:\\code\\h5-game-archiver\\download\\Mad-Medicine-20261102-100432\\analysis\\bot"
+  }
+}

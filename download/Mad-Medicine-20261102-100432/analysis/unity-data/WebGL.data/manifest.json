@@ -1,0 +1,43 @@
+{
+  "format": "UnityWebData1.0",
+  "sourceFile": "game/app-262540.games.s3.yandex.net/262540/89io2yadq5r5vcqn2hdfyj5eij4yi9up/Build/WebGL.data.unityweb",
+  "headerLength": 274,
+  "files": 7,
+  "entries": [
+    {
+      "name": "data.unity3d",
+      "offset": 274,
+      "size": 2604806
+    },
+    {
+      "name": "RuntimeInitializeOnLoads.json",
+      "offset": 2605080,
+      "size": 4731
+    },
+    {
+      "name": "ScriptingAssemblies.json",
+      "offset": 2609811,
+      "size": 3978
+    },
+    {
+      "name": "sharedassets1.resource",
+      "offset": 2613789,
+      "size": 2799324
+    },
+    {
+      "name": "boot.config",
+      "offset": 5413113,
+      "size": 93
+    },
+    {
+      "name": "Il2CppData/Metadata/global-metadata.dat",
+      "offset": 5413206,
+      "size": 5797060
+    },
+    {
+      "name": "Resources/unity_default_resources",
+      "offset": 11210266,
+      "size": 607376
+    }
+  ]
+}

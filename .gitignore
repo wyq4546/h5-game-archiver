@@ -1,6 +1,5 @@
 node_modules/
 output/
-download/*
 !download/README.txt
 .playwright/
 *.log

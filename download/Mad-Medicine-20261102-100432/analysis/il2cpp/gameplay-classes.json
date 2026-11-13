@@ -1,0 +1,2377 @@
+{
+  "classes": 55,
+  "items": [
+    {
+      "name": "LevelProgressionAnalyticsEventsTracker",
+      "namespace": "UAnalytics.Samples.LevelProgressionTracker",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5438,
+      "declarationLine": 331428,
+      "methods": [
+        {
+          "signature": "public void Run() { }",
+          "rva": "0x227A",
+          "offset": "0x227A",
+          "line": 331442
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x227B",
+          "offset": "0x227B",
+          "line": 331445
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "readonly EcsFilter<LevelSpawnedSignal> _levelSpawnedSignal",
+          "offset": "0x8",
+          "line": 331431
+        },
+        {
+          "declaration": "readonly EcsFilter<AddressableLevelAsset> _addresableLevelAsset",
+          "offset": "0xC",
+          "line": 331432
+        },
+        {
+          "declaration": "readonly EcsFilter<GamePlayState, StateEnter> _onEnterGamePlay",
+          "offset": "0x10",
+          "line": 331433
+        },
+        {
+          "declaration": "readonly EcsFilter<RoundCompletedState, StateEnter> _onRoundCompleted",
+          "offset": "0x14",
+          "line": 331434
+        },
+        {
+          "declaration": "readonly EcsFilter<RoundFailedState, StateEnter> _onRoundFailed",
+          "offset": "0x18",
+          "line": 331435
+        },
+        {
+          "declaration": "readonly EcsFilter<RestartRoundState, StateEnter> _onRoundRestart",
+          "offset": "0x1C",
+          "line": 331436
+        },
+        {
+          "declaration": "readonly EcsFilter<NextLevelState, StateEnter> _onNextLevelEnter",
+          "offset": "0x20",
+          "line": 331437
+        }
+      ]
+    },
+    {
+      "name": "InterstitialInvokeSystem",
+      "namespace": "UAds.Samples.HCStackV1",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5439,
+      "declarationLine": 331449,
+      "methods": [
+        {
+          "signature": "public void Run() { }",
+          "rva": "0x227C",
+          "offset": "0x227C",
+          "line": 331457
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x227D",
+          "offset": "0x227D",
+          "line": 331460
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "readonly EcsFilter<NextLevelState, StateEnter> _onNextLevelEnter",
+          "offset": "0x8",
+          "line": 331452
+        }
+      ]
+    },
+    {
+      "name": "ActivateKeyboardSprint",
+      "namespace": "Modules.MadMedicine.UserInput",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5552,
+      "declarationLine": 333968,
+      "methods": [],
+      "fields": []
+    },
+    {
+      "name": "OnDragStarted",
+      "namespace": "Modules.MadMedicine.UserInput",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5553,
+      "declarationLine": 333972,
+      "methods": [],
+      "fields": []
+    },
+    {
+      "name": "OnScreenTapUp",
+      "namespace": "Modules.MadMedicine.UserInput",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5554,
+      "declarationLine": 333976,
+      "methods": [],
+      "fields": []
+    },
+    {
+      "name": "OnScreenClick",
+      "namespace": "Modules.MadMedicine.UserInput",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5555,
+      "declarationLine": 333980,
+      "methods": [],
+      "fields": [
+        {
+          "declaration": "Vector3 ScreenClickPos",
+          "offset": "0x0",
+          "line": 333983
+        }
+      ]
+    },
+    {
+      "name": "OnScreenHold",
+      "namespace": "Modules.MadMedicine.UserInput",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5556,
+      "declarationLine": 333987,
+      "methods": [],
+      "fields": [
+        {
+          "declaration": "float XDisplacement",
+          "offset": "0x0",
+          "line": 333990
+        },
+        {
+          "declaration": "float YDisplacement",
+          "offset": "0x4",
+          "line": 333991
+        },
+        {
+          "declaration": "bool DragStarted",
+          "offset": "0x8",
+          "line": 333992
+        }
+      ]
+    },
+    {
+      "name": "OnScreenLongClick",
+      "namespace": "Modules.MadMedicine.UserInput",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5557,
+      "declarationLine": 333996,
+      "methods": [],
+      "fields": [
+        {
+          "declaration": "Vector3 ScreenClickPos",
+          "offset": "0x0",
+          "line": 333999
+        }
+      ]
+    },
+    {
+      "name": "OnScreenTapDown",
+      "namespace": "Modules.MadMedicine.UserInput",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5558,
+      "declarationLine": 334003,
+      "methods": [],
+      "fields": []
+    },
+    {
+      "name": "PointerDown",
+      "namespace": "Modules.MadMedicine.UserInput",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5559,
+      "declarationLine": 334007,
+      "methods": [],
+      "fields": []
+    },
+    {
+      "name": "PointerUp",
+      "namespace": "Modules.MadMedicine.UserInput",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5560,
+      "declarationLine": 334011,
+      "methods": [],
+      "fields": []
+    },
+    {
+      "name": "PointerClick",
+      "namespace": "Modules.MadMedicine.UserInput",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5561,
+      "declarationLine": 334015,
+      "methods": [],
+      "fields": []
+    },
+    {
+      "name": "RewardButton",
+      "namespace": "Modules.MadMedicine.UserInput",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5562,
+      "declarationLine": 334019,
+      "methods": [],
+      "fields": [
+        {
+          "declaration": "Button Button",
+          "offset": "0x0",
+          "line": 334022
+        }
+      ]
+    },
+    {
+      "name": "PointerDisplacementSystem",
+      "namespace": "Modules.MadMedicine.UserInput",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5563,
+      "declarationLine": 334026,
+      "methods": [
+        {
+          "signature": "public void .ctor(float minToDrag) { }",
+          "rva": "0x2407",
+          "offset": "0x2407",
+          "line": 334041
+        },
+        {
+          "signature": "public void Run() { }",
+          "rva": "0x2408",
+          "offset": "0x2408",
+          "line": 334044
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "readonly EcsFilter<OnScreenHold> _hold",
+          "offset": "0x8",
+          "line": 334029
+        },
+        {
+          "declaration": "readonly EcsFilter<OnScreenTapUp> _up",
+          "offset": "0xC",
+          "line": 334030
+        },
+        {
+          "declaration": "readonly EcsFilter<OnScreenTapDown> _down",
+          "offset": "0x10",
+          "line": 334031
+        },
+        {
+          "declaration": "readonly float _minToDrag",
+          "offset": "0x14",
+          "line": 334032
+        },
+        {
+          "declaration": "float prevX",
+          "offset": "0x18",
+          "line": 334033
+        },
+        {
+          "declaration": "float prevY",
+          "offset": "0x1C",
+          "line": 334034
+        },
+        {
+          "declaration": "float downX",
+          "offset": "0x20",
+          "line": 334035
+        },
+        {
+          "declaration": "float downY",
+          "offset": "0x24",
+          "line": 334036
+        }
+      ]
+    },
+    {
+      "name": "SprintKeyboardInputTracker",
+      "namespace": "Modules.MadMedicine.UserInput",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5564,
+      "declarationLine": 334048,
+      "methods": [
+        {
+          "signature": "public void Run() { }",
+          "rva": "0x2409",
+          "offset": "0x2409",
+          "line": 334060
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x240A",
+          "offset": "0x240A",
+          "line": 334063
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "EcsFilter<RoundFinishState> _state",
+          "offset": "0x8",
+          "line": 334051
+        },
+        {
+          "declaration": "EcsFilter<ActivateKeyboardSprint> _activateSignal",
+          "offset": "0xC",
+          "line": 334052
+        },
+        {
+          "declaration": "readonly EcsFilter<LevelSpawnedSignal> _levelSpawned",
+          "offset": "0x10",
+          "line": 334053
+        },
+        {
+          "declaration": "readonly EcsWorld _world",
+          "offset": "0x14",
+          "line": 334054
+        },
+        {
+          "declaration": "bool canTap",
+          "offset": "0x18",
+          "line": 334055
+        }
+      ]
+    },
+    {
+      "name": "TapTrackerSystem",
+      "namespace": "Modules.MadMedicine.UserInput",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5565,
+      "declarationLine": 334067,
+      "methods": [
+        {
+          "signature": "public void .ctor(float clickCheckTime) { }",
+          "rva": "0x240B",
+          "offset": "0x240B",
+          "line": 334082
+        },
+        {
+          "signature": "public void Run() { }",
+          "rva": "0x240C",
+          "offset": "0x240C",
+          "line": 334085
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "EcsFilter<OnScreenTapUp> _up",
+          "offset": "0x8",
+          "line": 334070
+        },
+        {
+          "declaration": "EcsFilter<OnScreenTapDown> _down",
+          "offset": "0xC",
+          "line": 334071
+        },
+        {
+          "declaration": "EcsFilter<OnScreenHold> _holdFilter",
+          "offset": "0x10",
+          "line": 334072
+        },
+        {
+          "declaration": "EcsFilter<OnScreenLongClick> _longClickFilter",
+          "offset": "0x14",
+          "line": 334073
+        },
+        {
+          "declaration": "EcsWorld _ecsWorld",
+          "offset": "0x18",
+          "line": 334074
+        },
+        {
+          "declaration": "TimeService _time",
+          "offset": "0x1C",
+          "line": 334075
+        },
+        {
+          "declaration": "float tapStartTime",
+          "offset": "0x20",
+          "line": 334076
+        },
+        {
+          "declaration": "readonly float _clickCheckTime",
+          "offset": "0x24",
+          "line": 334077
+        }
+      ]
+    },
+    {
+      "name": "UPointerListener",
+      "namespace": "Modules.MadMedicine.UserInput",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5566,
+      "declarationLine": 334089,
+      "methods": [
+        {
+          "signature": "public override void EntityInit(EcsEntity ecsEntity, EcsWorld ecsWorld, bool parentOnScene) { }",
+          "rva": "0x240D",
+          "offset": "0x240D",
+          "line": 334097
+        },
+        {
+          "signature": "public void OnPointerDown(PointerEventData eventData) { }",
+          "rva": "0x240E",
+          "offset": "0x240E",
+          "line": 334100
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x240F",
+          "offset": "0x240F",
+          "line": 334103
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "EcsEntity _entity",
+          "offset": "0x10",
+          "line": 334092
+        }
+      ]
+    },
+    {
+      "name": "UserInputSystems",
+      "namespace": "Modules.MadMedicine.UserInput",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5567,
+      "declarationLine": 334108,
+      "methods": [
+        {
+          "signature": "public EcsSystems GetSystems(EcsWorld world, EcsSystems endFrame, EcsSystems ecsSystems) { }",
+          "rva": "0x2410",
+          "offset": "0x2410",
+          "line": 334119
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x2411",
+          "offset": "0x2411",
+          "line": 334122
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "float _minToDrag",
+          "offset": "0xC",
+          "line": 334112
+        },
+        {
+          "declaration": "float _clickCheckTime",
+          "offset": "0x10",
+          "line": 334114
+        }
+      ]
+    },
+    {
+      "name": "PlayerNameController",
+      "namespace": "Modules.MadMedicine.UnityComponents",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5571,
+      "declarationLine": 334206,
+      "methods": [
+        {
+          "signature": "private void Start() { }",
+          "rva": "0x241B",
+          "offset": "0x241B",
+          "line": 334216
+        },
+        {
+          "signature": "private void Update() { }",
+          "rva": "0x241C",
+          "offset": "0x241C",
+          "line": 334219
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x241D",
+          "offset": "0x241D",
+          "line": 334222
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "Canvas Canvas",
+          "offset": "0x10",
+          "line": 334210
+        },
+        {
+          "declaration": "Camera _mainCamera",
+          "offset": "0x14",
+          "line": 334211
+        }
+      ]
+    },
+    {
+      "name": "DiamondViewComponent",
+      "namespace": "Modules.MadMedicine.UnityComponents.ViewComponents",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5582,
+      "declarationLine": 334464,
+      "methods": [
+        {
+          "signature": "public override void EntityInit(EcsEntity ecsEntity, EcsWorld ecsWorld, bool parentOnScene) { }",
+          "rva": "0x2433",
+          "offset": "0x2433",
+          "line": 334482
+        },
+        {
+          "signature": "private void OnTriggerEnter(Collider other) { }",
+          "rva": "0x2434",
+          "offset": "0x2434",
+          "line": 334485
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x2435",
+          "offset": "0x2435",
+          "line": 334488
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "int Diamonds",
+          "offset": "0x10",
+          "line": 334469
+        },
+        {
+          "declaration": "GameObject[] GameObjects",
+          "offset": "0x14",
+          "line": 334472
+        },
+        {
+          "declaration": "Collider[] CollidersToDisable",
+          "offset": "0x18",
+          "line": 334474
+        },
+        {
+          "declaration": "ParticleSystem Fx",
+          "offset": "0x1C",
+          "line": 334476
+        },
+        {
+          "declaration": "EcsEntity _entity",
+          "offset": "0x20",
+          "line": 334477
+        }
+      ]
+    },
+    {
+      "name": "FinishSprintViewComponent",
+      "namespace": "Modules.MadMedicine.UnityComponents.ViewComponents",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5583,
+      "declarationLine": 334492,
+      "methods": [
+        {
+          "signature": "public override void EntityInit(EcsEntity ecsEntity, EcsWorld ecsWorld, bool parentOnScene) { }",
+          "rva": "0x2436",
+          "offset": "0x2436",
+          "line": 334530
+        },
+        {
+          "signature": "private void OnTriggerEnter(Collider other) { }",
+          "rva": "0x2437",
+          "offset": "0x2437",
+          "line": 334533
+        },
+        {
+          "signature": "private void OnDrawGizmosSelected() { }",
+          "rva": "0x2438",
+          "offset": "0x2438",
+          "line": 334536
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x2439",
+          "offset": "0x2439",
+          "line": 334539
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "SprintCompetitorData[] CompetitorDatas",
+          "offset": "0x10",
+          "line": 334496
+        },
+        {
+          "declaration": "float SprintDistance",
+          "offset": "0x14",
+          "line": 334499
+        },
+        {
+          "declaration": "float[] MaxCompetitorSpeedPerGrade",
+          "offset": "0x18",
+          "line": 334501
+        },
+        {
+          "declaration": "float[] MaxPlayerSpeedPerGrade",
+          "offset": "0x1C",
+          "line": 334502
+        },
+        {
+          "declaration": "float[] MinPlayerSpeedPerGrade",
+          "offset": "0x20",
+          "line": 334503
+        },
+        {
+          "declaration": "float PedestalDistance",
+          "offset": "0x24",
+          "line": 334507
+        },
+        {
+          "declaration": "float AfterPedestalRoad",
+          "offset": "0x28",
+          "line": 334510
+        },
+        {
+          "declaration": "Transform SprintRoad",
+          "offset": "0x2C",
+          "line": 334512
+        },
+        {
+          "declaration": "Transform FinishRoad",
+          "offset": "0x30",
+          "line": 334514
+        },
+        {
+          "declaration": "Transform FinishBanner",
+          "offset": "0x34",
+          "line": 334516
+        },
+        {
+          "declaration": "Transform Pedestal",
+          "offset": "0x38",
+          "line": 334518
+        },
+        {
+          "declaration": "Transform PlayerStartPoint",
+          "offset": "0x3C",
+          "line": 334519
+        },
+        {
+          "declaration": "Transform PlayerFinishPoint",
+          "offset": "0x40",
+          "line": 334520
+        },
+        {
+          "declaration": "Transform[] PedestalPlaces",
+          "offset": "0x44",
+          "line": 334521
+        },
+        {
+          "declaration": "Transform PedestalTransform",
+          "offset": "0x48",
+          "line": 334522
+        },
+        {
+          "declaration": "ParticleSystem FinishFx",
+          "offset": "0x4C",
+          "line": 334523
+        },
+        {
+          "declaration": "EcsWorld _world",
+          "offset": "0x50",
+          "line": 334524
+        },
+        {
+          "declaration": "bool _alreadyTriggered",
+          "offset": "0x54",
+          "line": 334525
+        }
+      ]
+    },
+    {
+      "name": "FinishStairsViewComponent",
+      "namespace": "Modules.MadMedicine.UnityComponents.ViewComponents",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5585,
+      "declarationLine": 334564,
+      "methods": [
+        {
+          "signature": "public override void EntityInit(EcsEntity ecsEntity, EcsWorld ecsWorld, bool parentOnScene) { }",
+          "rva": "0x243B",
+          "offset": "0x243B",
+          "line": 334576
+        },
+        {
+          "signature": "private void OnTriggerEnter(Collider other) { }",
+          "rva": "0x243C",
+          "offset": "0x243C",
+          "line": 334579
+        },
+        {
+          "signature": "private void OnDrawGizmos() { }",
+          "rva": "0x243D",
+          "offset": "0x243D",
+          "line": 334582
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x243E",
+          "offset": "0x243E",
+          "line": 334585
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "Transform[] StopPoints",
+          "offset": "0x10",
+          "line": 334567
+        },
+        {
+          "declaration": "float[] WalkTime",
+          "offset": "0x14",
+          "line": 334568
+        },
+        {
+          "declaration": "ParticleSystem FinishFx",
+          "offset": "0x18",
+          "line": 334569
+        },
+        {
+          "declaration": "EcsWorld _world",
+          "offset": "0x1C",
+          "line": 334570
+        },
+        {
+          "declaration": "bool _alreadyTriggered",
+          "offset": "0x20",
+          "line": 334571
+        }
+      ]
+    },
+    {
+      "name": "MiniGameController",
+      "namespace": "Modules.MadMedicine.UnityComponents.ViewComponents",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5589,
+      "declarationLine": 334675,
+      "methods": [
+        {
+          "signature": "private void Start() { }",
+          "rva": "0x2447",
+          "offset": "0x2447",
+          "line": 334692
+        },
+        {
+          "signature": "public void StartGame() { }",
+          "rva": "0x2448",
+          "offset": "0x2448",
+          "line": 334695
+        },
+        {
+          "signature": "private void Update() { }",
+          "rva": "0x2449",
+          "offset": "0x2449",
+          "line": 334698
+        },
+        {
+          "signature": "public int StopArrow() { }",
+          "rva": "0x244A",
+          "offset": "0x244A",
+          "line": 334701
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x244B",
+          "offset": "0x244B",
+          "line": 334704
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "GameObject Parent",
+          "offset": "0x10",
+          "line": 334679
+        },
+        {
+          "declaration": "SplineFollower Arrow",
+          "offset": "0x14",
+          "line": 334681
+        },
+        {
+          "declaration": "float Speed",
+          "offset": "0x18",
+          "line": 334683
+        },
+        {
+          "declaration": "float SpeedMultiplier",
+          "offset": "0x1C",
+          "line": 334685
+        },
+        {
+          "declaration": "bool _active",
+          "offset": "0x20",
+          "line": 334686
+        },
+        {
+          "declaration": "Sequence _sequence",
+          "offset": "0x24",
+          "line": 334687
+        }
+      ]
+    },
+    {
+      "name": "ObstacleViewComponent",
+      "namespace": "Modules.MadMedicine.UnityComponents.ViewComponents",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5592,
+      "declarationLine": 334780,
+      "methods": [
+        {
+          "signature": "public override void EntityInit(EcsEntity ecsEntity, EcsWorld ecsWorld, bool parentOnScene) { }",
+          "rva": "0x2455",
+          "offset": "0x2455",
+          "line": 334796
+        },
+        {
+          "signature": "public void ShowCollision() { }",
+          "rva": "0x2456",
+          "offset": "0x2456",
+          "line": 334799
+        },
+        {
+          "signature": "public void StartMoving() { }",
+          "rva": "0x2457",
+          "offset": "0x2457",
+          "line": 334802
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x2458",
+          "offset": "0x2458",
+          "line": 334805
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "Animator Animator",
+          "offset": "0x10",
+          "line": 334784
+        },
+        {
+          "declaration": "ParticleSystem Particles",
+          "offset": "0x14",
+          "line": 334786
+        },
+        {
+          "declaration": "Canvas canvas",
+          "offset": "0x18",
+          "line": 334788
+        },
+        {
+          "declaration": "float Delay",
+          "offset": "0x1C",
+          "line": 334789
+        },
+        {
+          "declaration": "Camera _mainCamera",
+          "offset": "0x20",
+          "line": 334790
+        },
+        {
+          "declaration": "bool _alreadyAttack",
+          "offset": "0x24",
+          "line": 334791
+        }
+      ]
+    },
+    {
+      "name": "PlayerColliderViewComponent",
+      "namespace": "Modules.MadMedicine.UnityComponents.ViewComponents",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5595,
+      "declarationLine": 334856,
+      "methods": [
+        {
+          "signature": "public override void EntityInit(EcsEntity ecsEntity, EcsWorld ecsWorld, bool parentOnScene) { }",
+          "rva": "0x245D",
+          "offset": "0x245D",
+          "line": 334867
+        },
+        {
+          "signature": "private void OnTriggerEnter(Collider other) { }",
+          "rva": "0x245E",
+          "offset": "0x245E",
+          "line": 334870
+        },
+        {
+          "signature": "private void OnCollisionEnter(Collision other) { }",
+          "rva": "0x245F",
+          "offset": "0x245F",
+          "line": 334873
+        },
+        {
+          "signature": "private void OnTriggerStay(Collider other) { }",
+          "rva": "0x2460",
+          "offset": "0x2460",
+          "line": 334876
+        },
+        {
+          "signature": "private void OnTriggerExit(Collider other) { }",
+          "rva": "0x2461",
+          "offset": "0x2461",
+          "line": 334879
+        },
+        {
+          "signature": "private void Update() { }",
+          "rva": "0x2462",
+          "offset": "0x2462",
+          "line": 334882
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x2463",
+          "offset": "0x2463",
+          "line": 334885
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "EcsEntity _playerEntity",
+          "offset": "0x10",
+          "line": 334859
+        },
+        {
+          "declaration": "EcsWorld _world",
+          "offset": "0x1C",
+          "line": 334860
+        },
+        {
+          "declaration": "float _lastPedestalTriggerStayTime",
+          "offset": "0x20",
+          "line": 334861
+        },
+        {
+          "declaration": "bool _inPedestalTrigger",
+          "offset": "0x24",
+          "line": 334862
+        }
+      ]
+    },
+    {
+      "name": "LevelTemplate",
+      "namespace": "Modules.MadMedicine.UnityComponents.EntityTemplates",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5597,
+      "declarationLine": 334916,
+      "methods": [
+        {
+          "signature": "public override void OnSpawn(EcsEntity entity, EcsWorld world) { }",
+          "rva": "0x2467",
+          "offset": "0x2467",
+          "line": 334925
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x2468",
+          "offset": "0x2468",
+          "line": 334928
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "LevelData LevelData",
+          "offset": "0x14",
+          "line": 334920
+        }
+      ]
+    },
+    {
+      "name": "PlayerCameraTargetTemplate",
+      "namespace": "Modules.MadMedicine.UnityComponents.EntityTemplates",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5598,
+      "declarationLine": 334932,
+      "methods": [
+        {
+          "signature": "public override void OnSpawn(EcsEntity entity, EcsWorld world) { }",
+          "rva": "0x2469",
+          "offset": "0x2469",
+          "line": 334937
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x246A",
+          "offset": "0x246A",
+          "line": 334940
+        }
+      ],
+      "fields": []
+    },
+    {
+      "name": "PlayerTemplate",
+      "namespace": "Modules.MadMedicine.UnityComponents.EntityTemplates",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5599,
+      "declarationLine": 334944,
+      "methods": [
+        {
+          "signature": "public override void OnSpawn(EcsEntity entity, EcsWorld world) { }",
+          "rva": "0x246B",
+          "offset": "0x246B",
+          "line": 334983
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x246C",
+          "offset": "0x246C",
+          "line": 334986
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "SplineFollower _splineFollower",
+          "offset": "0x14",
+          "line": 334948
+        },
+        {
+          "declaration": "GameObject[] Visuals",
+          "offset": "0x18",
+          "line": 334950
+        },
+        {
+          "declaration": "GameObject[] Sticks",
+          "offset": "0x1C",
+          "line": 334952
+        },
+        {
+          "declaration": "Transform PlayerObject",
+          "offset": "0x20",
+          "line": 334954
+        },
+        {
+          "declaration": "Transform VisualsParent",
+          "offset": "0x24",
+          "line": 334956
+        },
+        {
+          "declaration": "Animator Animator",
+          "offset": "0x28",
+          "line": 334958
+        },
+        {
+          "declaration": "ParticleSystem UpgradeFx",
+          "offset": "0x2C",
+          "line": 334960
+        },
+        {
+          "declaration": "ParticleSystem DegradeFx",
+          "offset": "0x30",
+          "line": 334962
+        },
+        {
+          "declaration": "ParticleSystem ThrowMoneyFx",
+          "offset": "0x34",
+          "line": 334964
+        },
+        {
+          "declaration": "Rigidbody Rigidbody",
+          "offset": "0x38",
+          "line": 334966
+        },
+        {
+          "declaration": "RagdollComponent ragdoll",
+          "offset": "0x3C",
+          "line": 334968
+        },
+        {
+          "declaration": "Transform PlayerCameraTarget",
+          "offset": "0x4C",
+          "line": 334970
+        },
+        {
+          "declaration": "GameObject PlayerCanvas",
+          "offset": "0x50",
+          "line": 334972
+        },
+        {
+          "declaration": "ParticleSystem StunFx",
+          "offset": "0x54",
+          "line": 334974
+        },
+        {
+          "declaration": "float PlayerAttackAnimationTime",
+          "offset": "0x58",
+          "line": 334976
+        },
+        {
+          "declaration": "float PlayerAttackHitTime",
+          "offset": "0x5C",
+          "line": 334978
+        }
+      ]
+    },
+    {
+      "name": "RoadTemplate",
+      "namespace": "Modules.MadMedicine.UnityComponents.EntityTemplates",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5600,
+      "declarationLine": 334990,
+      "methods": [
+        {
+          "signature": "public override void OnSpawn(EcsEntity entity, EcsWorld world) { }",
+          "rva": "0x246D",
+          "offset": "0x246D",
+          "line": 334999
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x246E",
+          "offset": "0x246E",
+          "line": 335002
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "SplineComputer _spline",
+          "offset": "0x14",
+          "line": 334994
+        }
+      ]
+    },
+    {
+      "name": "CurrentLevelPanel",
+      "namespace": "Modules.MadMedicine.UI",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5603,
+      "declarationLine": 335027,
+      "methods": [
+        {
+          "signature": "public void UpdateView() { }",
+          "rva": "0x246F",
+          "offset": "0x246F",
+          "line": 335038
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x2470",
+          "offset": "0x2470",
+          "line": 335041
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "TextMeshProUGUI _view",
+          "offset": "0x10",
+          "line": 335031
+        },
+        {
+          "declaration": "string _levelPrefix",
+          "offset": "0x14",
+          "line": 335033
+        }
+      ]
+    },
+    {
+      "name": "FinishSprintPanel",
+      "namespace": "Modules.MadMedicine.UI.UnityComponents",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5604,
+      "declarationLine": 335045,
+      "methods": [
+        {
+          "signature": "public override void Init(EcsWorld world, EcsEntity screen) { }",
+          "rva": "0x2471",
+          "offset": "0x2471",
+          "line": 335062
+        },
+        {
+          "signature": "public void SetActive(bool value) { }",
+          "rva": "0x2200",
+          "offset": "0x2200",
+          "line": 335065
+        },
+        {
+          "signature": "public void SetSpeed(float value) { }",
+          "rva": "0x2472",
+          "offset": "0x2472",
+          "line": 335068
+        },
+        {
+          "signature": "public void FadeIn() { }",
+          "rva": "0x2219",
+          "offset": "0x2219",
+          "line": 335071
+        },
+        {
+          "signature": "public void FadeOut() { }",
+          "rva": "0x2473",
+          "offset": "0x2473",
+          "line": 335074
+        },
+        {
+          "signature": "public void HideSprintUI() { }",
+          "rva": "0x2474",
+          "offset": "0x2474",
+          "line": 335077
+        },
+        {
+          "signature": "public void ShowSprintUI() { }",
+          "rva": "0x2475",
+          "offset": "0x2475",
+          "line": 335080
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x2476",
+          "offset": "0x2476",
+          "line": 335083
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "Slider Slider",
+          "offset": "0x10",
+          "line": 335049
+        },
+        {
+          "declaration": "Image Fade",
+          "offset": "0x14",
+          "line": 335051
+        },
+        {
+          "declaration": "Animator FadeAnimator",
+          "offset": "0x18",
+          "line": 335053
+        },
+        {
+          "declaration": "GameObject[] SprintUI",
+          "offset": "0x1C",
+          "line": 335055
+        },
+        {
+          "declaration": "GameObject[] Tutorial",
+          "offset": "0x20",
+          "line": 335057
+        }
+      ]
+    },
+    {
+      "name": "StopMiniGameButton",
+      "namespace": "Modules.MadMedicine.UI.UnityComponents",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5613,
+      "declarationLine": 335289,
+      "methods": [
+        {
+          "signature": "public override void Init(EcsWorld world, EcsEntity screen) { }",
+          "rva": "0x2495",
+          "offset": "0x2495",
+          "line": 335297
+        },
+        {
+          "signature": "public void StopMiniGame() { }",
+          "rva": "0x2496",
+          "offset": "0x2496",
+          "line": 335300
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x2497",
+          "offset": "0x2497",
+          "line": 335303
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "EcsWorld _world",
+          "offset": "0x10",
+          "line": 335292
+        }
+      ]
+    },
+    {
+      "name": "WealthLevelPanel",
+      "namespace": "Modules.MadMedicine.UI.UnityComponents",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5615,
+      "declarationLine": 335325,
+      "methods": [
+        {
+          "signature": "public override void Init(EcsWorld world, EcsEntity screen) { }",
+          "rva": "0x249B",
+          "offset": "0x249B",
+          "line": 335349
+        },
+        {
+          "signature": "public void SetValue(int newLevel, float newProgress) { }",
+          "rva": "0x21A0",
+          "offset": "0x21A0",
+          "line": 335352
+        },
+        {
+          "signature": "public void SetPlace(int place) { }",
+          "rva": "0x220A",
+          "offset": "0x220A",
+          "line": 335355
+        },
+        {
+          "signature": "public void SetActive(bool value) { }",
+          "rva": "0x249C",
+          "offset": "0x249C",
+          "line": 335358
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x249D",
+          "offset": "0x249D",
+          "line": 335361
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "GameObject MainGameObject",
+          "offset": "0x10",
+          "line": 335329
+        },
+        {
+          "declaration": "TMP_Text Text",
+          "offset": "0x14",
+          "line": 335331
+        },
+        {
+          "declaration": "TMP_Text TextPlace",
+          "offset": "0x18",
+          "line": 335333
+        },
+        {
+          "declaration": "Slider Slider",
+          "offset": "0x1C",
+          "line": 335335
+        },
+        {
+          "declaration": "Image SliderFillImage",
+          "offset": "0x20",
+          "line": 335337
+        },
+        {
+          "declaration": "string[] WealthLevelNames",
+          "offset": "0x24",
+          "line": 335339
+        },
+        {
+          "declaration": "string[] PlacesNames",
+          "offset": "0x28",
+          "line": 335341
+        },
+        {
+          "declaration": "Sprite[] SliderFillSprites",
+          "offset": "0x2C",
+          "line": 335343
+        },
+        {
+          "declaration": "int _wealthLevel",
+          "offset": "0x30",
+          "line": 335344
+        }
+      ]
+    },
+    {
+      "name": "FinishSprintPanelViewRef",
+      "namespace": "Modules.MadMedicine.UI.Components",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5620,
+      "declarationLine": 335450,
+      "methods": [],
+      "fields": [
+        {
+          "declaration": "FinishSprintPanel Value",
+          "offset": "0x0",
+          "line": 335453
+        }
+      ]
+    },
+    {
+      "name": "WealthLevelPanelViewRef",
+      "namespace": "Modules.MadMedicine.UI.Components",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5623,
+      "declarationLine": 335473,
+      "methods": [],
+      "fields": [
+        {
+          "declaration": "WealthLevelPanel Value",
+          "offset": "0x0",
+          "line": 335476
+        }
+      ]
+    },
+    {
+      "name": "DiamondCollisionSystem",
+      "namespace": "Modules.MadMedicine.Systems",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5628,
+      "declarationLine": 335551,
+      "methods": [
+        {
+          "signature": "public void Run() { }",
+          "rva": "0x24B4",
+          "offset": "0x24B4",
+          "line": 335563
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x24B5",
+          "offset": "0x24B5",
+          "line": 335566
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "readonly EcsFilter<DiamondCollisionSignal> _diamondCollision",
+          "offset": "0x8",
+          "line": 335554
+        },
+        {
+          "declaration": "readonly EcsFilter<PlayerView> _player",
+          "offset": "0xC",
+          "line": 335555
+        },
+        {
+          "declaration": "readonly EcsFilter<MoneyCounterViewRef> _moneyCounter",
+          "offset": "0x10",
+          "line": 335556
+        },
+        {
+          "declaration": "readonly EcsWorld _world",
+          "offset": "0x14",
+          "line": 335557
+        },
+        {
+          "declaration": "readonly LevelDataHolder _levelDataHolder",
+          "offset": "0x18",
+          "line": 335558
+        }
+      ]
+    },
+    {
+      "name": "GameInit",
+      "namespace": "Modules.MadMedicine.Systems",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5630,
+      "declarationLine": 335594,
+      "methods": [
+        {
+          "signature": "public void Init() { }",
+          "rva": "0x24B8",
+          "offset": "0x24B8",
+          "line": 335602
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x24B9",
+          "offset": "0x24B9",
+          "line": 335605
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "readonly EcsWorld _world",
+          "offset": "0x8",
+          "line": 335597
+        }
+      ]
+    },
+    {
+      "name": "LevelDataFillingSystem",
+      "namespace": "Modules.MadMedicine.Systems",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5634,
+      "declarationLine": 335677,
+      "methods": [
+        {
+          "signature": "public void Run() { }",
+          "rva": "0x24C1",
+          "offset": "0x24C1",
+          "line": 335689
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x24C2",
+          "offset": "0x24C2",
+          "line": 335692
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "readonly EcsFilter<LevelSpawnedSignal> _levelSpawnedSignal",
+          "offset": "0x8",
+          "line": 335680
+        },
+        {
+          "declaration": "readonly EcsFilter<LevelData> _levelData",
+          "offset": "0xC",
+          "line": 335681
+        },
+        {
+          "declaration": "readonly EcsFilter<Health> _moneyObjects",
+          "offset": "0x10",
+          "line": 335682
+        },
+        {
+          "declaration": "readonly EcsWorld _world",
+          "offset": "0x14",
+          "line": 335683
+        },
+        {
+          "declaration": "readonly LevelDataHolder _levelDataHolder",
+          "offset": "0x18",
+          "line": 335684
+        }
+      ]
+    },
+    {
+      "name": "ObstacleCollisionSystem",
+      "namespace": "Modules.MadMedicine.Systems",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5636,
+      "declarationLine": 335713,
+      "methods": [
+        {
+          "signature": "public void Run() { }",
+          "rva": "0x24C5",
+          "offset": "0x24C5",
+          "line": 335722
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x24C6",
+          "offset": "0x24C6",
+          "line": 335725
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "EcsFilter<PlayerView, ObstacleCollisionSignal, RagdollComponent> _player",
+          "offset": "0x8",
+          "line": 335716
+        },
+        {
+          "declaration": "EcsFilter<RagdollComponent, CrashObstacle, UnityView> _obstacles",
+          "offset": "0xC",
+          "line": 335717
+        }
+      ]
+    },
+    {
+      "name": "PlayerAttackSystem",
+      "namespace": "Modules.MadMedicine.Systems",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5638,
+      "declarationLine": 335759,
+      "methods": [
+        {
+          "signature": "public void Run() { }",
+          "rva": "0x24CA",
+          "offset": "0x24CA",
+          "line": 335769
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x24CB",
+          "offset": "0x24CB",
+          "line": 335772
+        },
+        {
+          "signature": "private static void .cctor() { }",
+          "rva": "0x24CC",
+          "offset": "0x24CC",
+          "line": 335775
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "EcsFilter<PlayerView, PlayerAttack> _player",
+          "offset": "0x8",
+          "line": 335762
+        },
+        {
+          "declaration": "TimeService _timeService",
+          "offset": "0xC",
+          "line": 335763
+        },
+        {
+          "declaration": "static readonly int AttackHash",
+          "offset": "0x0",
+          "line": 335764
+        }
+      ]
+    },
+    {
+      "name": "RoundFinishEnterSystem",
+      "namespace": "Modules.MadMedicine.Systems",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5641,
+      "declarationLine": 335822,
+      "methods": [
+        {
+          "signature": "public void Run() { }",
+          "rva": "0x24D1",
+          "offset": "0x24D1",
+          "line": 335838
+        },
+        {
+          "signature": "private void PlayerStopWalk() { }",
+          "rva": "0x24D2",
+          "offset": "0x24D2",
+          "line": 335841
+        },
+        {
+          "signature": "private void EnableFinishPanel() { }",
+          "rva": "0x24D3",
+          "offset": "0x24D3",
+          "line": 335844
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x24D4",
+          "offset": "0x24D4",
+          "line": 335847
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "readonly EcsFilter<RoundFinishState, StateEnter> _stateEnterSignal",
+          "offset": "0x8",
+          "line": 335825
+        },
+        {
+          "declaration": "readonly EcsFilter<StopArrowSignal> _stopArrowSignal",
+          "offset": "0xC",
+          "line": 335826
+        },
+        {
+          "declaration": "readonly EcsFilter<PlayerView, UnityView> _player",
+          "offset": "0x10",
+          "line": 335827
+        },
+        {
+          "declaration": "readonly EcsFilter<SplineFollowerRef> _splineFollowers",
+          "offset": "0x14",
+          "line": 335828
+        },
+        {
+          "declaration": "readonly EcsFilter<FinishSprintPanelViewRef> _finishPanelView",
+          "offset": "0x18",
+          "line": 335829
+        },
+        {
+          "declaration": "readonly EcsWorld _world",
+          "offset": "0x1C",
+          "line": 335830
+        },
+        {
+          "declaration": "readonly LevelDataHolder _levelDataHolder",
+          "offset": "0x20",
+          "line": 335831
+        },
+        {
+          "declaration": "readonly GameConfig _gameConfig",
+          "offset": "0x24",
+          "line": 335832
+        },
+        {
+          "declaration": "static int _girlsBlendParam",
+          "offset": "0x0",
+          "line": 335833
+        }
+      ]
+    },
+    {
+      "name": "RoundFinishSprintSystem",
+      "namespace": "Modules.MadMedicine.Systems",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5642,
+      "declarationLine": 335851,
+      "methods": [
+        {
+          "signature": "public void Run() { }",
+          "rva": "0x24D5",
+          "offset": "0x24D5",
+          "line": 335876
+        },
+        {
+          "signature": "private void MoveCompetitors(float sprintTime) { }",
+          "rva": "0x24D6",
+          "offset": "0x24D6",
+          "line": 335879
+        },
+        {
+          "signature": "private void MovePlayer(float speed, FinishSprintViewComponent finish) { }",
+          "rva": "0x24D7",
+          "offset": "0x24D7",
+          "line": 335882
+        },
+        {
+          "signature": "private void StartWalkAnimations() { }",
+          "rva": "0x24D8",
+          "offset": "0x24D8",
+          "line": 335885
+        },
+        {
+          "signature": "private void StopWalkAnimations() { }",
+          "rva": "0x24D9",
+          "offset": "0x24D9",
+          "line": 335888
+        },
+        {
+          "signature": "private void CheckFinish(FinishSprintViewComponent finish) { }",
+          "rva": "0x24DA",
+          "offset": "0x24DA",
+          "line": 335891
+        },
+        {
+          "signature": "private void EndSprint(bool playerWin, FinishSprintViewComponent finish) { }",
+          "rva": "0x220D",
+          "offset": "0x220D",
+          "line": 335894
+        },
+        {
+          "signature": "private void FindAllWinners() { }",
+          "rva": "0x24DB",
+          "offset": "0x24DB",
+          "line": 335897
+        },
+        {
+          "signature": "private void PlaceWinnersOnPedestal() { }",
+          "rva": "0x24DC",
+          "offset": "0x24DC",
+          "line": 335900
+        },
+        {
+          "signature": "private void CreateRoundEndState() { }",
+          "rva": "0x24DD",
+          "offset": "0x24DD",
+          "line": 335903
+        },
+        {
+          "signature": "private void CheckPlayerPlace() { }",
+          "rva": "0x24DE",
+          "offset": "0x24DE",
+          "line": 335906
+        },
+        {
+          "signature": "private void DisableFinishPanel() { }",
+          "rva": "0x24DF",
+          "offset": "0x24DF",
+          "line": 335909
+        },
+        {
+          "signature": "private void FinishPanelFadeIn() { }",
+          "rva": "0x24E0",
+          "offset": "0x24E0",
+          "line": 335912
+        },
+        {
+          "signature": "private void FinishPanelFadeOut() { }",
+          "rva": "0x24E1",
+          "offset": "0x24E1",
+          "line": 335915
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x24E2",
+          "offset": "0x24E2",
+          "line": 335918
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "readonly EcsFilter.Exclude<RoundFinishState, StateEnter> _stateSignal",
+          "offset": "0x8",
+          "line": 335854
+        },
+        {
+          "declaration": "readonly EcsFilter<SprintButtonClickSignal> _buttonSignal",
+          "offset": "0xC",
+          "line": 335855
+        },
+        {
+          "declaration": "readonly EcsFilter<FinishSprintPanelViewRef> _finishPanelView",
+          "offset": "0x10",
+          "line": 335856
+        },
+        {
+          "declaration": "readonly EcsFilter<Competitor, UnityView> _competitors",
+          "offset": "0x14",
+          "line": 335857
+        },
+        {
+          "declaration": "readonly EcsFilter<PlayerView, UnityView> _players",
+          "offset": "0x18",
+          "line": 335858
+        },
+        {
+          "declaration": "readonly EcsFilter<WealthLevelPanelViewRef> _wealthPanelView",
+          "offset": "0x1C",
+          "line": 335859
+        },
+        {
+          "declaration": "readonly EcsFilter<MoneyCounterViewRef> _moneyCounter",
+          "offset": "0x20",
+          "line": 335860
+        },
+        {
+          "declaration": "readonly LevelDataHolder _levelDataHolder",
+          "offset": "0x24",
+          "line": 335861
+        },
+        {
+          "declaration": "readonly GameConfig _gameConfig",
+          "offset": "0x28",
+          "line": 335862
+        },
+        {
+          "declaration": "readonly TimeService _timeService",
+          "offset": "0x2C",
+          "line": 335863
+        },
+        {
+          "declaration": "readonly EcsWorld _world",
+          "offset": "0x30",
+          "line": 335864
+        },
+        {
+          "declaration": "float _playerSpeed",
+          "offset": "0x34",
+          "line": 335865
+        },
+        {
+          "declaration": "bool _sprintStarted",
+          "offset": "0x38",
+          "line": 335866
+        },
+        {
+          "declaration": "float _sprintTime",
+          "offset": "0x3C",
+          "line": 335867
+        },
+        {
+          "declaration": "bool _finished",
+          "offset": "0x40",
+          "line": 335868
+        },
+        {
+          "declaration": "int _lastPlace",
+          "offset": "0x44",
+          "line": 335869
+        },
+        {
+          "declaration": "Transform[] _winners",
+          "offset": "0x48",
+          "line": 335870
+        },
+        {
+          "declaration": "bool _playerWinLastTime",
+          "offset": "0x4C",
+          "line": 335871
+        }
+      ]
+    },
+    {
+      "name": "LevelDataHolder",
+      "namespace": "Modules.MadMedicine.Model",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5646,
+      "declarationLine": 335986,
+      "methods": [
+        {
+          "signature": "public void Apply(EcsEntity levelEntity, int moneyOnLevel, FinishSprintViewComponent finish) { }",
+          "rva": "0x24EA",
+          "offset": "0x24EA",
+          "line": 336004
+        },
+        {
+          "signature": "private void SetDiamonds(int value) { }",
+          "rva": "0x24EB",
+          "offset": "0x24EB",
+          "line": 336007
+        },
+        {
+          "signature": "public int CurrentDiamonds() { }",
+          "rva": "0x24EC",
+          "offset": "0x24EC",
+          "line": 336010
+        },
+        {
+          "signature": "public void CollectedDiamondsOnThisLevel(int value) { }",
+          "rva": "0x21B5",
+          "offset": "0x21B5",
+          "line": 336013
+        },
+        {
+          "signature": "public void NewLevelStarted() { }",
+          "rva": "0x24ED",
+          "offset": "0x24ED",
+          "line": 336016
+        },
+        {
+          "signature": "public void ApplyDiamondsMultiplier(int mult) { }",
+          "rva": "0x24EE",
+          "offset": "0x24EE",
+          "line": 336019
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x24EF",
+          "offset": "0x24EF",
+          "line": 336022
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "LevelData CurrentLevelData",
+          "offset": "0x8",
+          "line": 335990
+        },
+        {
+          "declaration": "Transform LevelTransform",
+          "offset": "0x10",
+          "line": 335991
+        },
+        {
+          "declaration": "int CurrentHealth",
+          "offset": "0x14",
+          "line": 335992
+        },
+        {
+          "declaration": "int HealthOnLevel",
+          "offset": "0x18",
+          "line": 335993
+        },
+        {
+          "declaration": "FinishSprintViewComponent Finish",
+          "offset": "0x1C",
+          "line": 335994
+        },
+        {
+          "declaration": "EcsEntity LevelEntity",
+          "offset": "0x20",
+          "line": 335995
+        },
+        {
+          "declaration": "bool AllowFailCheck",
+          "offset": "0x2C",
+          "line": 335996
+        },
+        {
+          "declaration": "int _currentDiamonds",
+          "offset": "0x30",
+          "line": 335997
+        },
+        {
+          "declaration": "int _diamondsCollectedOnThisLevel",
+          "offset": "0x34",
+          "line": 335998
+        },
+        {
+          "declaration": "bool _diamondsNumberLoaded",
+          "offset": "0x38",
+          "line": 335999
+        }
+      ]
+    },
+    {
+      "name": "OnGamePlayStateEnter",
+      "namespace": "Modules.MadMedicine.EventHandlers",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5650,
+      "declarationLine": 336093,
+      "methods": [
+        {
+          "signature": "public void Run() { }",
+          "rva": "0x24F3",
+          "offset": "0x24F3",
+          "line": 336102
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x24F4",
+          "offset": "0x24F4",
+          "line": 336105
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "readonly EcsFilter<GamePlayState, StateEnter> _signal",
+          "offset": "0x8",
+          "line": 336096
+        },
+        {
+          "declaration": "readonly EcsWorld _world",
+          "offset": "0xC",
+          "line": 336097
+        }
+      ]
+    },
+    {
+      "name": "OnNextLevelEnter",
+      "namespace": "Modules.MadMedicine.EventHandlers",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5651,
+      "declarationLine": 336109,
+      "methods": [
+        {
+          "signature": "public void Run() { }",
+          "rva": "0x24F5",
+          "offset": "0x24F5",
+          "line": 336121
+        },
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x24F6",
+          "offset": "0x24F6",
+          "line": 336124
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "readonly EcsFilter<NextLevelState, StateEnter> _signal",
+          "offset": "0x8",
+          "line": 336112
+        },
+        {
+          "declaration": "readonly EcsFilter<LevelSpawnedSignal> _levelSpawned",
+          "offset": "0xC",
+          "line": 336113
+        },
+        {
+          "declaration": "readonly EcsFilter<NextLevelState> _nextLevel",
+          "offset": "0x10",
+          "line": 336114
+        },
+        {
+          "declaration": "readonly EcsWorld _world",
+          "offset": "0x14",
+          "line": 336115
+        },
+        {
+          "declaration": "readonly WalletsFacade _wallets",
+          "offset": "0x18",
+          "line": 336116
+        }
+      ]
+    },
+    {
+      "name": "GameConfig",
+      "namespace": "Modules.MadMedicine.Data",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5655,
+      "declarationLine": 336180,
+      "methods": [
+        {
+          "signature": "public void .ctor() { }",
+          "rva": "0x24FD",
+          "offset": "0x24FD",
+          "line": 336210
+        }
+      ],
+      "fields": [
+        {
+          "declaration": "float ForwardMoveSpeed",
+          "offset": "0xC",
+          "line": 336184
+        },
+        {
+          "declaration": "float[] ForwardSpeedMults",
+          "offset": "0x10",
+          "line": 336185
+        },
+        {
+          "declaration": "float ThrowMoneySpeedMultiplier",
+          "offset": "0x14",
+          "line": 336186
+        },
+        {
+          "declaration": "float HorizontalMoveSpeed",
+          "offset": "0x18",
+          "line": 336187
+        },
+        {
+          "declaration": "float[] HorizontalSpeedMults",
+          "offset": "0x1C",
+          "line": 336188
+        },
+        {
+          "declaration": "float TrackWidth",
+          "offset": "0x20",
+          "line": 336189
+        },
+        {
+          "declaration": "float DisabledCarriagePercent",
+          "offset": "0x24",
+          "line": 336191
+        },
+        {
+          "declaration": "float CrutchesPercent",
+          "offset": "0x28",
+          "line": 336192
+        },
+        {
+          "declaration": "float LamePercent",
+          "offset": "0x2C",
+          "line": 336193
+        },
+        {
+          "declaration": "float HospitalGownPercent",
+          "offset": "0x30",
+          "line": 336194
+        },
+        {
+          "declaration": "float HeightPerOneDollar",
+          "offset": "0x34",
+          "line": 336196
+        },
+        {
+          "declaration": "float FullDecelerationTime",
+          "offset": "0x38",
+          "line": 336200
+        },
+        {
+          "declaration": "float AccelerationPerClick",
+          "offset": "0x3C",
+          "line": 336202
+        },
+        {
+          "declaration": "float TimeBeforeFailedScreen",
+          "offset": "0x40",
+          "line": 336204
+        },
+        {
+          "declaration": "float TimeBeforeComplitedScreen",
+          "offset": "0x44",
+          "line": 336205
+        }
+      ]
+    },
+    {
+      "name": "CrashObstacle",
+      "namespace": "Modules.MadMedicine.Components",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5660,
+      "declarationLine": 336240,
+      "methods": [],
+      "fields": [
+        {
+          "declaration": "float RagdollDelay",
+          "offset": "0x0",
+          "line": 336243
+        }
+      ]
+    },
+    {
+      "name": "LevelData",
+      "namespace": "Modules.MadMedicine.Components",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5669,
+      "declarationLine": 336314,
+      "methods": [],
+      "fields": [
+        {
+          "declaration": "int InitialMoney",
+          "offset": "0x0",
+          "line": 336317
+        },
+        {
+          "declaration": "FinishSprintViewComponent Finish",
+          "offset": "0x4",
+          "line": 336318
+        }
+      ]
+    },
+    {
+      "name": "ObstacleCollisionSignal",
+      "namespace": "Modules.MadMedicine.Components",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5673,
+      "declarationLine": 336345,
+      "methods": [],
+      "fields": [
+        {
+          "declaration": "float RagdollDelay",
+          "offset": "0x0",
+          "line": 336348
+        },
+        {
+          "declaration": "EntityRef ObstacleEntityRef",
+          "offset": "0x4",
+          "line": 336349
+        }
+      ]
+    },
+    {
+      "name": "PlayerAttack",
+      "namespace": "Modules.MadMedicine.Components",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5675,
+      "declarationLine": 336368,
+      "methods": [],
+      "fields": [
+        {
+          "declaration": "float Timer",
+          "offset": "0x0",
+          "line": 336371
+        },
+        {
+          "declaration": "bool Triggered",
+          "offset": "0x4",
+          "line": 336372
+        }
+      ]
+    },
+    {
+      "name": "PlayerView",
+      "namespace": "Modules.MadMedicine.Components",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5676,
+      "declarationLine": 336376,
+      "methods": [],
+      "fields": [
+        {
+          "declaration": "GameObject[] Visuals",
+          "offset": "0x0",
+          "line": 336379
+        },
+        {
+          "declaration": "GameObject[] Sticks",
+          "offset": "0x4",
+          "line": 336380
+        },
+        {
+          "declaration": "GameObject NakedVisual",
+          "offset": "0x8",
+          "line": 336381
+        },
+        {
+          "declaration": "GameObject[] Shoes",
+          "offset": "0xC",
+          "line": 336382
+        },
+        {
+          "declaration": "int CurrentAppearance",
+          "offset": "0x10",
+          "line": 336383
+        },
+        {
+          "declaration": "bool IsNaked",
+          "offset": "0x14",
+          "line": 336384
+        },
+        {
+          "declaration": "Animator Animator",
+          "offset": "0x18",
+          "line": 336385
+        },
+        {
+          "declaration": "Transform VisualsParent",
+          "offset": "0x1C",
+          "line": 336386
+        },
+        {
+          "declaration": "Transform PlayerObject",
+          "offset": "0x20",
+          "line": 336387
+        },
+        {
+          "declaration": "ParticleSystem UpgradeFx",
+          "offset": "0x24",
+          "line": 336388
+        },
+        {
+          "declaration": "ParticleSystem DegradeFx",
+          "offset": "0x28",
+          "line": 336389
+        },
+        {
+          "declaration": "ParticleSystem ThrowMoneyFx",
+          "offset": "0x2C",
+          "line": 336390
+        },
+        {
+          "declaration": "Rigidbody Rigidbody",
+          "offset": "0x30",
+          "line": 336391
+        },
+        {
+          "declaration": "Transform PlayerCameraTarget",
+          "offset": "0x34",
+          "line": 336392
+        },
+        {
+          "declaration": "GameObject PlayerCanvas",
+          "offset": "0x38",
+          "line": 336393
+        },
+        {
+          "declaration": "ParticleSystem StunFx",
+          "offset": "0x3C",
+          "line": 336394
+        },
+        {
+          "declaration": "float PlayerAttackAnimationTime",
+          "offset": "0x40",
+          "line": 336395
+        },
+        {
+          "declaration": "float PlayerAttackHitTime",
+          "offset": "0x44",
+          "line": 336396
+        }
+      ]
+    },
+    {
+      "name": "RoadView",
+      "namespace": "Modules.MadMedicine.Components",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5677,
+      "declarationLine": 336400,
+      "methods": [],
+      "fields": [
+        {
+          "declaration": "SplineComputer Spline",
+          "offset": "0x0",
+          "line": 336403
+        }
+      ]
+    },
+    {
+      "name": "RoundFinishState",
+      "namespace": "Modules.MadMedicine.Components",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5679,
+      "declarationLine": 336411,
+      "methods": [],
+      "fields": []
+    },
+    {
+      "name": "DiamondCollisionSignal",
+      "namespace": "Modules.MadMedicine.Components.Signals",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5684,
+      "declarationLine": 336443,
+      "methods": [],
+      "fields": [
+        {
+          "declaration": "int Value",
+          "offset": "0x0",
+          "line": 336446
+        }
+      ]
+    },
+    {
+      "name": "MiniGameResultSignal",
+      "namespace": "Modules.MadMedicine.Components.Signals",
+      "assembly": "Assembly-CSharp.dll",
+      "typeDefIndex": 5686,
+      "declarationLine": 336459,
+      "methods": [],
+      "fields": [
+        {
+          "declaration": "float Angle",
+          "offset": "0x0",
+          "line": 336462
+        }
+      ]
+    }
+  ]
+}

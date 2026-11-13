@@ -1,0 +1,1233 @@
+{
+  "textFiles": [
+    {
+      "file": "game/ads.servenobid.com/adreq-54dbfcaa83-POST-a6ad98256560.json",
+      "bytes": 1772,
+      "extension": ".json",
+      "scope": "external"
+    },
+    {
+      "file": "game/agent.intentiq.com/Agent/768420746/IIQAgent.js",
+      "bytes": 211553,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 20,
+      "automationTerms": []
+    },
+    {
+      "file": "game/api.gameanalytics.com/remote_configs/v1/init-366c485957-POST-68ba95c34453.json",
+      "bytes": 64,
+      "extension": ".json",
+      "scope": "external"
+    },
+    {
+      "file": "game/api.gameanalytics.com/v2/85082d565cfbb9b95b57d5f44688573c/events-POST-3422e99b4f69.json",
+      "bytes": 2,
+      "extension": ".json",
+      "scope": "external"
+    },
+    {
+      "file": "game/api.gameanalytics.com/v2/85082d565cfbb9b95b57d5f44688573c/events-POST-754c42a3d596.json",
+      "bytes": 2,
+      "extension": ".json",
+      "scope": "external"
+    },
+    {
+      "file": "game/api.gameanalytics.com/v2/85082d565cfbb9b95b57d5f44688573c/events-POST-9b4cd6420661.json",
+      "bytes": 2,
+      "extension": ".json",
+      "scope": "external"
+    },
+    {
+      "file": "game/api.intentiq.com/profiles_engine/ProfilesEngineServlet-41fb862528.html",
+      "bytes": 20,
+      "extension": ".html",
+      "scope": "external",
+      "functionsOrClasses": 0,
+      "automationTerms": []
+    },
+    {
+      "file": "game/app-262540.games.s3.yandex.net/262540/89io2yadq5r5vcqn2hdfyj5eij4yi9up/Build/WebGL.loader.js",
+      "bytes": 114404,
+      "extension": ".js",
+      "scope": "game-core",
+      "functionsOrClasses": 30,
+      "automationTerms": [
+        "player",
+        "player",
+        "input"
+      ],
+      "ast": {
+        "status": "parsed",
+        "sha256": "e6704366c0d31dc610c55755e55eb2951735c3d09859a1d77946e16c37a30ef9",
+        "output": "analysis/source-scopes/e6704366c0d31dc610c55755e55eb2951735c3d09859a1d77946e16c37a30ef9.json",
+        "functions": 173,
+        "classes": 0,
+        "scopes": 298,
+        "bindings": 607,
+        "sourceType": "script"
+      }
+    },
+    {
+      "file": "game/app-262540.games.s3.yandex.net/262540/89io2yadq5r5vcqn2hdfyj5eij4yi9up/index-ac2e58d4ca.html",
+      "bytes": 14707,
+      "extension": ".html",
+      "scope": "game",
+      "functionsOrClasses": 3,
+      "automationTerms": []
+    },
+    {
+      "file": "game/app-262540.games.s3.yandex.net/262540/89io2yadq5r5vcqn2hdfyj5eij4yi9up/StreamingAssets/aa/catalog.json",
+      "bytes": 28615,
+      "extension": ".json",
+      "scope": "game"
+    },
+    {
+      "file": "game/app-262540.games.s3.yandex.net/262540/89io2yadq5r5vcqn2hdfyj5eij4yi9up/StreamingAssets/aa/settings.json",
+      "bytes": 1593,
+      "extension": ".json",
+      "scope": "game"
+    },
+    {
+      "file": "game/app-262540.games.s3.yandex.net/262540/89io2yadq5r5vcqn2hdfyj5eij4yi9up/TemplateData/style.css",
+      "bytes": 1885,
+      "extension": ".css",
+      "scope": "game"
+    },
+    {
+      "file": "game/app-262540.games.s3.yandex.net/sdk/_/v2.2f14a50521d68e9766e1.js",
+      "bytes": 93931,
+      "extension": ".js",
+      "scope": "game",
+      "functionsOrClasses": 67,
+      "automationTerms": [
+        "player",
+        "score",
+        "score",
+        "controller",
+        "speed",
+        "player",
+        "position"
+      ],
+      "ast": {
+        "status": "parsed",
+        "sha256": "4017844636929ab4f8d54ae79062f3da9b2ca6a904fb6a5d14d46d785264c579",
+        "output": "analysis/source-scopes/4017844636929ab4f8d54ae79062f3da9b2ca6a904fb6a5d14d46d785264c579.json",
+        "functions": 954,
+        "classes": 40,
+        "scopes": 1242,
+        "bindings": 1907,
+        "sourceType": "script"
+      }
+    },
+    {
+      "file": "game/app-262540.games.s3.yandex.net/sdk.js",
+      "bytes": 3731,
+      "extension": ".js",
+      "scope": "game",
+      "functionsOrClasses": 1,
+      "automationTerms": [],
+      "ast": {
+        "status": "parsed",
+        "sha256": "0ce9a0968aea36afbe58e939ff3f1c83201f708e666410c01086d737cda9d07a",
+        "output": "analysis/source-scopes/0ce9a0968aea36afbe58e939ff3f1c83201f708e666410c01086d737cda9d07a.json",
+        "functions": 32,
+        "classes": 0,
+        "scopes": 46,
+        "bindings": 86,
+        "sourceType": "script"
+      }
+    },
+    {
+      "file": "game/capi-automation.s3.us-east-2.amazonaws.com/public/client_js/capiParamBuilder/clientParamBuilder.bundle.js",
+      "bytes": 56482,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 88,
+      "automationTerms": []
+    },
+    {
+      "file": "game/cdn.ampproject.org/v0/amp-analytics-0.1.js",
+      "bytes": 112728,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 144,
+      "automationTerms": [
+        "input"
+      ]
+    },
+    {
+      "file": "game/cdn.confiant-integrations.net/gptprebidnative/202610311233/wrap.js",
+      "bytes": 426123,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 300,
+      "automationTerms": []
+    },
+    {
+      "file": "game/cdn.confiant-integrations.net/P878ne-IhgcV_yQZ8K9CpakdlRU/gpt_and_prebid/config.js",
+      "bytes": 250878,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 5,
+      "automationTerms": [
+        "position"
+      ]
+    },
+    {
+      "file": "game/cdn.fuseplatform.net/prebid/prebid-9.53.5-ff7d090cdee2ded19b8964f8e3e37cfb85ef4a05a141f87cf36a75f02b22fcdb.js",
+      "bytes": 465684,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 141,
+      "automationTerms": [
+        "input",
+        "position",
+        "score",
+        "player",
+        "player"
+      ]
+    },
+    {
+      "file": "game/cdn.fuseplatform.net/publift/tags/2/3840/fuse.js",
+      "bytes": 712829,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 272,
+      "automationTerms": [
+        "score",
+        "position",
+        "input",
+        "controller"
+      ]
+    },
+    {
+      "file": "game/cdn.jsdelivr.net/gh/prebid/currency-file-1/latest-53684f4006.json",
+      "bytes": 1543,
+      "extension": ".json",
+      "scope": "external"
+    },
+    {
+      "file": "game/cdn.jsdelivr.net/gh/prebid/shared-id/pubcid.js/docs/pubcid.min.js",
+      "bytes": 382,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 0,
+      "automationTerms": []
+    },
+    {
+      "file": "game/cdn.mgaru.dev/static/myGaruStandalone.js",
+      "bytes": 2733,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 8,
+      "automationTerms": []
+    },
+    {
+      "file": "game/connectid.analytics.yahoo.com/connectId-gpt.js",
+      "bytes": 8729,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 5,
+      "automationTerms": []
+    },
+    {
+      "file": "game/dmp.im-apps.net/secure-signal/provider.js",
+      "bytes": 4890,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 12,
+      "automationTerms": []
+    },
+    {
+      "file": "game/fast.nexx360.io/booster-POST-d3295036cb59.json",
+      "bytes": 2128,
+      "extension": ".json",
+      "scope": "external"
+    },
+    {
+      "file": "game/fast.nexx360.io/booster-POST-d9958b8f502f.json",
+      "bytes": 2090,
+      "extension": ".json",
+      "scope": "external"
+    },
+    {
+      "file": "game/fonts.googleapis.com/css-18817c4d8a.css",
+      "bytes": 1910,
+      "extension": ".css",
+      "scope": "noise"
+    },
+    {
+      "file": "game/fonts.googleapis.com/css-f6b3d0f99c.css",
+      "bytes": 5954,
+      "extension": ".css",
+      "scope": "noise"
+    },
+    {
+      "file": "game/games-sdk.playhop.com/games/api/sdk/v1/currency/activity/daily-POST-44136fa355b3.json",
+      "bytes": 3,
+      "extension": ".json",
+      "scope": "external"
+    },
+    {
+      "file": "game/games-sdk.playhop.com/games/api/sdk/v1/player/data-537cbb7c45.json",
+      "bytes": 2,
+      "extension": ".json",
+      "scope": "external"
+    },
+    {
+      "file": "game/games-sdk.playhop.com/games/api/sdk/v1/player-537cbb7c45.json",
+      "bytes": 304,
+      "extension": ".json",
+      "scope": "external"
+    },
+    {
+      "file": "game/games-sdk.playhop.com/games/api/sdk/v1/purchases/app/products-fcaa09236c.json",
+      "bytes": 16,
+      "extension": ".json",
+      "scope": "external"
+    },
+    {
+      "file": "game/games.playhop.com/games/api/external/catalogue/v3/play-time/index.html",
+      "bytes": 16,
+      "extension": ".html",
+      "scope": "external",
+      "functionsOrClasses": 0,
+      "automationTerms": []
+    },
+    {
+      "file": "game/games.playhop.com/games/api/purchases/v1/currency/balance.json",
+      "bytes": 27,
+      "extension": ".json",
+      "scope": "external"
+    },
+    {
+      "file": "game/hb.yellowblue.io/hb-multi-POST-62bf69d33098.json",
+      "bytes": 251,
+      "extension": ".json",
+      "scope": "external"
+    },
+    {
+      "file": "game/hb.yellowblue.io/hb-multi-POST-b4faf35c9cdc.json",
+      "bytes": 251,
+      "extension": ".json",
+      "scope": "external"
+    },
+    {
+      "file": "game/hub.emitra.net/cdn-cgi/challenge-platform/h/g/scripts/jsd/c787ce48cf6b/main-754ccea9be.js",
+      "bytes": 40740,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 32,
+      "automationTerms": []
+    },
+    {
+      "file": "game/hub.emitra.net/cdn-cgi/challenge-platform/h/g/scripts/jsd/c787ce48cf6b/main-b760516cd7.js",
+      "bytes": 40740,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 32,
+      "automationTerms": []
+    },
+    {
+      "file": "game/hub.emitra.net/games/index-5602cf5372.html",
+      "bytes": 318234,
+      "extension": ".html",
+      "scope": "external",
+      "functionsOrClasses": 4,
+      "automationTerms": [
+        "position",
+        "player",
+        "jump",
+        "ball",
+        "ball",
+        "collect",
+        "move",
+        "jump",
+        "ball",
+        "coin",
+        "collect"
+      ]
+    },
+    {
+      "file": "game/hub.emitra.net/games/index-f3b819aad8.html",
+      "bytes": 317867,
+      "extension": ".html",
+      "scope": "external",
+      "functionsOrClasses": 4,
+      "automationTerms": [
+        "position",
+        "player",
+        "jump",
+        "ball",
+        "ball",
+        "collect",
+        "move",
+        "jump",
+        "ball",
+        "coin",
+        "collect"
+      ]
+    },
+    {
+      "file": "game/i.connectad.io/api/v2-POST-99b1e65757ea.json",
+      "bytes": 39,
+      "extension": ".json",
+      "scope": "external"
+    },
+    {
+      "file": "game/i.connectad.io/api/v2-POST-b42eca9209fb.json",
+      "bytes": 38,
+      "extension": ".json",
+      "scope": "external"
+    },
+    {
+      "file": "game/ident.mygaru.com/v2/id.json",
+      "bytes": 204,
+      "extension": ".json",
+      "scope": "external"
+    },
+    {
+      "file": "game/imasdk.googleapis.com/js/core/bridge3.797.1_en.html",
+      "bytes": 987079,
+      "extension": ".html",
+      "scope": "noise",
+      "functionsOrClasses": 300,
+      "automationTerms": [
+        "position",
+        "input",
+        "position",
+        "input",
+        "character",
+        "player",
+        "input",
+        "player"
+      ]
+    },
+    {
+      "file": "game/imasdk.googleapis.com/js/sdkloader/ima3.js",
+      "bytes": 529487,
+      "extension": ".js",
+      "scope": "noise",
+      "functionsOrClasses": 300,
+      "automationTerms": [
+        "input",
+        "position",
+        "position",
+        "input",
+        "character",
+        "input"
+      ]
+    },
+    {
+      "file": "game/lb.eu-1-id5-sync.com/lb/v1.json",
+      "bytes": 45,
+      "extension": ".json",
+      "scope": "external"
+    },
+    {
+      "file": "game/lbs.eu-1-id5-sync.com/lbs/v1.json",
+      "bytes": 54,
+      "extension": ".json",
+      "scope": "external"
+    },
+    {
+      "file": "game/match.adsrvr.org/track/rid-9ca8b5bebe.json",
+      "bytes": 109,
+      "extension": ".json",
+      "scope": "external"
+    },
+    {
+      "file": "game/mc.yandex.com/metrika/tag.js",
+      "bytes": 208597,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 300,
+      "automationTerms": [
+        "input",
+        "position",
+        "input"
+      ]
+    },
+    {
+      "file": "game/metrics.rapidedge.io/gamera-c39aaf296a.js",
+      "bytes": 150415,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 123,
+      "automationTerms": [
+        "position",
+        "player",
+        "input",
+        "score"
+      ]
+    },
+    {
+      "file": "game/oa.openxcdn.net/esp.js",
+      "bytes": 32437,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 36,
+      "automationTerms": [
+        "character"
+      ]
+    },
+    {
+      "file": "game/playhop.com/sw-c4b1f1a9bf.js",
+      "bytes": 3287,
+      "extension": ".js",
+      "scope": "site-wrapper",
+      "functionsOrClasses": 1,
+      "automationTerms": []
+    },
+    {
+      "file": "game/prebid.dblks.net/openrtb/index-37e61b6776-POST-1255817b1c18.html",
+      "bytes": 9,
+      "extension": ".html",
+      "scope": "external",
+      "functionsOrClasses": 0,
+      "automationTerms": []
+    },
+    {
+      "file": "game/prebid.dblks.net/openrtb/index-37e61b6776-POST-9dbd3041fd02.html",
+      "bytes": 9,
+      "extension": ".html",
+      "scope": "external",
+      "functionsOrClasses": 0,
+      "automationTerms": []
+    },
+    {
+      "file": "game/shb.richaudience.com/hb/index-POST-b1164a1bf8f0.html",
+      "bytes": 0,
+      "extension": ".html",
+      "scope": "external",
+      "functionsOrClasses": 0,
+      "automationTerms": []
+    },
+    {
+      "file": "game/shb.richaudience.com/hb/index-POST-e7075b158a72.html",
+      "bytes": 0,
+      "extension": ".html",
+      "scope": "external",
+      "functionsOrClasses": 0,
+      "automationTerms": []
+    },
+    {
+      "file": "game/static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092.js",
+      "bytes": 31853,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 21,
+      "automationTerms": [
+        "input"
+      ]
+    },
+    {
+      "file": "game/static.criteo.net/js/ld/publishertag.ids.js",
+      "bytes": 36121,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 40,
+      "automationTerms": []
+    },
+    {
+      "file": "game/sync6.im-apps.net/9001/pid-8a96a8e22f.json",
+      "bytes": 70,
+      "extension": ".json",
+      "scope": "external"
+    },
+    {
+      "file": "game/www.google.com/recaptcha/api2/aframe.html",
+      "bytes": 894,
+      "extension": ".html",
+      "scope": "noise",
+      "functionsOrClasses": 0,
+      "automationTerms": []
+    },
+    {
+      "file": "game/www.googletagmanager.com/gtag/js-4d3856f289.js",
+      "bytes": 632138,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 300,
+      "automationTerms": [
+        "input",
+        "input",
+        "position",
+        "collect",
+        "player"
+      ]
+    },
+    {
+      "file": "game/www.googletagmanager.com/gtag/js-5cd12b6a4c.js",
+      "bytes": 472992,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 300,
+      "automationTerms": [
+        "input",
+        "input",
+        "collect"
+      ]
+    },
+    {
+      "file": "game/www.googletagmanager.com/gtag/js-95b160ab27.js",
+      "bytes": 510686,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 300,
+      "automationTerms": [
+        "input",
+        "input",
+        "collect"
+      ]
+    },
+    {
+      "file": "game/www.googletagmanager.com/gtm-78b689b1be.js",
+      "bytes": 378002,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 300,
+      "automationTerms": [
+        "input",
+        "input",
+        "collect"
+      ]
+    },
+    {
+      "file": "game/www.gstatic.com/mysidia/213b32c5ef0599d52a96902f915eea1c-e6dffec2d5.js",
+      "bytes": 17618,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 50,
+      "automationTerms": []
+    },
+    {
+      "file": "game/www.gstatic.com/mysidia/5713ad921f7524ebff8620dc4e20200c-64baded87b.js",
+      "bytes": 65071,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 253,
+      "automationTerms": []
+    },
+    {
+      "file": "game/www.gstatic.com/mysidia/7027fa2fe71c4c418d2ea511debb1502-ace5f370c1.js",
+      "bytes": 215138,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 300,
+      "automationTerms": [
+        "input",
+        "input",
+        "position"
+      ]
+    },
+    {
+      "file": "game/www.gstatic.com/mysidia/92923dcefbdc19d89161f7183cfb1a92-c343cb5b0d.js",
+      "bytes": 31239,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 115,
+      "automationTerms": []
+    },
+    {
+      "file": "game/www.gstatic.com/mysidia/b84f72a1b6a0e66582f34c69a345861b-404c9a3ee7.js",
+      "bytes": 6099,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 16,
+      "automationTerms": [
+        "position"
+      ]
+    },
+    {
+      "file": "game/www.gstatic.com/mysidia/cda0028f357be0ef3c5bd3ad6c6831d9-05aab81a4d.js",
+      "bytes": 13656,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 25,
+      "automationTerms": []
+    },
+    {
+      "file": "game/yandex.com/ads/system/context.js",
+      "bytes": 442598,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 187,
+      "automationTerms": [
+        "position"
+      ]
+    },
+    {
+      "file": "game/yastatic.net/partner-code-bundles/1307422/013f01b9aa50bd9c.js",
+      "bytes": 187903,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 0,
+      "automationTerms": []
+    },
+    {
+      "file": "game/yastatic.net/partner-code-bundles/1307422/2dd2aa8bf0395a74.js",
+      "bytes": 4870,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 9,
+      "automationTerms": []
+    },
+    {
+      "file": "game/yastatic.net/partner-code-bundles/1307422/820eca693e08f767.js",
+      "bytes": 156873,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 52,
+      "automationTerms": [
+        "position",
+        "input",
+        "position"
+      ]
+    },
+    {
+      "file": "game/yastatic.net/partner-code-bundles/1307422/caa55605de161fb4.js",
+      "bytes": 743072,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 285,
+      "automationTerms": [
+        "position",
+        "input",
+        "controller"
+      ]
+    },
+    {
+      "file": "game/yastatic.net/partner-code-bundles/1307422/ccda57a5cd08eacf.js",
+      "bytes": 38011,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 23,
+      "automationTerms": []
+    },
+    {
+      "file": "game/yastatic.net/partner-code-bundles/libs/libs-edc4844f.js",
+      "bytes": 9291,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 1,
+      "automationTerms": []
+    },
+    {
+      "file": "game/yastatic.net/partner-code-bundles/libs/libs_render-edc4844f.js",
+      "bytes": 249149,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 5,
+      "automationTerms": []
+    },
+    {
+      "file": "game/yastatic.net/react/19.2.3/react-with-dom.min.js",
+      "bytes": 190368,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 300,
+      "automationTerms": [
+        "input",
+        "position",
+        "lane",
+        "controller",
+        "input"
+      ]
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/static-data/ads-async.js",
+      "bytes": 119,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 0,
+      "automationTerms": []
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/static-data/pixels/google-tag-manager.html",
+      "bytes": 1616,
+      "extension": ".html",
+      "scope": "external",
+      "functionsOrClasses": 0,
+      "automationTerms": []
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/1976.bf7dcc9e6ede75248914.js",
+      "bytes": 466800,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 124,
+      "automationTerms": [
+        "position",
+        "score",
+        "player",
+        "input"
+      ]
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/1976.c6feab7c720e3f9019ac.css",
+      "bytes": 78007,
+      "extension": ".css",
+      "scope": "external"
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/3363.37807c07cea35b5b83fb.js",
+      "bytes": 14373,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 25,
+      "automationTerms": []
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/3527.5543a39c0a7e71fc9d61.js",
+      "bytes": 8733,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 0,
+      "automationTerms": []
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/550.6e5ec4a050f04237c4c4.js",
+      "bytes": 116302,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 31,
+      "automationTerms": [
+        "score",
+        "position",
+        "input"
+      ]
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/6125.9c0c29b428363e2be876.js",
+      "bytes": 36272,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 33,
+      "automationTerms": [
+        "input",
+        "position"
+      ]
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/6186.27903f83b58c584b7a90.js",
+      "bytes": 41587,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 19,
+      "automationTerms": [
+        "speed",
+        "position"
+      ]
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/6474.da1a5e6def3a118b32b1.js",
+      "bytes": 9892,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 18,
+      "automationTerms": [
+        "speed",
+        "move",
+        "restart"
+      ]
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/8727.41be3df293294bfbf79f.js",
+      "bytes": 7314,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 11,
+      "automationTerms": []
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/9458.87beb62039ef3e9cff71.js",
+      "bytes": 24610,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 4,
+      "automationTerms": []
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/BalanceRefill.component.async.11f2062fbc3b78dc963f.css",
+      "bytes": 558,
+      "extension": ".css",
+      "scope": "external"
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/BalanceRefill.component.async.ba70ef612b4b2ec2a3ae.js",
+      "bytes": 4214,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 2,
+      "automationTerms": []
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/category-icons.3c653035d877df27f678.js",
+      "bytes": 84061,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 3,
+      "automationTerms": []
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/critical-game-icons.4ab00bce626833dfbdf7.js",
+      "bytes": 7349,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 1,
+      "automationTerms": []
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/DisableAdv.component.async.3c15015b5e06273bdc02.js",
+      "bytes": 8535,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 2,
+      "automationTerms": []
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/DisableAdv.component.async.8db3d552747a5f0d315b.css",
+      "bytes": 1015,
+      "extension": ".css",
+      "scope": "external"
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/DisableAdvButtonSticky.component.async.6f45589021a12aec6e9c.js",
+      "bytes": 1581,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 0,
+      "automationTerms": []
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/EagerLoadProviders.action.async.a5e662a81af71e5610fa.js",
+      "bytes": 2394,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 4,
+      "automationTerms": []
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/FooterLinksView.component.async.8e8d7507d9645230fe3f.js",
+      "bytes": 2259,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 0,
+      "automationTerms": []
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/GameBody.component.async.522dcf91d9039f05c234.js",
+      "bytes": 131749,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 41,
+      "automationTerms": [
+        "position",
+        "player",
+        "score"
+      ]
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/GameBody.component.async.bee9a28f0fc6d0ac7f5a.css",
+      "bytes": 17879,
+      "extension": ".css",
+      "scope": "external"
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/google-instream-provider.2c1bd4c8092b37ceb126.js",
+      "bytes": 19928,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 10,
+      "automationTerms": [
+        "position"
+      ]
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/google-instream-provider.c10d49ee3327978bfd38.css",
+      "bytes": 868,
+      "extension": ".css",
+      "scope": "external"
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/index.2fc02f4239b45640eb55.js",
+      "bytes": 951489,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 171,
+      "automationTerms": [
+        "input",
+        "input",
+        "position",
+        "controller",
+        "player",
+        "score",
+        "player"
+      ]
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/index.dc8e13a8756cb42524f7.css",
+      "bytes": 48813,
+      "extension": ".css",
+      "scope": "external"
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/PlaySimilarGames.component.async.b223ae579fc946f4e0b0.js",
+      "bytes": 25624,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 7,
+      "automationTerms": [
+        "score",
+        "move"
+      ]
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/PlaySimilarGames.component.async.ed1eef57fa271a0e8654.css",
+      "bytes": 5883,
+      "extension": ".css",
+      "scope": "external"
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/PlaySimilarGamesManager.component.async.2c03d3a7c92e423e1e5d.js",
+      "bytes": 6526,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 6,
+      "automationTerms": []
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/promo-block-provider.8db4abed002999fa891c.css",
+      "bytes": 7931,
+      "extension": ".css",
+      "scope": "external"
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/promo-block-provider.ac6e2d4825252e60e13d.js",
+      "bytes": 4802,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 4,
+      "automationTerms": []
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/publift-zone-provider.1f286ab8ef49cc47b605.js",
+      "bytes": 13071,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 9,
+      "automationTerms": []
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/build/game/desktop/playhop/vendors.adfc5f182165c390b9a3.js",
+      "bytes": 320911,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 300,
+      "automationTerms": [
+        "position",
+        "character",
+        "input",
+        "lane",
+        "controller",
+        "input"
+      ]
+    },
+    {
+      "file": "game/yastatic.net/s3/games-static/_/lang/playhop/app/zh.a5eeaaa1c1534bc59c0eadb1b9cea653.json",
+      "bytes": 73644,
+      "extension": ".json",
+      "scope": "external"
+    },
+    {
+      "file": "game/yastatic.net/safeframe-bundles/0.89/host.js",
+      "bytes": 49523,
+      "extension": ".js",
+      "scope": "external",
+      "functionsOrClasses": 18,
+      "automationTerms": [
+        "position",
+        "position"
+      ]
+    },
+    {
+      "file": "index.html",
+      "bytes": 14707,
+      "extension": ".html",
+      "scope": "archive-entry",
+      "functionsOrClasses": 3,
+      "automationTerms": []
+    }
+  ],
+  "symbols": [
+    {
+      "file": "game/app-262540.games.s3.yandex.net/262540/89io2yadq5r5vcqn2hdfyj5eij4yi9up/Build/WebGL.loader.js",
+      "functions": [
+        "createUnityInstance",
+        "c",
+        "r",
+        "e",
+        "a",
+        "f",
+        "E",
+        "W",
+        "O",
+        "k",
+        "B",
+        "o",
+        "i",
+        "Be",
+        "Pe",
+        "Ne",
+        "Re",
+        "Ve",
+        "Me",
+        "Ae",
+        "qe",
+        "He",
+        "s",
+        "v",
+        "g",
+        "y",
+        "m",
+        "l",
+        "N",
+        "R"
+      ],
+      "automationTerms": [
+        "player",
+        "player",
+        "input"
+      ],
+      "ast": {
+        "status": "parsed",
+        "sha256": "e6704366c0d31dc610c55755e55eb2951735c3d09859a1d77946e16c37a30ef9",
+        "output": "analysis/source-scopes/e6704366c0d31dc610c55755e55eb2951735c3d09859a1d77946e16c37a30ef9.json",
+        "functions": 173,
+        "classes": 0,
+        "scopes": 298,
+        "bindings": 607,
+        "sourceType": "script"
+      }
+    },
+    {
+      "file": "game/app-262540.games.s3.yandex.net/262540/89io2yadq5r5vcqn2hdfyj5eij4yi9up/index-ac2e58d4ca.html",
+      "functions": [
+        "activityRTB1",
+        "renderRTB1",
+        "LimitMaxDevicePixelRatio"
+      ],
+      "automationTerms": []
+    },
+    {
+      "file": "game/app-262540.games.s3.yandex.net/sdk/_/v2.2f14a50521d68e9766e1.js",
+      "functions": [
+        "s",
+        "i",
+        "c",
+        "m",
+        "a",
+        "n",
+        "e",
+        "o",
+        "r",
+        "p",
+        "b",
+        "P",
+        "D",
+        "L",
+        "R",
+        "N",
+        "M",
+        "U",
+        "V",
+        "Z",
+        "ae",
+        "ye",
+        "fe",
+        "be",
+        "ve",
+        "Se",
+        "De",
+        "_e",
+        "xe",
+        "je",
+        "Ve",
+        "qe",
+        "Qe",
+        "lt",
+        "pt",
+        "mt",
+        "At",
+        "t",
+        "kt",
+        "Ut",
+        "dr",
+        "pr",
+        "hr",
+        "yr",
+        "Or",
+        "at",
+        "xr",
+        "jr",
+        "En",
+        "An",
+        "Tn",
+        "kn",
+        "In",
+        "Mn",
+        "Jn",
+        "Zn",
+        "ea",
+        "la",
+        "da",
+        "ba",
+        "va",
+        "ka",
+        "Ca",
+        "Da",
+        "Va",
+        "Wa",
+        "Ya"
+      ],
+      "automationTerms": [
+        "player",
+        "score",
+        "score",
+        "controller",
+        "speed",
+        "player",
+        "position"
+      ],
+      "ast": {
+        "status": "parsed",
+        "sha256": "4017844636929ab4f8d54ae79062f3da9b2ca6a904fb6a5d14d46d785264c579",
+        "output": "analysis/source-scopes/4017844636929ab4f8d54ae79062f3da9b2ca6a904fb6a5d14d46d785264c579.json",
+        "functions": 954,
+        "classes": 40,
+        "scopes": 1242,
+        "bindings": 1907,
+        "sourceType": "script"
+      }
+    },
+    {
+      "file": "game/app-262540.games.s3.yandex.net/sdk.js",
+      "functions": [
+        "r"
+      ],
+      "automationTerms": [],
+      "ast": {
+        "status": "parsed",
+        "sha256": "0ce9a0968aea36afbe58e939ff3f1c83201f708e666410c01086d737cda9d07a",
+        "output": "analysis/source-scopes/0ce9a0968aea36afbe58e939ff3f1c83201f708e666410c01086d737cda9d07a.json",
+        "functions": 32,
+        "classes": 0,
+        "scopes": 46,
+        "bindings": 86,
+        "sourceType": "script"
+      }
+    }
+  ]
+}

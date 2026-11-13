@@ -1,0 +1,285 @@
+{
+  "batchName": "recording-2026-11-08T00-51-31-677Z",
+  "completedLevels": [
+    {
+      "level": 1,
+      "durationMs": 60773,
+      "videoMeta": {
+        "file": "D:\\code\\h5-game-archiver\\download\\Mad-Medicine-20261102-100432\\scripts\\video\\recording-2026-11-08T00-51-31-677Z\\level-000001.mp4",
+        "bytes": 22982010,
+        "partial": false,
+        "outcome": "completed",
+        "cutAt": null,
+        "trimHeadSeconds": 1.507800000000745,
+        "chunkCount": 110,
+        "peakBufferedBytes": 91085290,
+        "totalCapturedBytes": 91085290,
+        "flushedBytes": 91085290,
+        "flushedChunkCount": 110,
+        "bufferedBytesAtEnd": 0,
+        "averageRefreshFps": 60.016873753644624,
+        "encodedOpening": {
+          "method": "ffprobe-decoded-frame-best-effort-timestamp",
+          "frames": 123,
+          "firstFrameAtMs": 8.199999999255025,
+          "maxGapMs": 19.000000000000128,
+          "gaps": []
+        },
+        "encodedContinuity": {
+          "method": "ffprobe-decoded-frame-best-effort-timestamp",
+          "frames": 2132,
+          "averageEncodedFps": 68.19418221383084,
+          "durationSeconds": 31.249000000000002,
+          "maxGapMs": 36.99999999999992,
+          "gaps": [],
+          "note": "Raw encoder timestamps before CFR; gaps and frame rate require native motion/idle correlation."
+        },
+        "motionWindows": [
+          {
+            "start": 0.463,
+            "end": 29.473
+          }
+        ],
+        "width": 1080,
+        "height": 1920,
+        "audioTracks": 1,
+        "mimeType": "video/webm;codecs=h264,opus",
+        "fps": 60,
+        "captureEveryFrame": true,
+        "encoderWarmupMs": 1500,
+        "deferChunkWrites": true,
+        "deferredFlushBytes": 0,
+        "requestedMaxDeferredBytes": 268435456,
+        "maxBufferedBytes": 268435456,
+        "nativeStartExpectedLevel": null,
+        "recordingMode": "formal",
+        "chunkTransport": "pull",
+        "recorderSourceSha256": "e70d03004442990a05ee97236f11b7e005a553a44a7307e61e8ef596af924e95",
+        "recorderSourceDirectory": "D:\\code\\h5-game-archiver\\download\\Mad-Medicine-20261102-100432\\scripts\\recording-data\\recording-2026-11-08T00-51-31-677Z\\source\\recorder-e70d03004442990a05ee97236f11b7e005a553a44a7307e61e8ef596af924e95",
+        "recorderSourceFiles": [
+          "game-video-recorder.mjs",
+          "recording-runtime.mjs",
+          "video-chunk-writer.mjs",
+          "recording-layout.mjs"
+        ],
+        "logicalStartedAt": 9088.10000000149
+      },
+      "acceptance": {
+        "passed": true,
+        "checkedAt": "2026-11-08T00:52:42.226Z",
+        "file": "D:\\code\\h5-game-archiver\\download\\Mad-Medicine-20261102-100432\\scripts\\video\\recording-2026-11-08T00-51-31-677Z\\level-000001.mp4",
+        "sha256": "c1e5fc20bed43e57b44beae7c85b51f69708c9d243910910fdce0eeb50ff0428",
+        "width": 1080,
+        "height": 1920,
+        "fps": 60,
+        "duration": 31.316667,
+        "bytes": 22982010,
+        "nativeRefreshFps": 60.016873753644624,
+        "nativeEncodedFps": 68.19418221383084,
+        "fullDecode": true,
+        "meanDb": -19.2,
+        "peakDb": -0.6,
+        "freezes": [],
+        "previewFreezes": [],
+        "candidateFreezes": [
+          {
+            "start": 0,
+            "duration": 0.05,
+            "end": 0.05
+          },
+          {
+            "start": 5.083333,
+            "duration": 0.05,
+            "end": 5.133333
+          },
+          {
+            "start": 5.366667,
+            "duration": 0.05,
+            "end": 5.416667
+          },
+          {
+            "start": 28.316667,
+            "duration": 0.05,
+            "end": 28.366667
+          },
+          {
+            "start": 28.366667,
+            "duration": 0.066667,
+            "end": 28.433333
+          },
+          {
+            "start": 28.433333,
+            "duration": 0.066667,
+            "end": 28.5
+          },
+          {
+            "start": 28.5,
+            "duration": 0.066667,
+            "end": 28.566667
+          },
+          {
+            "start": 28.566667,
+            "duration": 0.083333,
+            "end": 28.65
+          },
+          {
+            "start": 28.65,
+            "duration": 0.083333,
+            "end": 28.733333
+          },
+          {
+            "start": 28.733333,
+            "duration": 0.066667,
+            "end": 28.8
+          },
+          {
+            "start": 28.8,
+            "duration": 0.066667,
+            "end": 28.866667
+          },
+          {
+            "start": 28.866667,
+            "duration": 0.066667,
+            "end": 28.933333
+          },
+          {
+            "start": 28.933333,
+            "duration": 0.083333,
+            "end": 29.016667
+          },
+          {
+            "start": 29.016667,
+            "duration": 0.083333,
+            "end": 29.1
+          },
+          {
+            "start": 29.1,
+            "duration": 0.066667,
+            "end": 29.166667
+          },
+          {
+            "start": 29.166667,
+            "duration": 0.05,
+            "end": 29.216667
+          },
+          {
+            "start": 29.216667,
+            "duration": 0.066667,
+            "end": 29.283333
+          },
+          {
+            "start": 29.283333,
+            "duration": 0.066667,
+            "end": 29.35
+          },
+          {
+            "start": 29.35,
+            "duration": 0.116667,
+            "end": 29.466667
+          },
+          {
+            "start": 29.833333,
+            "duration": 0.05,
+            "end": 29.883333
+          },
+          {
+            "start": 29.883333,
+            "duration": 0.066667,
+            "end": 29.95
+          },
+          {
+            "start": 29.95,
+            "duration": 0.1,
+            "end": 30.05
+          },
+          {
+            "start": 30.05,
+            "duration": 0.133333,
+            "end": 30.183333
+          },
+          {
+            "start": 30.183333,
+            "duration": 0.1,
+            "end": 30.283333
+          },
+          {
+            "start": 30.3,
+            "duration": 0.05,
+            "end": 30.35
+          },
+          {
+            "start": 30.35,
+            "duration": 0.05,
+            "end": 30.4
+          },
+          {
+            "start": 30.4,
+            "duration": 0.05,
+            "end": 30.45
+          },
+          {
+            "start": 30.45,
+            "duration": 0.05,
+            "end": 30.5
+          },
+          {
+            "start": 30.533333,
+            "duration": 0.05,
+            "end": 30.583333
+          },
+          {
+            "start": 30.616667,
+            "duration": 0.05,
+            "end": 30.666667
+          },
+          {
+            "start": 30.666667,
+            "duration": 0.05,
+            "end": 30.716667
+          },
+          {
+            "start": 30.716667,
+            "duration": 0.05,
+            "end": 30.766667
+          },
+          {
+            "start": 30.766667,
+            "duration": 0.066667,
+            "end": 30.833333
+          },
+          {
+            "start": 30.833333,
+            "duration": 0.066667,
+            "end": 30.9
+          },
+          {
+            "start": 30.9,
+            "duration": 0.083333,
+            "end": 30.983333
+          },
+          {
+            "start": 30.983333,
+            "duration": 0.066667,
+            "end": 31.05
+          },
+          {
+            "start": 31.05,
+            "duration": 0.083333,
+            "end": 31.133333
+          },
+          {
+            "start": 31.133333,
+            "duration": 0.083333,
+            "end": 31.216667
+          },
+          {
+            "start": 31.216667,
+            "duration": 0.083333,
+            "end": 31.3
+          }
+        ]
+      },
+      "timestamp": "2026-11-08T00:52:42.262Z"
+    }
+  ]
+}

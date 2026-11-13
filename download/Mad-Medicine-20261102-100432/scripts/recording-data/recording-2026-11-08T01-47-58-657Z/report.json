@@ -1,0 +1,11 @@
+{
+  "batchName": "recording-2026-11-08T01-47-58-657Z",
+  "createdAt": "2026-11-08T01:50:52.173Z",
+  "startLevel": 1,
+  "endLevel": 10,
+  "record": false,
+  "totalCompleted": 0,
+  "levels": [],
+  "status": "failed",
+  "error": "第3关未在 95s 内登顶领奖台（maxZ=34.4，steps=2222）"
+}

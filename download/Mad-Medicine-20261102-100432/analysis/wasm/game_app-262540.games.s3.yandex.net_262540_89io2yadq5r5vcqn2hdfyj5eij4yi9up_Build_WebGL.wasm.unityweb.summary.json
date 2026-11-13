@@ -1,0 +1,73 @@
+{
+  "format": "WebAssembly",
+  "version": 1,
+  "bytes": 33737797,
+  "sections": [
+    {
+      "id": 1,
+      "name": "type",
+      "bytes": 8351,
+      "itemCount": 772
+    },
+    {
+      "id": 2,
+      "name": "import",
+      "bytes": 14449,
+      "itemCount": 543
+    },
+    {
+      "id": 3,
+      "name": "function",
+      "bytes": 84458,
+      "itemCount": 82826
+    },
+    {
+      "id": 4,
+      "name": "table",
+      "bytes": 9,
+      "itemCount": 1
+    },
+    {
+      "id": 5,
+      "name": "memory",
+      "bytes": 7,
+      "itemCount": 1
+    },
+    {
+      "id": 6,
+      "name": "global",
+      "bytes": 9,
+      "itemCount": 1
+    },
+    {
+      "id": 7,
+      "name": "export",
+      "bytes": 9836,
+      "itemCount": 494
+    },
+    {
+      "id": 9,
+      "name": "element",
+      "bytes": 357895,
+      "itemCount": 1
+    },
+    {
+      "id": 10,
+      "name": "code",
+      "bytes": 29117513,
+      "itemCount": 82826
+    },
+    {
+      "id": 11,
+      "name": "data",
+      "bytes": 4145229,
+      "itemCount": 16337
+    }
+  ],
+  "totals": {
+    "functions": 82826,
+    "codeBodies": 82826,
+    "imports": 543,
+    "exports": 494
+  }
+}
