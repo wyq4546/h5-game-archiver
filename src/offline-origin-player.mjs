@@ -1,0 +1,18 @@
+import fs from 'node:fs/promises';import path from 'node:path';import {pathToFileURL} from 'node:url';import {chromium} from 'playwright';import {allowPreviewRequest} from './local-preview.mjs';
+// Preserve a publisher hostname without changing DNS, hosts files, or game bytes.
+// Browser requests retain their original URL and are fulfilled only from the loopback replay service.
+export async function launchMappedReplay(root,url,{headless=false,persistent=true,localPort,navigate=true}={}){
+ const m=JSON.parse(await fs.readFile(path.join(root,'archive/manifest.json'),'utf8')),u=new URL(url),host=m.offlineReplay?.preserveHostname;
+ if(!host||u.protocol!=='https:'||u.hostname!==host||u.port||!Number.isInteger(Number(localPort))||Number(localPort)<1||Number(localPort)>65535||!m.resources.some(r=>r.saved&&r.type==='document'&&new URL(r.url).hostname===host))throw Error('Invalid archived hostname replay URL');
+ const options={headless,args:['--ignore-gpu-blocklist','--enable-gpu-rasterization','--enable-zero-copy','--use-angle=d3d11','--no-proxy-server',`--host-resolver-rules=MAP ${host} 127.0.0.1,EXCLUDE localhost`],viewport:{width:480,height:854},isMobile:true,hasTouch:true,userAgent:'Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36',serviceWorkers:'block'};
+ let context;if(persistent)context=await chromium.launchPersistentContext(path.join(root,'archive/offline-browser-profile'),options);else{const browser=await chromium.launch({headless:options.headless,args:options.args});context=await browser.newContext(options);context.on('close',()=>browser.close());}
+ await context.route('**/*',async r=>{if(!allowPreviewRequest(r.request().url(),u.origin))return r.abort();const requestUrl=new URL(r.request().url()),local=new URL(requestUrl.pathname+requestUrl.search,'http://127.0.0.1:'+localPort);try{const response=await fetch(local,{method:r.request().method(),headers:{'content-type':r.request().headers()['content-type']||'application/octet-stream'},body:['GET','HEAD'].includes(r.request().method())?undefined:r.request().postDataBuffer()});await r.fulfill({status:response.status,headers:{'content-type':response.headers.get('content-type')||'application/octet-stream','access-control-allow-origin':u.origin},body:Buffer.from(await response.arrayBuffer())});}catch{await r.abort();}});await context.routeWebSocket('**/*',s=>s.close());
+ const page=context.pages()[0]||await context.newPage();if(process.env.ARCHIVE_REPLAY_DEBUG){page.on('request',r=>console.log('request',r.url()));page.on('requestfailed',r=>console.log('failed',r.url(),r.failure()));page.on('console',m=>console.log(m.type(),m.text().slice(0,300)));}try{if(navigate)await page.goto(url,{waitUntil:'domcontentloaded',timeout:45000});}catch(e){await context.close();throw e;}return {context,page};
+}
+if(process.argv[1]&&import.meta.url===pathToFileURL(path.resolve(process.argv[1])).href){
+ const args=process.argv.slice(2),arg=k=>args[args.indexOf(k)+1],root=path.resolve(arg('--archive')),localPort=Number(arg('--local-port'));
+ const {context}=await launchMappedReplay(root,arg('--url'),{localPort});
+ const manifest=JSON.parse(await fs.readFile(path.join(root,'archive/manifest.json'),'utf8'));
+ const timer=setInterval(async()=>{try{const r=await fetch('http://127.0.0.1:'+localPort+'/__archive_info',{signal:AbortSignal.timeout(2000)});const info=await r.json();if(info.sourceUrl!==manifest.sourceUrl)throw Error('Replay service changed');}catch{clearInterval(timer);await context.close();}},1500);
+ context.on('close',()=>clearInterval(timer));
+}

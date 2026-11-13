@@ -1,0 +1,9 @@
+.*
+*.zip
+*.jar
+*.log
+*.class
+bin/*
+build/*
+dist/*
+!/.gitignore

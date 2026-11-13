@@ -1,0 +1,14 @@
+[
+  {
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\video\\recording-2026-10-03T11-43-41-849Z\\level-000003.mp4",
+    "bytes": 42867989,
+    "sha256": "B7FE9D28ECE70EA14EBE94162022A64861CA38979428372F74BCDBA97E943E4E",
+    "reason": "35ms encoded gap during native colouring animation; rejected after extending motion coverage"
+  },
+  {
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\video\\recording-2026-10-03T11-43-41-849Z\\.level-000055.capture.webm",
+    "bytes": 0,
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "reason": "Empty raw file from interrupted native stage 55"
+  }
+]

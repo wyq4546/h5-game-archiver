@@ -1,0 +1,2643 @@
+{
+  "source": "tools/wabt/include/wabt/opcode.def",
+  "sourceSha256": "de1503f737912f796dd1fdfa24b3d92f90ab81ff7b20949873bf3b9ae7815500",
+  "license": "Apache-2.0; copyright WebAssembly Community Group participants; see tools/wabt/LICENSE",
+  "entries": [
+    {
+      "prefix": 0,
+      "code": 6,
+      "name": "try",
+      "immediate": "blocktype"
+    },
+    {
+      "prefix": 0,
+      "code": 7,
+      "name": "catch",
+      "immediate": "u32"
+    },
+    {
+      "prefix": 0,
+      "code": 8,
+      "name": "throw",
+      "immediate": "u32"
+    },
+    {
+      "prefix": 0,
+      "code": 9,
+      "name": "rethrow",
+      "immediate": "u32"
+    },
+    {
+      "prefix": 0,
+      "code": 18,
+      "name": "return_call",
+      "immediate": "func"
+    },
+    {
+      "prefix": 0,
+      "code": 19,
+      "name": "return_call_indirect",
+      "immediate": "callindirect"
+    },
+    {
+      "prefix": 0,
+      "code": 20,
+      "name": "call_ref",
+      "immediate": "u32"
+    },
+    {
+      "prefix": 0,
+      "code": 21,
+      "name": "return_call_ref",
+      "immediate": "u32"
+    },
+    {
+      "prefix": 0,
+      "code": 24,
+      "name": "delegate",
+      "immediate": "u32"
+    },
+    {
+      "prefix": 0,
+      "code": 28,
+      "name": "select",
+      "immediate": "types"
+    },
+    {
+      "prefix": 0,
+      "code": 69,
+      "name": "i32.eqz"
+    },
+    {
+      "prefix": 0,
+      "code": 70,
+      "name": "i32.eq"
+    },
+    {
+      "prefix": 0,
+      "code": 71,
+      "name": "i32.ne"
+    },
+    {
+      "prefix": 0,
+      "code": 72,
+      "name": "i32.lt_s"
+    },
+    {
+      "prefix": 0,
+      "code": 73,
+      "name": "i32.lt_u"
+    },
+    {
+      "prefix": 0,
+      "code": 74,
+      "name": "i32.gt_s"
+    },
+    {
+      "prefix": 0,
+      "code": 75,
+      "name": "i32.gt_u"
+    },
+    {
+      "prefix": 0,
+      "code": 76,
+      "name": "i32.le_s"
+    },
+    {
+      "prefix": 0,
+      "code": 77,
+      "name": "i32.le_u"
+    },
+    {
+      "prefix": 0,
+      "code": 78,
+      "name": "i32.ge_s"
+    },
+    {
+      "prefix": 0,
+      "code": 79,
+      "name": "i32.ge_u"
+    },
+    {
+      "prefix": 0,
+      "code": 80,
+      "name": "i64.eqz"
+    },
+    {
+      "prefix": 0,
+      "code": 81,
+      "name": "i64.eq"
+    },
+    {
+      "prefix": 0,
+      "code": 82,
+      "name": "i64.ne"
+    },
+    {
+      "prefix": 0,
+      "code": 83,
+      "name": "i64.lt_s"
+    },
+    {
+      "prefix": 0,
+      "code": 84,
+      "name": "i64.lt_u"
+    },
+    {
+      "prefix": 0,
+      "code": 85,
+      "name": "i64.gt_s"
+    },
+    {
+      "prefix": 0,
+      "code": 86,
+      "name": "i64.gt_u"
+    },
+    {
+      "prefix": 0,
+      "code": 87,
+      "name": "i64.le_s"
+    },
+    {
+      "prefix": 0,
+      "code": 88,
+      "name": "i64.le_u"
+    },
+    {
+      "prefix": 0,
+      "code": 89,
+      "name": "i64.ge_s"
+    },
+    {
+      "prefix": 0,
+      "code": 90,
+      "name": "i64.ge_u"
+    },
+    {
+      "prefix": 0,
+      "code": 91,
+      "name": "f32.eq"
+    },
+    {
+      "prefix": 0,
+      "code": 92,
+      "name": "f32.ne"
+    },
+    {
+      "prefix": 0,
+      "code": 93,
+      "name": "f32.lt"
+    },
+    {
+      "prefix": 0,
+      "code": 94,
+      "name": "f32.gt"
+    },
+    {
+      "prefix": 0,
+      "code": 95,
+      "name": "f32.le"
+    },
+    {
+      "prefix": 0,
+      "code": 96,
+      "name": "f32.ge"
+    },
+    {
+      "prefix": 0,
+      "code": 97,
+      "name": "f64.eq"
+    },
+    {
+      "prefix": 0,
+      "code": 98,
+      "name": "f64.ne"
+    },
+    {
+      "prefix": 0,
+      "code": 99,
+      "name": "f64.lt"
+    },
+    {
+      "prefix": 0,
+      "code": 100,
+      "name": "f64.gt"
+    },
+    {
+      "prefix": 0,
+      "code": 101,
+      "name": "f64.le"
+    },
+    {
+      "prefix": 0,
+      "code": 102,
+      "name": "f64.ge"
+    },
+    {
+      "prefix": 0,
+      "code": 103,
+      "name": "i32.clz"
+    },
+    {
+      "prefix": 0,
+      "code": 104,
+      "name": "i32.ctz"
+    },
+    {
+      "prefix": 0,
+      "code": 105,
+      "name": "i32.popcnt"
+    },
+    {
+      "prefix": 0,
+      "code": 106,
+      "name": "i32.add"
+    },
+    {
+      "prefix": 0,
+      "code": 107,
+      "name": "i32.sub"
+    },
+    {
+      "prefix": 0,
+      "code": 108,
+      "name": "i32.mul"
+    },
+    {
+      "prefix": 0,
+      "code": 109,
+      "name": "i32.div_s"
+    },
+    {
+      "prefix": 0,
+      "code": 110,
+      "name": "i32.div_u"
+    },
+    {
+      "prefix": 0,
+      "code": 111,
+      "name": "i32.rem_s"
+    },
+    {
+      "prefix": 0,
+      "code": 112,
+      "name": "i32.rem_u"
+    },
+    {
+      "prefix": 0,
+      "code": 113,
+      "name": "i32.and"
+    },
+    {
+      "prefix": 0,
+      "code": 114,
+      "name": "i32.or"
+    },
+    {
+      "prefix": 0,
+      "code": 115,
+      "name": "i32.xor"
+    },
+    {
+      "prefix": 0,
+      "code": 116,
+      "name": "i32.shl"
+    },
+    {
+      "prefix": 0,
+      "code": 117,
+      "name": "i32.shr_s"
+    },
+    {
+      "prefix": 0,
+      "code": 118,
+      "name": "i32.shr_u"
+    },
+    {
+      "prefix": 0,
+      "code": 119,
+      "name": "i32.rotl"
+    },
+    {
+      "prefix": 0,
+      "code": 120,
+      "name": "i32.rotr"
+    },
+    {
+      "prefix": 0,
+      "code": 121,
+      "name": "i64.clz"
+    },
+    {
+      "prefix": 0,
+      "code": 122,
+      "name": "i64.ctz"
+    },
+    {
+      "prefix": 0,
+      "code": 123,
+      "name": "i64.popcnt"
+    },
+    {
+      "prefix": 0,
+      "code": 124,
+      "name": "i64.add"
+    },
+    {
+      "prefix": 0,
+      "code": 125,
+      "name": "i64.sub"
+    },
+    {
+      "prefix": 0,
+      "code": 126,
+      "name": "i64.mul"
+    },
+    {
+      "prefix": 0,
+      "code": 127,
+      "name": "i64.div_s"
+    },
+    {
+      "prefix": 0,
+      "code": 128,
+      "name": "i64.div_u"
+    },
+    {
+      "prefix": 0,
+      "code": 129,
+      "name": "i64.rem_s"
+    },
+    {
+      "prefix": 0,
+      "code": 130,
+      "name": "i64.rem_u"
+    },
+    {
+      "prefix": 0,
+      "code": 131,
+      "name": "i64.and"
+    },
+    {
+      "prefix": 0,
+      "code": 132,
+      "name": "i64.or"
+    },
+    {
+      "prefix": 0,
+      "code": 133,
+      "name": "i64.xor"
+    },
+    {
+      "prefix": 0,
+      "code": 134,
+      "name": "i64.shl"
+    },
+    {
+      "prefix": 0,
+      "code": 135,
+      "name": "i64.shr_s"
+    },
+    {
+      "prefix": 0,
+      "code": 136,
+      "name": "i64.shr_u"
+    },
+    {
+      "prefix": 0,
+      "code": 137,
+      "name": "i64.rotl"
+    },
+    {
+      "prefix": 0,
+      "code": 138,
+      "name": "i64.rotr"
+    },
+    {
+      "prefix": 0,
+      "code": 139,
+      "name": "f32.abs"
+    },
+    {
+      "prefix": 0,
+      "code": 140,
+      "name": "f32.neg"
+    },
+    {
+      "prefix": 0,
+      "code": 141,
+      "name": "f32.ceil"
+    },
+    {
+      "prefix": 0,
+      "code": 142,
+      "name": "f32.floor"
+    },
+    {
+      "prefix": 0,
+      "code": 143,
+      "name": "f32.trunc"
+    },
+    {
+      "prefix": 0,
+      "code": 144,
+      "name": "f32.nearest"
+    },
+    {
+      "prefix": 0,
+      "code": 145,
+      "name": "f32.sqrt"
+    },
+    {
+      "prefix": 0,
+      "code": 146,
+      "name": "f32.add"
+    },
+    {
+      "prefix": 0,
+      "code": 147,
+      "name": "f32.sub"
+    },
+    {
+      "prefix": 0,
+      "code": 148,
+      "name": "f32.mul"
+    },
+    {
+      "prefix": 0,
+      "code": 149,
+      "name": "f32.div"
+    },
+    {
+      "prefix": 0,
+      "code": 150,
+      "name": "f32.min"
+    },
+    {
+      "prefix": 0,
+      "code": 151,
+      "name": "f32.max"
+    },
+    {
+      "prefix": 0,
+      "code": 152,
+      "name": "f32.copysign"
+    },
+    {
+      "prefix": 0,
+      "code": 153,
+      "name": "f64.abs"
+    },
+    {
+      "prefix": 0,
+      "code": 154,
+      "name": "f64.neg"
+    },
+    {
+      "prefix": 0,
+      "code": 155,
+      "name": "f64.ceil"
+    },
+    {
+      "prefix": 0,
+      "code": 156,
+      "name": "f64.floor"
+    },
+    {
+      "prefix": 0,
+      "code": 157,
+      "name": "f64.trunc"
+    },
+    {
+      "prefix": 0,
+      "code": 158,
+      "name": "f64.nearest"
+    },
+    {
+      "prefix": 0,
+      "code": 159,
+      "name": "f64.sqrt"
+    },
+    {
+      "prefix": 0,
+      "code": 160,
+      "name": "f64.add"
+    },
+    {
+      "prefix": 0,
+      "code": 161,
+      "name": "f64.sub"
+    },
+    {
+      "prefix": 0,
+      "code": 162,
+      "name": "f64.mul"
+    },
+    {
+      "prefix": 0,
+      "code": 163,
+      "name": "f64.div"
+    },
+    {
+      "prefix": 0,
+      "code": 164,
+      "name": "f64.min"
+    },
+    {
+      "prefix": 0,
+      "code": 165,
+      "name": "f64.max"
+    },
+    {
+      "prefix": 0,
+      "code": 166,
+      "name": "f64.copysign"
+    },
+    {
+      "prefix": 0,
+      "code": 167,
+      "name": "i32.wrap_i64"
+    },
+    {
+      "prefix": 0,
+      "code": 168,
+      "name": "i32.trunc_f32_s"
+    },
+    {
+      "prefix": 0,
+      "code": 169,
+      "name": "i32.trunc_f32_u"
+    },
+    {
+      "prefix": 0,
+      "code": 170,
+      "name": "i32.trunc_f64_s"
+    },
+    {
+      "prefix": 0,
+      "code": 171,
+      "name": "i32.trunc_f64_u"
+    },
+    {
+      "prefix": 0,
+      "code": 172,
+      "name": "i64.extend_i32_s"
+    },
+    {
+      "prefix": 0,
+      "code": 173,
+      "name": "i64.extend_i32_u"
+    },
+    {
+      "prefix": 0,
+      "code": 174,
+      "name": "i64.trunc_f32_s"
+    },
+    {
+      "prefix": 0,
+      "code": 175,
+      "name": "i64.trunc_f32_u"
+    },
+    {
+      "prefix": 0,
+      "code": 176,
+      "name": "i64.trunc_f64_s"
+    },
+    {
+      "prefix": 0,
+      "code": 177,
+      "name": "i64.trunc_f64_u"
+    },
+    {
+      "prefix": 0,
+      "code": 178,
+      "name": "f32.convert_i32_s"
+    },
+    {
+      "prefix": 0,
+      "code": 179,
+      "name": "f32.convert_i32_u"
+    },
+    {
+      "prefix": 0,
+      "code": 180,
+      "name": "f32.convert_i64_s"
+    },
+    {
+      "prefix": 0,
+      "code": 181,
+      "name": "f32.convert_i64_u"
+    },
+    {
+      "prefix": 0,
+      "code": 182,
+      "name": "f32.demote_f64"
+    },
+    {
+      "prefix": 0,
+      "code": 183,
+      "name": "f64.convert_i32_s"
+    },
+    {
+      "prefix": 0,
+      "code": 184,
+      "name": "f64.convert_i32_u"
+    },
+    {
+      "prefix": 0,
+      "code": 185,
+      "name": "f64.convert_i64_s"
+    },
+    {
+      "prefix": 0,
+      "code": 186,
+      "name": "f64.convert_i64_u"
+    },
+    {
+      "prefix": 0,
+      "code": 187,
+      "name": "f64.promote_f32"
+    },
+    {
+      "prefix": 0,
+      "code": 188,
+      "name": "i32.reinterpret_f32"
+    },
+    {
+      "prefix": 0,
+      "code": 189,
+      "name": "i64.reinterpret_f64"
+    },
+    {
+      "prefix": 0,
+      "code": 190,
+      "name": "f32.reinterpret_i32"
+    },
+    {
+      "prefix": 0,
+      "code": 191,
+      "name": "f64.reinterpret_i64"
+    },
+    {
+      "prefix": 0,
+      "code": 192,
+      "name": "i32.extend8_s"
+    },
+    {
+      "prefix": 0,
+      "code": 193,
+      "name": "i32.extend16_s"
+    },
+    {
+      "prefix": 0,
+      "code": 194,
+      "name": "i64.extend8_s"
+    },
+    {
+      "prefix": 0,
+      "code": 195,
+      "name": "i64.extend16_s"
+    },
+    {
+      "prefix": 0,
+      "code": 196,
+      "name": "i64.extend32_s"
+    },
+    {
+      "prefix": 0,
+      "code": 224,
+      "name": "alloca"
+    },
+    {
+      "prefix": 0,
+      "code": 225,
+      "name": "br_unless"
+    },
+    {
+      "prefix": 0,
+      "code": 226,
+      "name": "call_import"
+    },
+    {
+      "prefix": 0,
+      "code": 227,
+      "name": "data"
+    },
+    {
+      "prefix": 0,
+      "code": 228,
+      "name": "drop_keep"
+    },
+    {
+      "prefix": 0,
+      "code": 229,
+      "name": "catch_drop"
+    },
+    {
+      "prefix": 0,
+      "code": 230,
+      "name": "adjust_frame_for_return_call"
+    },
+    {
+      "prefix": 0,
+      "code": 231,
+      "name": "global.get.ref"
+    },
+    {
+      "prefix": 0,
+      "code": 233,
+      "name": "local.get.ref"
+    },
+    {
+      "prefix": 0,
+      "code": 234,
+      "name": "mark_ref"
+    },
+    {
+      "prefix": 252,
+      "code": 0,
+      "name": "i32.trunc_sat_f32_s"
+    },
+    {
+      "prefix": 252,
+      "code": 1,
+      "name": "i32.trunc_sat_f32_u"
+    },
+    {
+      "prefix": 252,
+      "code": 2,
+      "name": "i32.trunc_sat_f64_s"
+    },
+    {
+      "prefix": 252,
+      "code": 3,
+      "name": "i32.trunc_sat_f64_u"
+    },
+    {
+      "prefix": 252,
+      "code": 4,
+      "name": "i64.trunc_sat_f32_s"
+    },
+    {
+      "prefix": 252,
+      "code": 5,
+      "name": "i64.trunc_sat_f32_u"
+    },
+    {
+      "prefix": 252,
+      "code": 6,
+      "name": "i64.trunc_sat_f64_s"
+    },
+    {
+      "prefix": 252,
+      "code": 7,
+      "name": "i64.trunc_sat_f64_u"
+    },
+    {
+      "prefix": 252,
+      "code": 19,
+      "name": "i64.add128"
+    },
+    {
+      "prefix": 252,
+      "code": 20,
+      "name": "i64.sub128"
+    },
+    {
+      "prefix": 252,
+      "code": 21,
+      "name": "i64.mul_wide_s"
+    },
+    {
+      "prefix": 252,
+      "code": 22,
+      "name": "i64.mul_wide_u"
+    },
+    {
+      "prefix": 252,
+      "code": 8,
+      "name": "memory.init",
+      "immediate": "twoindices"
+    },
+    {
+      "prefix": 252,
+      "code": 9,
+      "name": "data.drop",
+      "immediate": "u32"
+    },
+    {
+      "prefix": 252,
+      "code": 10,
+      "name": "memory.copy",
+      "immediate": "twoindices"
+    },
+    {
+      "prefix": 252,
+      "code": 11,
+      "name": "memory.fill",
+      "immediate": "u32"
+    },
+    {
+      "prefix": 252,
+      "code": 12,
+      "name": "table.init",
+      "immediate": "twoindices"
+    },
+    {
+      "prefix": 252,
+      "code": 13,
+      "name": "elem.drop",
+      "immediate": "u32"
+    },
+    {
+      "prefix": 252,
+      "code": 14,
+      "name": "table.copy",
+      "immediate": "twoindices"
+    },
+    {
+      "prefix": 0,
+      "code": 37,
+      "name": "table.get",
+      "immediate": "u32"
+    },
+    {
+      "prefix": 0,
+      "code": 38,
+      "name": "table.set",
+      "immediate": "u32"
+    },
+    {
+      "prefix": 252,
+      "code": 15,
+      "name": "table.grow",
+      "immediate": "u32"
+    },
+    {
+      "prefix": 252,
+      "code": 16,
+      "name": "table.size",
+      "immediate": "u32"
+    },
+    {
+      "prefix": 252,
+      "code": 17,
+      "name": "table.fill",
+      "immediate": "u32"
+    },
+    {
+      "prefix": 0,
+      "code": 208,
+      "name": "ref.null",
+      "immediate": "s33"
+    },
+    {
+      "prefix": 0,
+      "code": 209,
+      "name": "ref.is_null"
+    },
+    {
+      "prefix": 0,
+      "code": 210,
+      "name": "ref.func",
+      "immediate": "func"
+    },
+    {
+      "prefix": 0,
+      "code": 212,
+      "name": "ref.as_non_null"
+    },
+    {
+      "prefix": 0,
+      "code": 213,
+      "name": "br_on_null",
+      "immediate": "u32"
+    },
+    {
+      "prefix": 0,
+      "code": 214,
+      "name": "br_on_non_null",
+      "immediate": "u32"
+    },
+    {
+      "prefix": 253,
+      "code": 0,
+      "name": "v128.load",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 253,
+      "code": 1,
+      "name": "v128.load8x8_s",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 253,
+      "code": 2,
+      "name": "v128.load8x8_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 253,
+      "code": 3,
+      "name": "v128.load16x4_s",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 253,
+      "code": 4,
+      "name": "v128.load16x4_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 253,
+      "code": 5,
+      "name": "v128.load32x2_s",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 253,
+      "code": 6,
+      "name": "v128.load32x2_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 253,
+      "code": 7,
+      "name": "v128.load8_splat",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 253,
+      "code": 8,
+      "name": "v128.load16_splat",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 253,
+      "code": 9,
+      "name": "v128.load32_splat",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 253,
+      "code": 10,
+      "name": "v128.load64_splat",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 253,
+      "code": 11,
+      "name": "v128.store",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 253,
+      "code": 12,
+      "name": "v128.const",
+      "immediate": "bytes16"
+    },
+    {
+      "prefix": 253,
+      "code": 13,
+      "name": "i8x16.shuffle",
+      "immediate": "bytes16"
+    },
+    {
+      "prefix": 253,
+      "code": 14,
+      "name": "i8x16.swizzle"
+    },
+    {
+      "prefix": 253,
+      "code": 15,
+      "name": "i8x16.splat"
+    },
+    {
+      "prefix": 253,
+      "code": 16,
+      "name": "i16x8.splat"
+    },
+    {
+      "prefix": 253,
+      "code": 17,
+      "name": "i32x4.splat"
+    },
+    {
+      "prefix": 253,
+      "code": 18,
+      "name": "i64x2.splat"
+    },
+    {
+      "prefix": 253,
+      "code": 19,
+      "name": "f32x4.splat"
+    },
+    {
+      "prefix": 253,
+      "code": 20,
+      "name": "f64x2.splat"
+    },
+    {
+      "prefix": 253,
+      "code": 21,
+      "name": "i8x16.extract_lane_s",
+      "immediate": "lane"
+    },
+    {
+      "prefix": 253,
+      "code": 22,
+      "name": "i8x16.extract_lane_u",
+      "immediate": "lane"
+    },
+    {
+      "prefix": 253,
+      "code": 23,
+      "name": "i8x16.replace_lane",
+      "immediate": "lane"
+    },
+    {
+      "prefix": 253,
+      "code": 24,
+      "name": "i16x8.extract_lane_s",
+      "immediate": "lane"
+    },
+    {
+      "prefix": 253,
+      "code": 25,
+      "name": "i16x8.extract_lane_u",
+      "immediate": "lane"
+    },
+    {
+      "prefix": 253,
+      "code": 26,
+      "name": "i16x8.replace_lane",
+      "immediate": "lane"
+    },
+    {
+      "prefix": 253,
+      "code": 27,
+      "name": "i32x4.extract_lane",
+      "immediate": "lane"
+    },
+    {
+      "prefix": 253,
+      "code": 28,
+      "name": "i32x4.replace_lane",
+      "immediate": "lane"
+    },
+    {
+      "prefix": 253,
+      "code": 29,
+      "name": "i64x2.extract_lane",
+      "immediate": "lane"
+    },
+    {
+      "prefix": 253,
+      "code": 30,
+      "name": "i64x2.replace_lane",
+      "immediate": "lane"
+    },
+    {
+      "prefix": 253,
+      "code": 31,
+      "name": "f32x4.extract_lane",
+      "immediate": "lane"
+    },
+    {
+      "prefix": 253,
+      "code": 32,
+      "name": "f32x4.replace_lane",
+      "immediate": "lane"
+    },
+    {
+      "prefix": 253,
+      "code": 33,
+      "name": "f64x2.extract_lane",
+      "immediate": "lane"
+    },
+    {
+      "prefix": 253,
+      "code": 34,
+      "name": "f64x2.replace_lane",
+      "immediate": "lane"
+    },
+    {
+      "prefix": 253,
+      "code": 35,
+      "name": "i8x16.eq"
+    },
+    {
+      "prefix": 253,
+      "code": 36,
+      "name": "i8x16.ne"
+    },
+    {
+      "prefix": 253,
+      "code": 37,
+      "name": "i8x16.lt_s"
+    },
+    {
+      "prefix": 253,
+      "code": 38,
+      "name": "i8x16.lt_u"
+    },
+    {
+      "prefix": 253,
+      "code": 39,
+      "name": "i8x16.gt_s"
+    },
+    {
+      "prefix": 253,
+      "code": 40,
+      "name": "i8x16.gt_u"
+    },
+    {
+      "prefix": 253,
+      "code": 41,
+      "name": "i8x16.le_s"
+    },
+    {
+      "prefix": 253,
+      "code": 42,
+      "name": "i8x16.le_u"
+    },
+    {
+      "prefix": 253,
+      "code": 43,
+      "name": "i8x16.ge_s"
+    },
+    {
+      "prefix": 253,
+      "code": 44,
+      "name": "i8x16.ge_u"
+    },
+    {
+      "prefix": 253,
+      "code": 45,
+      "name": "i16x8.eq"
+    },
+    {
+      "prefix": 253,
+      "code": 46,
+      "name": "i16x8.ne"
+    },
+    {
+      "prefix": 253,
+      "code": 47,
+      "name": "i16x8.lt_s"
+    },
+    {
+      "prefix": 253,
+      "code": 48,
+      "name": "i16x8.lt_u"
+    },
+    {
+      "prefix": 253,
+      "code": 49,
+      "name": "i16x8.gt_s"
+    },
+    {
+      "prefix": 253,
+      "code": 50,
+      "name": "i16x8.gt_u"
+    },
+    {
+      "prefix": 253,
+      "code": 51,
+      "name": "i16x8.le_s"
+    },
+    {
+      "prefix": 253,
+      "code": 52,
+      "name": "i16x8.le_u"
+    },
+    {
+      "prefix": 253,
+      "code": 53,
+      "name": "i16x8.ge_s"
+    },
+    {
+      "prefix": 253,
+      "code": 54,
+      "name": "i16x8.ge_u"
+    },
+    {
+      "prefix": 253,
+      "code": 55,
+      "name": "i32x4.eq"
+    },
+    {
+      "prefix": 253,
+      "code": 56,
+      "name": "i32x4.ne"
+    },
+    {
+      "prefix": 253,
+      "code": 57,
+      "name": "i32x4.lt_s"
+    },
+    {
+      "prefix": 253,
+      "code": 58,
+      "name": "i32x4.lt_u"
+    },
+    {
+      "prefix": 253,
+      "code": 59,
+      "name": "i32x4.gt_s"
+    },
+    {
+      "prefix": 253,
+      "code": 60,
+      "name": "i32x4.gt_u"
+    },
+    {
+      "prefix": 253,
+      "code": 61,
+      "name": "i32x4.le_s"
+    },
+    {
+      "prefix": 253,
+      "code": 62,
+      "name": "i32x4.le_u"
+    },
+    {
+      "prefix": 253,
+      "code": 63,
+      "name": "i32x4.ge_s"
+    },
+    {
+      "prefix": 253,
+      "code": 64,
+      "name": "i32x4.ge_u"
+    },
+    {
+      "prefix": 253,
+      "code": 65,
+      "name": "f32x4.eq"
+    },
+    {
+      "prefix": 253,
+      "code": 66,
+      "name": "f32x4.ne"
+    },
+    {
+      "prefix": 253,
+      "code": 67,
+      "name": "f32x4.lt"
+    },
+    {
+      "prefix": 253,
+      "code": 68,
+      "name": "f32x4.gt"
+    },
+    {
+      "prefix": 253,
+      "code": 69,
+      "name": "f32x4.le"
+    },
+    {
+      "prefix": 253,
+      "code": 70,
+      "name": "f32x4.ge"
+    },
+    {
+      "prefix": 253,
+      "code": 71,
+      "name": "f64x2.eq"
+    },
+    {
+      "prefix": 253,
+      "code": 72,
+      "name": "f64x2.ne"
+    },
+    {
+      "prefix": 253,
+      "code": 73,
+      "name": "f64x2.lt"
+    },
+    {
+      "prefix": 253,
+      "code": 74,
+      "name": "f64x2.gt"
+    },
+    {
+      "prefix": 253,
+      "code": 75,
+      "name": "f64x2.le"
+    },
+    {
+      "prefix": 253,
+      "code": 76,
+      "name": "f64x2.ge"
+    },
+    {
+      "prefix": 253,
+      "code": 77,
+      "name": "v128.not"
+    },
+    {
+      "prefix": 253,
+      "code": 78,
+      "name": "v128.and"
+    },
+    {
+      "prefix": 253,
+      "code": 79,
+      "name": "v128.andnot"
+    },
+    {
+      "prefix": 253,
+      "code": 80,
+      "name": "v128.or"
+    },
+    {
+      "prefix": 253,
+      "code": 81,
+      "name": "v128.xor"
+    },
+    {
+      "prefix": 253,
+      "code": 82,
+      "name": "v128.bitselect"
+    },
+    {
+      "prefix": 253,
+      "code": 83,
+      "name": "v128.any_true"
+    },
+    {
+      "prefix": 253,
+      "code": 84,
+      "name": "v128.load8_lane",
+      "immediate": "memlane"
+    },
+    {
+      "prefix": 253,
+      "code": 85,
+      "name": "v128.load16_lane",
+      "immediate": "memlane"
+    },
+    {
+      "prefix": 253,
+      "code": 86,
+      "name": "v128.load32_lane",
+      "immediate": "memlane"
+    },
+    {
+      "prefix": 253,
+      "code": 87,
+      "name": "v128.load64_lane",
+      "immediate": "memlane"
+    },
+    {
+      "prefix": 253,
+      "code": 88,
+      "name": "v128.store8_lane",
+      "immediate": "memlane"
+    },
+    {
+      "prefix": 253,
+      "code": 89,
+      "name": "v128.store16_lane",
+      "immediate": "memlane"
+    },
+    {
+      "prefix": 253,
+      "code": 90,
+      "name": "v128.store32_lane",
+      "immediate": "memlane"
+    },
+    {
+      "prefix": 253,
+      "code": 91,
+      "name": "v128.store64_lane",
+      "immediate": "memlane"
+    },
+    {
+      "prefix": 253,
+      "code": 92,
+      "name": "v128.load32_zero",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 253,
+      "code": 93,
+      "name": "v128.load64_zero",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 253,
+      "code": 94,
+      "name": "f32x4.demote_f64x2_zero"
+    },
+    {
+      "prefix": 253,
+      "code": 95,
+      "name": "f64x2.promote_low_f32x4"
+    },
+    {
+      "prefix": 253,
+      "code": 96,
+      "name": "i8x16.abs"
+    },
+    {
+      "prefix": 253,
+      "code": 97,
+      "name": "i8x16.neg"
+    },
+    {
+      "prefix": 253,
+      "code": 98,
+      "name": "i8x16.popcnt"
+    },
+    {
+      "prefix": 253,
+      "code": 99,
+      "name": "i8x16.all_true"
+    },
+    {
+      "prefix": 253,
+      "code": 100,
+      "name": "i8x16.bitmask"
+    },
+    {
+      "prefix": 253,
+      "code": 101,
+      "name": "i8x16.narrow_i16x8_s"
+    },
+    {
+      "prefix": 253,
+      "code": 102,
+      "name": "i8x16.narrow_i16x8_u"
+    },
+    {
+      "prefix": 253,
+      "code": 107,
+      "name": "i8x16.shl"
+    },
+    {
+      "prefix": 253,
+      "code": 108,
+      "name": "i8x16.shr_s"
+    },
+    {
+      "prefix": 253,
+      "code": 109,
+      "name": "i8x16.shr_u"
+    },
+    {
+      "prefix": 253,
+      "code": 110,
+      "name": "i8x16.add"
+    },
+    {
+      "prefix": 253,
+      "code": 111,
+      "name": "i8x16.add_sat_s"
+    },
+    {
+      "prefix": 253,
+      "code": 112,
+      "name": "i8x16.add_sat_u"
+    },
+    {
+      "prefix": 253,
+      "code": 113,
+      "name": "i8x16.sub"
+    },
+    {
+      "prefix": 253,
+      "code": 114,
+      "name": "i8x16.sub_sat_s"
+    },
+    {
+      "prefix": 253,
+      "code": 115,
+      "name": "i8x16.sub_sat_u"
+    },
+    {
+      "prefix": 253,
+      "code": 118,
+      "name": "i8x16.min_s"
+    },
+    {
+      "prefix": 253,
+      "code": 119,
+      "name": "i8x16.min_u"
+    },
+    {
+      "prefix": 253,
+      "code": 120,
+      "name": "i8x16.max_s"
+    },
+    {
+      "prefix": 253,
+      "code": 121,
+      "name": "i8x16.max_u"
+    },
+    {
+      "prefix": 253,
+      "code": 123,
+      "name": "i8x16.avgr_u"
+    },
+    {
+      "prefix": 253,
+      "code": 124,
+      "name": "i16x8.extadd_pairwise_i8x16_s"
+    },
+    {
+      "prefix": 253,
+      "code": 125,
+      "name": "i16x8.extadd_pairwise_i8x16_u"
+    },
+    {
+      "prefix": 253,
+      "code": 126,
+      "name": "i32x4.extadd_pairwise_i16x8_s"
+    },
+    {
+      "prefix": 253,
+      "code": 127,
+      "name": "i32x4.extadd_pairwise_i16x8_u"
+    },
+    {
+      "prefix": 253,
+      "code": 128,
+      "name": "i16x8.abs"
+    },
+    {
+      "prefix": 253,
+      "code": 129,
+      "name": "i16x8.neg"
+    },
+    {
+      "prefix": 253,
+      "code": 130,
+      "name": "i16x8.q15mulr_sat_s"
+    },
+    {
+      "prefix": 253,
+      "code": 131,
+      "name": "i16x8.all_true"
+    },
+    {
+      "prefix": 253,
+      "code": 132,
+      "name": "i16x8.bitmask"
+    },
+    {
+      "prefix": 253,
+      "code": 133,
+      "name": "i16x8.narrow_i32x4_s"
+    },
+    {
+      "prefix": 253,
+      "code": 134,
+      "name": "i16x8.narrow_i32x4_u"
+    },
+    {
+      "prefix": 253,
+      "code": 135,
+      "name": "i16x8.extend_low_i8x16_s"
+    },
+    {
+      "prefix": 253,
+      "code": 136,
+      "name": "i16x8.extend_high_i8x16_s"
+    },
+    {
+      "prefix": 253,
+      "code": 137,
+      "name": "i16x8.extend_low_i8x16_u"
+    },
+    {
+      "prefix": 253,
+      "code": 138,
+      "name": "i16x8.extend_high_i8x16_u"
+    },
+    {
+      "prefix": 253,
+      "code": 139,
+      "name": "i16x8.shl"
+    },
+    {
+      "prefix": 253,
+      "code": 140,
+      "name": "i16x8.shr_s"
+    },
+    {
+      "prefix": 253,
+      "code": 141,
+      "name": "i16x8.shr_u"
+    },
+    {
+      "prefix": 253,
+      "code": 142,
+      "name": "i16x8.add"
+    },
+    {
+      "prefix": 253,
+      "code": 143,
+      "name": "i16x8.add_sat_s"
+    },
+    {
+      "prefix": 253,
+      "code": 144,
+      "name": "i16x8.add_sat_u"
+    },
+    {
+      "prefix": 253,
+      "code": 145,
+      "name": "i16x8.sub"
+    },
+    {
+      "prefix": 253,
+      "code": 146,
+      "name": "i16x8.sub_sat_s"
+    },
+    {
+      "prefix": 253,
+      "code": 147,
+      "name": "i16x8.sub_sat_u"
+    },
+    {
+      "prefix": 253,
+      "code": 149,
+      "name": "i16x8.mul"
+    },
+    {
+      "prefix": 253,
+      "code": 150,
+      "name": "i16x8.min_s"
+    },
+    {
+      "prefix": 253,
+      "code": 151,
+      "name": "i16x8.min_u"
+    },
+    {
+      "prefix": 253,
+      "code": 152,
+      "name": "i16x8.max_s"
+    },
+    {
+      "prefix": 253,
+      "code": 153,
+      "name": "i16x8.max_u"
+    },
+    {
+      "prefix": 253,
+      "code": 155,
+      "name": "i16x8.avgr_u"
+    },
+    {
+      "prefix": 253,
+      "code": 156,
+      "name": "i16x8.extmul_low_i8x16_s"
+    },
+    {
+      "prefix": 253,
+      "code": 157,
+      "name": "i16x8.extmul_high_i8x16_s"
+    },
+    {
+      "prefix": 253,
+      "code": 158,
+      "name": "i16x8.extmul_low_i8x16_u"
+    },
+    {
+      "prefix": 253,
+      "code": 159,
+      "name": "i16x8.extmul_high_i8x16_u"
+    },
+    {
+      "prefix": 253,
+      "code": 160,
+      "name": "i32x4.abs"
+    },
+    {
+      "prefix": 253,
+      "code": 161,
+      "name": "i32x4.neg"
+    },
+    {
+      "prefix": 253,
+      "code": 163,
+      "name": "i32x4.all_true"
+    },
+    {
+      "prefix": 253,
+      "code": 164,
+      "name": "i32x4.bitmask"
+    },
+    {
+      "prefix": 253,
+      "code": 167,
+      "name": "i32x4.extend_low_i16x8_s"
+    },
+    {
+      "prefix": 253,
+      "code": 168,
+      "name": "i32x4.extend_high_i16x8_s"
+    },
+    {
+      "prefix": 253,
+      "code": 169,
+      "name": "i32x4.extend_low_i16x8_u"
+    },
+    {
+      "prefix": 253,
+      "code": 170,
+      "name": "i32x4.extend_high_i16x8_u"
+    },
+    {
+      "prefix": 253,
+      "code": 171,
+      "name": "i32x4.shl"
+    },
+    {
+      "prefix": 253,
+      "code": 172,
+      "name": "i32x4.shr_s"
+    },
+    {
+      "prefix": 253,
+      "code": 173,
+      "name": "i32x4.shr_u"
+    },
+    {
+      "prefix": 253,
+      "code": 174,
+      "name": "i32x4.add"
+    },
+    {
+      "prefix": 253,
+      "code": 177,
+      "name": "i32x4.sub"
+    },
+    {
+      "prefix": 253,
+      "code": 181,
+      "name": "i32x4.mul"
+    },
+    {
+      "prefix": 253,
+      "code": 182,
+      "name": "i32x4.min_s"
+    },
+    {
+      "prefix": 253,
+      "code": 183,
+      "name": "i32x4.min_u"
+    },
+    {
+      "prefix": 253,
+      "code": 184,
+      "name": "i32x4.max_s"
+    },
+    {
+      "prefix": 253,
+      "code": 185,
+      "name": "i32x4.max_u"
+    },
+    {
+      "prefix": 253,
+      "code": 186,
+      "name": "i32x4.dot_i16x8_s"
+    },
+    {
+      "prefix": 253,
+      "code": 188,
+      "name": "i32x4.extmul_low_i16x8_s"
+    },
+    {
+      "prefix": 253,
+      "code": 189,
+      "name": "i32x4.extmul_high_i16x8_s"
+    },
+    {
+      "prefix": 253,
+      "code": 190,
+      "name": "i32x4.extmul_low_i16x8_u"
+    },
+    {
+      "prefix": 253,
+      "code": 191,
+      "name": "i32x4.extmul_high_i16x8_u"
+    },
+    {
+      "prefix": 253,
+      "code": 192,
+      "name": "i64x2.abs"
+    },
+    {
+      "prefix": 253,
+      "code": 193,
+      "name": "i64x2.neg"
+    },
+    {
+      "prefix": 253,
+      "code": 195,
+      "name": "i64x2.all_true"
+    },
+    {
+      "prefix": 253,
+      "code": 196,
+      "name": "i64x2.bitmask"
+    },
+    {
+      "prefix": 253,
+      "code": 199,
+      "name": "i64x2.extend_low_i32x4_s"
+    },
+    {
+      "prefix": 253,
+      "code": 200,
+      "name": "i64x2.extend_high_i32x4_s"
+    },
+    {
+      "prefix": 253,
+      "code": 201,
+      "name": "i64x2.extend_low_i32x4_u"
+    },
+    {
+      "prefix": 253,
+      "code": 202,
+      "name": "i64x2.extend_high_i32x4_u"
+    },
+    {
+      "prefix": 253,
+      "code": 203,
+      "name": "i64x2.shl"
+    },
+    {
+      "prefix": 253,
+      "code": 204,
+      "name": "i64x2.shr_s"
+    },
+    {
+      "prefix": 253,
+      "code": 205,
+      "name": "i64x2.shr_u"
+    },
+    {
+      "prefix": 253,
+      "code": 206,
+      "name": "i64x2.add"
+    },
+    {
+      "prefix": 253,
+      "code": 209,
+      "name": "i64x2.sub"
+    },
+    {
+      "prefix": 253,
+      "code": 213,
+      "name": "i64x2.mul"
+    },
+    {
+      "prefix": 253,
+      "code": 214,
+      "name": "i64x2.eq"
+    },
+    {
+      "prefix": 253,
+      "code": 215,
+      "name": "i64x2.ne"
+    },
+    {
+      "prefix": 253,
+      "code": 216,
+      "name": "i64x2.lt_s"
+    },
+    {
+      "prefix": 253,
+      "code": 217,
+      "name": "i64x2.gt_s"
+    },
+    {
+      "prefix": 253,
+      "code": 218,
+      "name": "i64x2.le_s"
+    },
+    {
+      "prefix": 253,
+      "code": 219,
+      "name": "i64x2.ge_s"
+    },
+    {
+      "prefix": 253,
+      "code": 220,
+      "name": "i64x2.extmul_low_i32x4_s"
+    },
+    {
+      "prefix": 253,
+      "code": 221,
+      "name": "i64x2.extmul_high_i32x4_s"
+    },
+    {
+      "prefix": 253,
+      "code": 222,
+      "name": "i64x2.extmul_low_i32x4_u"
+    },
+    {
+      "prefix": 253,
+      "code": 223,
+      "name": "i64x2.extmul_high_i32x4_u"
+    },
+    {
+      "prefix": 253,
+      "code": 103,
+      "name": "f32x4.ceil"
+    },
+    {
+      "prefix": 253,
+      "code": 104,
+      "name": "f32x4.floor"
+    },
+    {
+      "prefix": 253,
+      "code": 105,
+      "name": "f32x4.trunc"
+    },
+    {
+      "prefix": 253,
+      "code": 106,
+      "name": "f32x4.nearest"
+    },
+    {
+      "prefix": 253,
+      "code": 116,
+      "name": "f64x2.ceil"
+    },
+    {
+      "prefix": 253,
+      "code": 117,
+      "name": "f64x2.floor"
+    },
+    {
+      "prefix": 253,
+      "code": 122,
+      "name": "f64x2.trunc"
+    },
+    {
+      "prefix": 253,
+      "code": 148,
+      "name": "f64x2.nearest"
+    },
+    {
+      "prefix": 253,
+      "code": 224,
+      "name": "f32x4.abs"
+    },
+    {
+      "prefix": 253,
+      "code": 225,
+      "name": "f32x4.neg"
+    },
+    {
+      "prefix": 253,
+      "code": 227,
+      "name": "f32x4.sqrt"
+    },
+    {
+      "prefix": 253,
+      "code": 228,
+      "name": "f32x4.add"
+    },
+    {
+      "prefix": 253,
+      "code": 229,
+      "name": "f32x4.sub"
+    },
+    {
+      "prefix": 253,
+      "code": 230,
+      "name": "f32x4.mul"
+    },
+    {
+      "prefix": 253,
+      "code": 231,
+      "name": "f32x4.div"
+    },
+    {
+      "prefix": 253,
+      "code": 232,
+      "name": "f32x4.min"
+    },
+    {
+      "prefix": 253,
+      "code": 233,
+      "name": "f32x4.max"
+    },
+    {
+      "prefix": 253,
+      "code": 234,
+      "name": "f32x4.pmin"
+    },
+    {
+      "prefix": 253,
+      "code": 235,
+      "name": "f32x4.pmax"
+    },
+    {
+      "prefix": 253,
+      "code": 236,
+      "name": "f64x2.abs"
+    },
+    {
+      "prefix": 253,
+      "code": 237,
+      "name": "f64x2.neg"
+    },
+    {
+      "prefix": 253,
+      "code": 239,
+      "name": "f64x2.sqrt"
+    },
+    {
+      "prefix": 253,
+      "code": 240,
+      "name": "f64x2.add"
+    },
+    {
+      "prefix": 253,
+      "code": 241,
+      "name": "f64x2.sub"
+    },
+    {
+      "prefix": 253,
+      "code": 242,
+      "name": "f64x2.mul"
+    },
+    {
+      "prefix": 253,
+      "code": 243,
+      "name": "f64x2.div"
+    },
+    {
+      "prefix": 253,
+      "code": 244,
+      "name": "f64x2.min"
+    },
+    {
+      "prefix": 253,
+      "code": 245,
+      "name": "f64x2.max"
+    },
+    {
+      "prefix": 253,
+      "code": 246,
+      "name": "f64x2.pmin"
+    },
+    {
+      "prefix": 253,
+      "code": 247,
+      "name": "f64x2.pmax"
+    },
+    {
+      "prefix": 253,
+      "code": 248,
+      "name": "i32x4.trunc_sat_f32x4_s"
+    },
+    {
+      "prefix": 253,
+      "code": 249,
+      "name": "i32x4.trunc_sat_f32x4_u"
+    },
+    {
+      "prefix": 253,
+      "code": 250,
+      "name": "f32x4.convert_i32x4_s"
+    },
+    {
+      "prefix": 253,
+      "code": 251,
+      "name": "f32x4.convert_i32x4_u"
+    },
+    {
+      "prefix": 253,
+      "code": 252,
+      "name": "i32x4.trunc_sat_f64x2_s_zero"
+    },
+    {
+      "prefix": 253,
+      "code": 253,
+      "name": "i32x4.trunc_sat_f64x2_u_zero"
+    },
+    {
+      "prefix": 253,
+      "code": 254,
+      "name": "f64x2.convert_low_i32x4_s"
+    },
+    {
+      "prefix": 253,
+      "code": 255,
+      "name": "f64x2.convert_low_i32x4_u"
+    },
+    {
+      "prefix": 253,
+      "code": 256,
+      "name": "i8x16.relaxed_swizzle"
+    },
+    {
+      "prefix": 253,
+      "code": 257,
+      "name": "i32x4.relaxed_trunc_f32x4_s"
+    },
+    {
+      "prefix": 253,
+      "code": 258,
+      "name": "i32x4.relaxed_trunc_f32x4_u"
+    },
+    {
+      "prefix": 253,
+      "code": 259,
+      "name": "i32x4.relaxed_trunc_f64x2_s_zero"
+    },
+    {
+      "prefix": 253,
+      "code": 260,
+      "name": "i32x4.relaxed_trunc_f64x2_u_zero"
+    },
+    {
+      "prefix": 253,
+      "code": 261,
+      "name": "f32x4.relaxed_madd"
+    },
+    {
+      "prefix": 253,
+      "code": 262,
+      "name": "f32x4.relaxed_nmadd"
+    },
+    {
+      "prefix": 253,
+      "code": 263,
+      "name": "f64x2.relaxed_madd"
+    },
+    {
+      "prefix": 253,
+      "code": 264,
+      "name": "f64x2.relaxed_nmadd"
+    },
+    {
+      "prefix": 253,
+      "code": 265,
+      "name": "i8x16.relaxed_laneselect"
+    },
+    {
+      "prefix": 253,
+      "code": 266,
+      "name": "i16x8.relaxed_laneselect"
+    },
+    {
+      "prefix": 253,
+      "code": 267,
+      "name": "i32x4.relaxed_laneselect"
+    },
+    {
+      "prefix": 253,
+      "code": 268,
+      "name": "i64x2.relaxed_laneselect"
+    },
+    {
+      "prefix": 253,
+      "code": 269,
+      "name": "f32x4.relaxed_min"
+    },
+    {
+      "prefix": 253,
+      "code": 270,
+      "name": "f32x4.relaxed_max"
+    },
+    {
+      "prefix": 253,
+      "code": 271,
+      "name": "f64x2.relaxed_min"
+    },
+    {
+      "prefix": 253,
+      "code": 272,
+      "name": "f64x2.relaxed_max"
+    },
+    {
+      "prefix": 253,
+      "code": 273,
+      "name": "i16x8.relaxed_q15mulr_s"
+    },
+    {
+      "prefix": 253,
+      "code": 274,
+      "name": "i16x8.relaxed_dot_i8x16_i7x16_s"
+    },
+    {
+      "prefix": 253,
+      "code": 275,
+      "name": "i32x4.relaxed_dot_i8x16_i7x16_add_s"
+    },
+    {
+      "prefix": 254,
+      "code": 0,
+      "name": "memory.atomic.notify",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 1,
+      "name": "memory.atomic.wait32",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 2,
+      "name": "memory.atomic.wait64",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 3,
+      "name": "atomic.fence",
+      "immediate": "lane"
+    },
+    {
+      "prefix": 254,
+      "code": 16,
+      "name": "i32.atomic.load",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 17,
+      "name": "i64.atomic.load",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 18,
+      "name": "i32.atomic.load8_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 19,
+      "name": "i32.atomic.load16_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 20,
+      "name": "i64.atomic.load8_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 21,
+      "name": "i64.atomic.load16_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 22,
+      "name": "i64.atomic.load32_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 23,
+      "name": "i32.atomic.store",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 24,
+      "name": "i64.atomic.store",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 25,
+      "name": "i32.atomic.store8",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 26,
+      "name": "i32.atomic.store16",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 27,
+      "name": "i64.atomic.store8",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 28,
+      "name": "i64.atomic.store16",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 29,
+      "name": "i64.atomic.store32",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 30,
+      "name": "i32.atomic.rmw.add",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 31,
+      "name": "i64.atomic.rmw.add",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 32,
+      "name": "i32.atomic.rmw8.add_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 33,
+      "name": "i32.atomic.rmw16.add_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 34,
+      "name": "i64.atomic.rmw8.add_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 35,
+      "name": "i64.atomic.rmw16.add_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 36,
+      "name": "i64.atomic.rmw32.add_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 37,
+      "name": "i32.atomic.rmw.sub",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 38,
+      "name": "i64.atomic.rmw.sub",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 39,
+      "name": "i32.atomic.rmw8.sub_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 40,
+      "name": "i32.atomic.rmw16.sub_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 41,
+      "name": "i64.atomic.rmw8.sub_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 42,
+      "name": "i64.atomic.rmw16.sub_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 43,
+      "name": "i64.atomic.rmw32.sub_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 44,
+      "name": "i32.atomic.rmw.and",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 45,
+      "name": "i64.atomic.rmw.and",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 46,
+      "name": "i32.atomic.rmw8.and_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 47,
+      "name": "i32.atomic.rmw16.and_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 48,
+      "name": "i64.atomic.rmw8.and_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 49,
+      "name": "i64.atomic.rmw16.and_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 50,
+      "name": "i64.atomic.rmw32.and_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 51,
+      "name": "i32.atomic.rmw.or",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 52,
+      "name": "i64.atomic.rmw.or",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 53,
+      "name": "i32.atomic.rmw8.or_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 54,
+      "name": "i32.atomic.rmw16.or_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 55,
+      "name": "i64.atomic.rmw8.or_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 56,
+      "name": "i64.atomic.rmw16.or_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 57,
+      "name": "i64.atomic.rmw32.or_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 58,
+      "name": "i32.atomic.rmw.xor",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 59,
+      "name": "i64.atomic.rmw.xor",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 60,
+      "name": "i32.atomic.rmw8.xor_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 61,
+      "name": "i32.atomic.rmw16.xor_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 62,
+      "name": "i64.atomic.rmw8.xor_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 63,
+      "name": "i64.atomic.rmw16.xor_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 64,
+      "name": "i64.atomic.rmw32.xor_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 65,
+      "name": "i32.atomic.rmw.xchg",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 66,
+      "name": "i64.atomic.rmw.xchg",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 67,
+      "name": "i32.atomic.rmw8.xchg_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 68,
+      "name": "i32.atomic.rmw16.xchg_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 69,
+      "name": "i64.atomic.rmw8.xchg_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 70,
+      "name": "i64.atomic.rmw16.xchg_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 71,
+      "name": "i64.atomic.rmw32.xchg_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 72,
+      "name": "i32.atomic.rmw.cmpxchg",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 73,
+      "name": "i64.atomic.rmw.cmpxchg",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 74,
+      "name": "i32.atomic.rmw8.cmpxchg_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 75,
+      "name": "i32.atomic.rmw16.cmpxchg_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 76,
+      "name": "i64.atomic.rmw8.cmpxchg_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 77,
+      "name": "i64.atomic.rmw16.cmpxchg_u",
+      "immediate": "memarg"
+    },
+    {
+      "prefix": 254,
+      "code": 78,
+      "name": "i64.atomic.rmw32.cmpxchg_u",
+      "immediate": "memarg"
+    }
+  ]
+}

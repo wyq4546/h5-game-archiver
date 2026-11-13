@@ -1,0 +1,5 @@
+先停一下，我做了外部复核，结论写在 ~/GoGy-Rocking-Sky-Trip-20261104-162647/GUIDANCE.md，请完整读一遍再动手。三条要点：
+1) 删掉 mcStatus !== 0 这个终止条件。MainController.Status 只有 Playing=0 / Complete=1，根本没有 Fail；你拿它当失败判据，会让 run 随时提前断掉（本机实测：球还没开始滚，它就已经是 1）。
+2) waypoint 表只到 z=310，而 levelLength=1000（MainController.myLevel +0xC），只覆盖 31%，过了 310 必然撞死。先把表补到 1000。
+3) 加 scripts/runs.jsonl，每次 run 记 level/maxZ/deathZ/deathX/ballStatus/mcStatus/diamonds。
+先只做这三步，跑 3 次，把 runs.jsonl 前 3 行贴出来再继续。传送探针和控制环改造在文档 B、C 节，别提前动。

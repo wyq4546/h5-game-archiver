@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-03T12:03:59.2384597Z",
+  "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\video\\recording-2026-10-03T11-43-41-849Z\\.level-000013.capture.webm",
+  "bytes": 66648416,
+  "sha256": "F4668A8667063FB424DB5EE0E25B9019B7945B97482E65CD2AB461BBD29AEF09",
+  "reason": "Rejected native movement encoder gap 36ms; source draw/RAF 35.7/35.8ms at logical 7.84s; report failure evidence preserved",
+  "action": "RecycleBin"
+}

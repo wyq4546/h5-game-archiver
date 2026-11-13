@@ -1,0 +1,14 @@
+[
+  {
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\video\\recording-2026-10-03T11-43-41-849Z\\level-000003.mp4",
+    "bytes": 43049815,
+    "sha256": "0D3DC95ECDC5D6CB2970444EF67D80FB84584F490BC98358ADAC000F1EEEF95C",
+    "reason": "Development warmup comparison passed raw PTS; re-record to capture precise native pose and idle evidence"
+  },
+  {
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\video\\recording-2026-10-03T11-43-41-849Z\\.level-000003.capture.webm",
+    "bytes": 91351881,
+    "sha256": "A0169418F7053F165BA153E0399E1DDAE0376BF85A0FFDCFF6910DC29C390B62",
+    "reason": "Rejected 34ms raw gap at the next-picture cold load; preserved native failure report"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\probe-paint-transition.mjs",
+    "bytes": 4182,
+    "sha256": "178A1339B6A367736F2FB39A0D7E483BE4BEB9B759CD68725D8D87C034CB268E",
+    "reason": "Diagnostic concluded; extracted native evidence and source preserved outside video"
+  },
+  {
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\inspect-paint-trace.mjs",
+    "bytes": 1266,
+    "sha256": "E89C44C1098E09ACB2AF408F3BF3E37FE467636D78BE843976675E5B5E6FC89E",
+    "reason": "Diagnostic concluded; extracted native evidence and source preserved outside video"
+  },
+  {
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\paint-transition-trace.json",
+    "bytes": 48467524,
+    "sha256": "439A9ED87D9CBE4150B75EEE66607A33B95306EF2150AB793AE10BD70BCFAC2F",
+    "reason": "Diagnostic concluded; extracted native evidence and source preserved outside video"
+  },
+  {
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\paint-transition-probe.log",
+    "bytes": 3382,
+    "sha256": "8669653D380947B2D532091BEF9B5129083719F372DFE4FB1153380FB8A485D0",
+    "reason": "Diagnostic concluded; extracted native evidence and source preserved outside video"
+  },
+  {
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\level3-gap-review.png",
+    "bytes": 229779,
+    "sha256": "76A542CEDCC01DC694C186C3B9BE44D7A4BA1CC525BED374FE09C4D09E91DF26",
+    "reason": "Diagnostic concluded; extracted native evidence and source preserved outside video"
+  },
+  {
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\level3-native-wait.png",
+    "bytes": 136550,
+    "sha256": "CA0DA11B36CAA5A3C63763FB2757F400B903D2409856ABBE1A12E0C05DD1BD19",
+    "reason": "Diagnostic concluded; extracted native evidence and source preserved outside video"
+  },
+  {
+    "path": "C:\\code\\h5-game-archiver\\.tmp\\update-motion-recording-docs.mjs",
+    "bytes": 6721,
+    "sha256": "A12757A3A018771AD67F91D5D9FE64CA2F57FF128729977E51B736BFF8AFDAB4",
+    "reason": "Diagnostic concluded; extracted native evidence and source preserved outside video"
+  },
+  {
+    "path": "C:\\code\\h5-game-archiver\\.tmp\\recycle-pencil-motion-rejections.ps1",
+    "bytes": 1397,
+    "sha256": "CD5FEE75191103795F1C1A05D4054E6220E599DE3087270E2A50E2960DF47CDB",
+    "reason": "Diagnostic concluded; extracted native evidence and source preserved outside video"
+  },
+  {
+    "path": "C:\\code\\h5-game-archiver\\.tmp\\recycle-pencil-stage3-remeasurement.ps1",
+    "bytes": 1427,
+    "sha256": "B5C4A8BCC7F460F37E11E60DA68EBD9BD04A75F3658ACD97E0D6BB0AF2A9F3A2",
+    "reason": "Diagnostic concluded; extracted native evidence and source preserved outside video"
+  },
+  {
+    "path": "C:\\code\\h5-game-archiver\\.tmp\\retire-paint-diagnostics.ps1",
+    "bytes": 3429,
+    "sha256": "EF71F2CA989CE3168D1652C2FC882F1A1FF98F539E8EABF6B1BFDD699139BB28",
+    "reason": "Diagnostic concluded; extracted native evidence and source preserved outside video"
+  },
+  {
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\video\\recording-2026-10-03T12-57-09-882Z\\level-000003.mp4",
+    "bytes": 43970681,
+    "sha256": "7CE8FDE841100483024D790E0CFCAF19AA1DD473B988ACF9DA28353B8505C465",
+    "reason": "Completed native performance comparison; not a delivery video"
+  }
+]

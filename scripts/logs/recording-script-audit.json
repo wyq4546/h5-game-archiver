@@ -1,0 +1,933 @@
+{
+  "createdAt": "2026-10-03T16:05:02.735Z",
+  "root": "C:\\code\\h5-game-archiver\\download",
+  "note": "Static flow inventory only. Flags may be configured in an imported module: false is a review candidate, not proof of missing runtime behavior. Native full-run and actual movie evidence is required separately; this inventory does not certify games or diagnose existing videos.",
+  "scripts": [
+    {
+      "game": "Barrel-Roller-20260828-185000",
+      "file": "C:\\code\\h5-game-archiver\\download\\Barrel-Roller-20260828-185000\\scripts\\internal\\play-endless.mjs",
+      "shared": true,
+      "explicitPrepare": true,
+      "preferredH264": false,
+      "chunkWriting": "shared-default-or-imported",
+      "mobileParameters": {
+        "isMobile": false,
+        "hasTouch": false,
+        "userAgent": false
+      },
+      "motionEvidence": false,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 8,
+          "text": "import { checkVideoTools, createVideoRecorder, installGameAudioCapture, recordingDirectory, recordingBrowserArgs, resolveBrowserOptions } from \"../../../../src/game-video-recorder.mjs\";"
+        },
+        {
+          "line": 2766,
+          "text": "recorder = await createVideoRecorder(page, { directory: videoRoot, fps: 60, captureEveryFrame: true });"
+        },
+        {
+          "line": 2768,
+          "text": "if (!recorder.active) await recorder.prepare(level, { endWhen: () => globalThis.__barrelBot.recordingEndingComplete() });"
+        },
+        {
+          "line": 2780,
+          "text": "console.log(`开始录制第 ${level} 关：${JSON.stringify(await recorder.start(level, {"
+        }
+      ]
+    },
+    {
+      "game": "Battery-Run-3D-20260910-051700",
+      "file": "C:\\code\\h5-game-archiver\\download\\Battery-Run-3D-20260910-051700\\scripts\\internal\\play-auto.mjs",
+      "shared": true,
+      "explicitPrepare": true,
+      "preferredH264": false,
+      "chunkWriting": "shared-default-or-imported",
+      "mobileParameters": {
+        "isMobile": false,
+        "hasTouch": false,
+        "userAgent": false
+      },
+      "motionEvidence": false,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 3,
+          "text": "import {createVideoRecorder,checkVideoTools,installGameAudioCapture,recordingDirectory,recordingBrowserArgs} from '../../../../src/game-video-recorder.mjs';"
+        },
+        {
+          "line": 27,
+          "text": "if(record)recorder=await createVideoRecorder(page,{directory,fps:60,captureEveryFrame:true});"
+        },
+        {
+          "line": 37,
+          "text": "if(record)await recorder.prepare(expected,{endWhen:()=>!!window.__batteryBot?.recordEndAt});"
+        },
+        {
+          "line": 38,
+          "text": "if(record)await recorder.start(expected,{endWhen:()=>!!window.__batteryBot?.recordEndAt});"
+        }
+      ]
+    },
+    {
+      "game": "Bubble-Shooter-Classic-Pop-20261001-142030",
+      "file": "C:\\code\\h5-game-archiver\\download\\Bubble-Shooter-Classic-Pop-20261001-142030\\scripts\\internal\\run-auto.mjs",
+      "shared": true,
+      "explicitPrepare": false,
+      "preferredH264": false,
+      "chunkWriting": "explicit-deferred",
+      "mobileParameters": {
+        "isMobile": false,
+        "hasTouch": false,
+        "userAgent": false
+      },
+      "motionEvidence": false,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 7,
+          "text": "import {createVideoRecorder,recordingDirectory,checkVideoTools} from '../../../../src/game-video-recorder.mjs';"
+        },
+        {
+          "line": 46,
+          "text": "if(recording){recorder??=await createVideoRecorder(page,{directory,fps:60,captureEveryFrame:true,deferChunkWrites:true,speed:1});await recorder.start(level,{endWhen:()=>!!window.__bubble?.state.goalAt&&performance.now()>=__bubble.state.goalAt+1400});}"
+        }
+      ]
+    },
+    {
+      "game": "Build-A-Queen-Christmas-Beauty-20260930-200244",
+      "file": "C:\\code\\h5-game-archiver\\download\\Build-A-Queen-Christmas-Beauty-20260930-200244\\scripts\\internal\\run-auto.mjs",
+      "shared": true,
+      "explicitPrepare": true,
+      "preferredH264": false,
+      "chunkWriting": "explicit-deferred",
+      "mobileParameters": {
+        "isMobile": false,
+        "hasTouch": false,
+        "userAgent": false
+      },
+      "motionEvidence": true,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 7,
+          "text": "import { recordingDirectory, createVideoRecorder, checkVideoTools } from '../../../../src/game-video-recorder.mjs';"
+        },
+        {
+          "line": 53,
+          "text": "if(record)recorder=await createVideoRecorder(page,{directory,fps:60,captureEveryFrame:true,deferChunkWrites:true,speed:1});"
+        },
+        {
+          "line": 57,
+          "text": "if(record)await recorder.prepare(level,{endWhen:()=>!!globalThis.__queen?.finishedAt});"
+        },
+        {
+          "line": 76,
+          "text": "const media=record?await recorder.start(level,{endWhen:()=>!!globalThis.__queen?.finishedAt}):null;"
+        }
+      ]
+    },
+    {
+      "game": "Cake-Art-3D-20260914-034400",
+      "file": "C:\\code\\h5-game-archiver\\download\\Cake-Art-3D-20260914-034400\\scripts\\internal\\play-auto.mjs",
+      "shared": true,
+      "explicitPrepare": false,
+      "preferredH264": false,
+      "chunkWriting": "shared-default-or-imported",
+      "mobileParameters": {
+        "isMobile": false,
+        "hasTouch": false,
+        "userAgent": false
+      },
+      "motionEvidence": false,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 17,
+          "text": "createVideoRecorder,"
+        },
+        {
+          "line": 153,
+          "text": "recorder = await createVideoRecorder(page, { directory, fps: 60, captureEveryFrame: true });"
+        },
+        {
+          "line": 172,
+          "text": "await recorder.start(expected);"
+        }
+      ]
+    },
+    {
+      "game": "Coffee-Stack-20261002-060813",
+      "file": "C:\\code\\h5-game-archiver\\download\\Coffee-Stack-20261002-060813\\scripts\\internal\\run-auto.mjs",
+      "shared": true,
+      "explicitPrepare": true,
+      "preferredH264": true,
+      "chunkWriting": "explicit-deferred",
+      "mobileParameters": {
+        "isMobile": false,
+        "hasTouch": false,
+        "userAgent": false
+      },
+      "motionEvidence": true,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 8,
+          "text": "import {createVideoRecorder,recordingDirectory,checkVideoTools} from '../../../../src/game-video-recorder.mjs';"
+        },
+        {
+          "line": 53,
+          "text": "if(record)recorder=await createVideoRecorder(page,{directory,fps:60,captureEveryFrame:true,deferChunkWrites:true,speed:1,preferredMimeTypes:['video/webm;codecs=h264,opus']});"
+        },
+        {
+          "line": 54,
+          "text": "if(record)await recorder.prepare(level,{endWhen:()=>!!window.__coffee?.finishedAt});"
+        },
+        {
+          "line": 58,
+          "text": "const mediaInfo=record?await recorder.start(level,{endWhen:()=>!!window.__coffee?.finishedAt}):null;"
+        }
+      ]
+    },
+    {
+      "game": "Color-Snake-3D-Online-20260823-064700",
+      "file": "C:\\code\\h5-game-archiver\\download\\Color-Snake-3D-Online-20260823-064700\\scripts\\internal\\play-endless.mjs",
+      "shared": true,
+      "explicitPrepare": true,
+      "preferredH264": false,
+      "chunkWriting": "shared-default-or-imported",
+      "mobileParameters": {
+        "isMobile": false,
+        "hasTouch": false,
+        "userAgent": false
+      },
+      "motionEvidence": false,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 7,
+          "text": "import { checkVideoTools, createVideoRecorder, installGameAudioCapture, recordingDirectory, recordingBrowserArgs, resolveBrowserOptions } from '../../../../src/game-video-recorder.mjs';"
+        },
+        {
+          "line": 175,
+          "text": "recorder ||= await createVideoRecorder(page, { directory: recordingSessionDirectory, frame: recordingFrame,"
+        },
+        {
+          "line": 178,
+          "text": "await recorder.prepare(levelNumber, { endWhen: () =>"
+        },
+        {
+          "line": 194,
+          "text": "recorder ||= await createVideoRecorder(page, { directory: recordingSessionDirectory, frame: recordingFrame,"
+        },
+        {
+          "line": 197,
+          "text": "const info = await recorder.start(levelNumber, { endWhen: () =>"
+        }
+      ]
+    },
+    {
+      "game": "Count-Master-Match-Color-Run-20260925-010943",
+      "file": "C:\\code\\h5-game-archiver\\download\\Count-Master-Match-Color-Run-20260925-010943\\scripts\\internal\\run-auto.mjs",
+      "shared": true,
+      "explicitPrepare": true,
+      "preferredH264": false,
+      "chunkWriting": "shared-default-or-imported",
+      "mobileParameters": {
+        "isMobile": false,
+        "hasTouch": false,
+        "userAgent": false
+      },
+      "motionEvidence": false,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 8,
+          "text": "createVideoRecorder,"
+        },
+        {
+          "line": 75,
+          "text": "recorder = await createVideoRecorder(page, {"
+        },
+        {
+          "line": 525,
+          "text": "if (record) await recorder.prepare(currentLevelNum);"
+        },
+        {
+          "line": 526,
+          "text": "if (record) await recorder.start(currentLevelNum);"
+        }
+      ]
+    },
+    {
+      "game": "Count-Masters-20260928-175220",
+      "file": "C:\\code\\h5-game-archiver\\download\\Count-Masters-20260928-175220\\scripts\\internal\\run-auto.mjs",
+      "shared": true,
+      "explicitPrepare": false,
+      "preferredH264": false,
+      "chunkWriting": "shared-default-or-imported",
+      "mobileParameters": {
+        "isMobile": false,
+        "hasTouch": false,
+        "userAgent": false
+      },
+      "motionEvidence": false,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 8,
+          "text": "createVideoRecorder,"
+        },
+        {
+          "line": 122,
+          "text": "recorder = await createVideoRecorder(page, {"
+        },
+        {
+          "line": 1237,
+          "text": "await recorder.start(currentLevelNum);"
+        }
+      ]
+    },
+    {
+      "game": "Going-Balls-20260913-001200",
+      "file": "C:\\code\\h5-game-archiver\\download\\Going-Balls-20260913-001200\\scripts\\internal\\play-auto.mjs",
+      "shared": true,
+      "explicitPrepare": false,
+      "preferredH264": false,
+      "chunkWriting": "explicit-deferred",
+      "mobileParameters": {
+        "isMobile": false,
+        "hasTouch": false,
+        "userAgent": false
+      },
+      "motionEvidence": false,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 12,
+          "text": "import {checkVideoTools,createVideoRecorder,recordingDirectory} from '../../../../src/game-video-recorder.mjs';"
+        },
+        {
+          "line": 107,
+          "text": "recorder=await createVideoRecorder(page,{directory:videoDir,fps:60,captureEveryFrame:true,deferChunkWrites:true});"
+        },
+        {
+          "line": 116,
+          "text": "if(recorder)console.log(await recorder.start(level,{endWhen:()=>bot.snapshot().endingComplete}));"
+        }
+      ]
+    },
+    {
+      "game": "Hair-Challenge-Online-20260909-092100",
+      "file": "C:\\code\\h5-game-archiver\\download\\Hair-Challenge-Online-20260909-092100\\scripts\\internal\\play-auto.mjs",
+      "shared": true,
+      "explicitPrepare": true,
+      "preferredH264": false,
+      "chunkWriting": "shared-default-or-imported",
+      "mobileParameters": {
+        "isMobile": false,
+        "hasTouch": false,
+        "userAgent": false
+      },
+      "motionEvidence": false,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 7,
+          "text": "import {createVideoRecorder,checkVideoTools,installGameAudioCapture,recordingDirectory,recordingBrowserArgs} from '../../../../src/game-video-recorder.mjs';"
+        },
+        {
+          "line": 66,
+          "text": "if(record)recorder=await createVideoRecorder(page,{directory,fps:60,captureEveryFrame:true});"
+        },
+        {
+          "line": 74,
+          "text": "if(record)await recorder.prepare(expected,{endWhen:()=>!!window.__hairBot?.recordEndAt});"
+        },
+        {
+          "line": 75,
+          "text": "if(record)await recorder.start(expected,{endWhen:()=>!!window.__hairBot?.recordEndAt});"
+        }
+      ]
+    },
+    {
+      "game": "Join-Blob-Clash-20260929-164518",
+      "file": "C:\\code\\h5-game-archiver\\download\\Join-Blob-Clash-20260929-164518\\scripts\\internal\\run-auto.mjs",
+      "shared": true,
+      "explicitPrepare": true,
+      "preferredH264": false,
+      "chunkWriting": "shared-default-or-imported",
+      "mobileParameters": {
+        "isMobile": true,
+        "hasTouch": true,
+        "userAgent": true
+      },
+      "motionEvidence": false,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 9,
+          "text": "createVideoRecorder,"
+        },
+        {
+          "line": 158,
+          "text": "recorder = await createVideoRecorder(page, {"
+        },
+        {
+          "line": 365,
+          "text": "if (record && recorder) await recorder.prepare(targetLevel);"
+        },
+        {
+          "line": 397,
+          "text": "const info = await recorder.start(targetLevel);"
+        }
+      ]
+    },
+    {
+      "game": "Man-Runner-2048-20261003-095019",
+      "file": "C:\\code\\h5-game-archiver\\download\\Man-Runner-2048-20261003-095019\\scripts\\internal\\run-auto.mjs",
+      "shared": true,
+      "explicitPrepare": true,
+      "preferredH264": true,
+      "chunkWriting": "explicit-deferred",
+      "mobileParameters": {
+        "isMobile": false,
+        "hasTouch": false,
+        "userAgent": false
+      },
+      "motionEvidence": true,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 7,
+          "text": "import {checkVideoTools,createVideoRecorder,recordingDirectory} from '../../../../src/game-video-recorder.mjs';"
+        },
+        {
+          "line": 38,
+          "text": "recorder=await createVideoRecorder(game.page,{directory,fps:60,captureEveryFrame:true,deferChunkWrites:true,speed:1,preferredMimeTypes:['video/webm;codecs=h264,opus']});"
+        },
+        {
+          "line": 40,
+          "text": "await recorder.prepare(expected);"
+        },
+        {
+          "line": 43,
+          "text": "const media=await recorder.start(expected);if(media.width!==1080||media.height!==1920||media.audioTracks<1)throw Error('录制管道不满足移动画布/原声音轨');"
+        }
+      ]
+    },
+    {
+      "game": "Merge-Rush-2048-20260927-113252",
+      "file": "C:\\code\\h5-game-archiver\\download\\Merge-Rush-2048-20260927-113252\\scripts\\internal\\run-auto.mjs",
+      "shared": true,
+      "explicitPrepare": true,
+      "preferredH264": false,
+      "chunkWriting": "shared-default-or-imported",
+      "mobileParameters": {
+        "isMobile": false,
+        "hasTouch": false,
+        "userAgent": false
+      },
+      "motionEvidence": false,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 8,
+          "text": "createVideoRecorder,"
+        },
+        {
+          "line": 93,
+          "text": "recorder = await createVideoRecorder(page, {"
+        },
+        {
+          "line": 659,
+          "text": "if (record) await recorder.prepare(currentLevelNum);"
+        },
+        {
+          "line": 661,
+          "text": "if (record) await recorder.start(currentLevelNum);"
+        }
+      ]
+    },
+    {
+      "game": "Nail-Stack-20260906-083100",
+      "file": "C:\\code\\h5-game-archiver\\download\\Nail-Stack-20260906-083100\\scripts\\internal\\play-auto.mjs",
+      "shared": false,
+      "explicitPrepare": true,
+      "preferredH264": false,
+      "chunkWriting": "shared-default-or-imported",
+      "mobileParameters": {
+        "isMobile": true,
+        "hasTouch": true,
+        "userAgent": true
+      },
+      "motionEvidence": true,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 9,
+          "text": "import { checkVideoTools, createVideoRecorder, installGameAudioCapture } from \"./video-recorder.mjs\";"
+        },
+        {
+          "line": 656,
+          "text": "recorder = await createVideoRecorder(session.page, { directory: videoDirectory });"
+        },
+        {
+          "line": 683,
+          "text": "if(recorder)await recorder.prepare(activeLevel);"
+        },
+        {
+          "line": 685,
+          "text": "const recording = await recorder.start(activeLevel);"
+        }
+      ]
+    },
+    {
+      "game": "Nail-Stack-20260906-083100",
+      "file": "C:\\code\\h5-game-archiver\\download\\Nail-Stack-20260906-083100\\scripts\\internal\\video-recorder.mjs",
+      "shared": false,
+      "explicitPrepare": false,
+      "preferredH264": false,
+      "chunkWriting": "shared-default-or-imported",
+      "mobileParameters": {
+        "isMobile": false,
+        "hasTouch": false,
+        "userAgent": false
+      },
+      "motionEvidence": true,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 181,
+          "text": "export async function createVideoRecorder(page, { directory }) {"
+        },
+        {
+          "line": 217,
+          "text": "const stream = canvas.captureStream();"
+        },
+        {
+          "line": 224,
+          "text": "const recorder = new MediaRecorder(stream, { mimeType, videoBitsPerSecond: 10_000_000, audioBitsPerSecond: 192_000 });"
+        },
+        {
+          "line": 247,
+          "text": "recorder.start(250);"
+        }
+      ]
+    },
+    {
+      "game": "Noodle-Stack-Runner-20261001-010716",
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\internal\\run-auto.mjs",
+      "shared": true,
+      "explicitPrepare": true,
+      "preferredH264": false,
+      "chunkWriting": "explicit-deferred",
+      "mobileParameters": {
+        "isMobile": false,
+        "hasTouch": false,
+        "userAgent": false
+      },
+      "motionEvidence": true,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 7,
+          "text": "import {createVideoRecorder,recordingDirectory,checkVideoTools} from '../../../../src/game-video-recorder.mjs';"
+        },
+        {
+          "line": 41,
+          "text": "if(record)recorder=await createVideoRecorder(page,{directory,fps:60,captureEveryFrame:true,deferChunkWrites:true,speed:1});"
+        },
+        {
+          "line": 42,
+          "text": "if(record)await recorder.prepare(level,{endWhen:()=>!!window.__noodle?.finishedAt});"
+        },
+        {
+          "line": 50,
+          "text": "const mediaInfo=record?await recorder.start(level,{endWhen:()=>!!window.__noodle?.finishedAt}):null;"
+        }
+      ]
+    },
+    {
+      "game": "Number-Master-Run-And-Merge-20260928-222712",
+      "file": "C:\\code\\h5-game-archiver\\download\\Number-Master-Run-And-Merge-20260928-222712\\scripts\\internal\\run-auto.mjs",
+      "shared": true,
+      "explicitPrepare": false,
+      "preferredH264": false,
+      "chunkWriting": "shared-default-or-imported",
+      "mobileParameters": {
+        "isMobile": false,
+        "hasTouch": false,
+        "userAgent": false
+      },
+      "motionEvidence": false,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 8,
+          "text": "createVideoRecorder,"
+        },
+        {
+          "line": 134,
+          "text": "recorder = await createVideoRecorder(page, {"
+        },
+        {
+          "line": 814,
+          "text": "await recorder.start(currentLevelNum);"
+        }
+      ]
+    },
+    {
+      "game": "Pencil-Rush-20261003-153217",
+      "file": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\internal\\run-auto.mjs",
+      "shared": true,
+      "explicitPrepare": true,
+      "preferredH264": true,
+      "chunkWriting": "explicit-deferred",
+      "mobileParameters": {
+        "isMobile": false,
+        "hasTouch": false,
+        "userAgent": false
+      },
+      "motionEvidence": true,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 7,
+          "text": "import {checkVideoTools,createVideoRecorder,recordingDirectory} from '../../../../src/game-video-recorder.mjs';"
+        },
+        {
+          "line": 40,
+          "text": "recorder=await createVideoRecorder(game.page,{directory,fps:60,captureEveryFrame:true,deferChunkWrites:true,speed:1,preferredMimeTypes:['video/webm;codecs=h264,opus'],encoderWarmupMs:6000});"
+        },
+        {
+          "line": 41,
+          "text": "await recorder.prepare(expected);const media=await recorder.start(expected);if(media.width!==1080||media.height!==1920||media.audioTracks<1)throw Error('原生移动画布/音轨不符合规范 '+JSON.stringify(media));"
+        }
+      ]
+    },
+    {
+      "game": "Potato-Rush-20260906-023900",
+      "file": "C:\\code\\h5-game-archiver\\download\\Potato-Rush-20260906-023900\\scripts\\internal\\play-auto.mjs",
+      "shared": true,
+      "explicitPrepare": true,
+      "preferredH264": false,
+      "chunkWriting": "shared-default-or-imported",
+      "mobileParameters": {
+        "isMobile": false,
+        "hasTouch": false,
+        "userAgent": false
+      },
+      "motionEvidence": false,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 8,
+          "text": "import { checkVideoTools, createVideoRecorder, installGameAudioCapture, recordingDirectory, recordingBrowserArgs, resolveBrowserOptions } from \"../../../../src/game-video-recorder.mjs\";"
+        },
+        {
+          "line": 662,
+          "text": "recorder = await createVideoRecorder(page, { directory: videoDirectory, fps: 60, captureEveryFrame: true });"
+        },
+        {
+          "line": 666,
+          "text": "if(recordVideo)await recorder.prepare(activeLevel);"
+        },
+        {
+          "line": 671,
+          "text": "console.log(`开始录制第 ${activeLevel} 关：${JSON.stringify(await recorder.start(activeLevel))}`);"
+        }
+      ]
+    },
+    {
+      "game": "Rubber-Ball-3D-20260911-051000",
+      "file": "C:\\code\\h5-game-archiver\\download\\Rubber-Ball-3D-20260911-051000\\scripts\\internal\\play-auto.mjs",
+      "shared": true,
+      "explicitPrepare": false,
+      "preferredH264": false,
+      "chunkWriting": "shared-default-or-imported",
+      "mobileParameters": {
+        "isMobile": false,
+        "hasTouch": false,
+        "userAgent": false
+      },
+      "motionEvidence": false,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 19,
+          "text": "createVideoRecorder, checkVideoTools, installGameAudioCapture, recordingDirectory, recordingBrowserArgs,"
+        },
+        {
+          "line": 263,
+          "text": "recorder = await createVideoRecorder(page, { directory, fps: 60, captureEveryFrame: true });"
+        },
+        {
+          "line": 273,
+          "text": "if (record) await recorder.start(expected, { endWhen: () => !!window.__rubberBot?.recordEndAt });"
+        },
+        {
+          "line": 376,
+          "text": "if (record) { await recorder.start(expected); await delay(1000); await recorder.finish({ partial: true }); }"
+        }
+      ]
+    },
+    {
+      "game": "Snake-Run-Race-20260929-231315",
+      "file": "C:\\code\\h5-game-archiver\\download\\Snake-Run-Race-20260929-231315\\scripts\\internal\\run-auto.mjs",
+      "shared": true,
+      "explicitPrepare": true,
+      "preferredH264": false,
+      "chunkWriting": "explicit-deferred",
+      "mobileParameters": {
+        "isMobile": true,
+        "hasTouch": true,
+        "userAgent": true
+      },
+      "motionEvidence": true,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 13,
+          "text": "createVideoRecorder,"
+        },
+        {
+          "line": 210,
+          "text": "recorder = await createVideoRecorder(page, {"
+        },
+        {
+          "line": 1220,
+          "text": "if(record&&!warmup)await recorder.prepare(currentLevelNum);"
+        },
+        {
+          "line": 1262,
+          "text": "await recorder.start(currentLevelNum);"
+        }
+      ]
+    },
+    {
+      "game": "Spiral-Roll-20260924-192735",
+      "file": "C:\\code\\h5-game-archiver\\download\\Spiral-Roll-20260924-192735\\scripts\\internal\\run-auto.mjs",
+      "shared": true,
+      "explicitPrepare": true,
+      "preferredH264": false,
+      "chunkWriting": "shared-default-or-imported",
+      "mobileParameters": {
+        "isMobile": true,
+        "hasTouch": true,
+        "userAgent": true
+      },
+      "motionEvidence": true,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 10,
+          "text": "createVideoRecorder,"
+        },
+        {
+          "line": 76,
+          "text": "recorder = await createVideoRecorder(page, {"
+        },
+        {
+          "line": 197,
+          "text": "await recorder.prepare(currentLevel);"
+        },
+        {
+          "line": 199,
+          "text": "await recorder.start(currentLevel);"
+        }
+      ]
+    },
+    {
+      "game": "Tap-To-Color-Painting-Book-20261002-182432",
+      "file": "C:\\code\\h5-game-archiver\\download\\Tap-To-Color-Painting-Book-20261002-182432\\scripts\\internal\\run-auto.mjs",
+      "shared": true,
+      "explicitPrepare": false,
+      "preferredH264": true,
+      "chunkWriting": "explicit-deferred",
+      "mobileParameters": {
+        "isMobile": false,
+        "hasTouch": false,
+        "userAgent": false
+      },
+      "motionEvidence": true,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 7,
+          "text": "import {checkVideoTools,createVideoRecorder,recordingDirectory} from '../../../../src/game-video-recorder.mjs';"
+        },
+        {
+          "line": 53,
+          "text": "recorder=await createVideoRecorder(game.page,{directory,fps:60,captureEveryFrame:true,deferChunkWrites:true,speed:1,preferredMimeTypes:['video/webm;codecs=h264,opus']});"
+        },
+        {
+          "line": 54,
+          "text": "const info=await recorder.start(expected);"
+        }
+      ]
+    },
+    {
+      "game": "Watermelon-Run-3D-20260923-170700",
+      "file": "C:\\code\\h5-game-archiver\\download\\Watermelon-Run-3D-20260923-170700\\scripts\\internal\\run-auto.mjs",
+      "shared": true,
+      "explicitPrepare": true,
+      "preferredH264": false,
+      "chunkWriting": "shared-default-or-imported",
+      "mobileParameters": {
+        "isMobile": false,
+        "hasTouch": false,
+        "userAgent": false
+      },
+      "motionEvidence": false,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 6,
+          "text": "import { recordingBrowserArgs, createVideoRecorder, checkVideoTools, installGameAudioCapture, recordingDirectory } from '../../../../src/game-video-recorder.mjs';"
+        },
+        {
+          "line": 71,
+          "text": "if(record) { const directory=arg('--video-dir', null)||recordingDirectory(path.join(root,'scripts')); recorder=await createVideoRecorder(page,{directory,fps:60,captureEveryFrame:true}); await log({type:'video-directory',directory}); }"
+        },
+        {
+          "line": 82,
+          "text": "if(recorder&&recordedLevel!==s.unlock+1) { if(!recorder.active)throw new Error('原生起跑前未预热，拒绝在运动中冷启动录制'); await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)))); await recorder.start(s.unlock+1); recordedLevel=s.unlock+1; await log({type:'record-start',level:recordedLevel}); }"
+        },
+        {
+          "line": 109,
+          "text": "if(recorder&&!recorder.active){await page.evaluate(()=>{window.__recordingWinCount=window.__watermelonWinCount;});await recorder.prepare(s.unlock+1,{endWhen:()=>globalThis.__watermelonWinCount>globalThis.__recordingWinCount&&performance.now()-globalThis.__watermelonWinAt>1000});}"
+        }
+      ]
+    },
+    {
+      "game": "Draw-Path-To-Home-20261002-232839",
+      "file": "C:\\code\\h5-game-archiver\\download\\Draw-Path-To-Home-20261002-232839\\scripts\\internal\\run-auto.mjs",
+      "shared": true,
+      "explicitPrepare": false,
+      "preferredH264": true,
+      "chunkWriting": "explicit-deferred",
+      "mobileParameters": {
+        "isMobile": false,
+        "hasTouch": false,
+        "userAgent": false
+      },
+      "motionEvidence": true,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 7,
+          "text": "import {checkVideoTools,createVideoRecorder,recordingDirectory} from '../../../../src/game-video-recorder.mjs';"
+        },
+        {
+          "line": 37,
+          "text": "recorder=await createVideoRecorder(game.page,{directory,fps:60,captureEveryFrame:true,deferChunkWrites:true,speed:1,preferredMimeTypes:['video/webm;codecs=h264,opus']});"
+        },
+        {
+          "line": 38,
+          "text": "const media=await recorder.start(expected),before=await game.page.evaluate(()=>({...__homePerf,time:performance.now()}));"
+        },
+        {
+          "line": 56,
+          "text": "recorder=await createVideoRecorder(game.page,{directory,fps:60,captureEveryFrame:true,deferChunkWrites:true,speed:1,preferredMimeTypes:['video/webm;codecs=h264,opus']});"
+        },
+        {
+          "line": 57,
+          "text": "const media=await recorder.start(nativeSaveMax);const before=await game.page.evaluate(()=>({...__homePerf,time:performance.now()}));"
+        }
+      ]
+    },
+    {
+      "game": "Color-Maze-Puzzle-20260923-044000",
+      "file": "C:\\code\\h5-game-archiver\\scripts\\maze-runner.mjs",
+      "shared": true,
+      "explicitPrepare": true,
+      "preferredH264": false,
+      "mobileParameters": {
+        "isMobile": false,
+        "hasTouch": false,
+        "userAgent": false
+      },
+      "motionEvidence": false,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 4,
+          "text": "import { checkVideoTools, createVideoRecorder, recordingDirectory } from '../src/game-video-recorder.mjs';"
+        },
+        {
+          "line": 78,
+          "text": "recorder = await createVideoRecorder(page, { directory: videoDirectory, fps: 60, captureEveryFrame: true });"
+        },
+        {
+          "line": 120,
+          "text": "await recorder.prepare(level);"
+        },
+        {
+          "line": 122,
+          "text": "console.log('RECORD START', level, await recorder.start(level));"
+        }
+      ]
+    },
+    {
+      "game": "Color-Maze-Puzzle-2-20260923-044200",
+      "file": "C:\\code\\h5-game-archiver\\scripts\\maze-runner.mjs",
+      "shared": true,
+      "explicitPrepare": true,
+      "preferredH264": false,
+      "mobileParameters": {
+        "isMobile": false,
+        "hasTouch": false,
+        "userAgent": false
+      },
+      "motionEvidence": false,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 4,
+          "text": "import { checkVideoTools, createVideoRecorder, recordingDirectory } from '../src/game-video-recorder.mjs';"
+        },
+        {
+          "line": 78,
+          "text": "recorder = await createVideoRecorder(page, { directory: videoDirectory, fps: 60, captureEveryFrame: true });"
+        },
+        {
+          "line": 120,
+          "text": "await recorder.prepare(level);"
+        },
+        {
+          "line": 122,
+          "text": "console.log('RECORD START', level, await recorder.start(level));"
+        }
+      ]
+    },
+    {
+      "game": "Maze-Paint-3D-20260923-044500",
+      "file": "C:\\code\\h5-game-archiver\\scripts\\unity-maze-runner.mjs",
+      "shared": true,
+      "explicitPrepare": false,
+      "preferredH264": false,
+      "mobileParameters": {
+        "isMobile": false,
+        "hasTouch": false,
+        "userAgent": false
+      },
+      "motionEvidence": false,
+      "discardedStartupRecorder": false,
+      "calls": [
+        {
+          "line": 4,
+          "text": "import { checkVideoTools, createVideoRecorder, recordingDirectory } from '../src/game-video-recorder.mjs';"
+        },
+        {
+          "line": 32,
+          "text": "recorder = await createVideoRecorder(page, { directory: videoDirectory, fps: 60, captureEveryFrame: true });"
+        },
+        {
+          "line": 60,
+          "text": "console.log('RECORD START', level, await recorder.start(level));"
+        }
+      ]
+    }
+  ]
+}

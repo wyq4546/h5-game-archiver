@@ -1,0 +1,11 @@
+{
+  "host": "127.0.0.1",
+  "port": 41741,
+  "il2cppdumper_path": "C:\\code\\h5-game-archiver\\integrations\\xapk-analyzer\\third_party\\Il2CppDumper\\Il2CppDumper\\bin\\Release\\net8.0\\Il2CppDumper.dll",
+  "cpp2il_path": "C:\\code\\h5-game-archiver\\integrations\\xapk-analyzer\\third_party\\Cpp2IL\\Cpp2IL\\bin\\Release\\net10.0\\Cpp2IL.dll",
+  "jadx_path": "",
+  "il2cppdumper_repo": "https://github.com/Perfare/Il2CppDumper.git",
+  "cpp2il_repo": "https://github.com/SamboyCoding/Cpp2IL.git",
+  "cpp2il_branch": "development",
+  "ilspycmd_path": "C:\\code\\h5-game-archiver\\integrations\\xapk-analyzer\\tools_built\\ilspycmd\\ilspycmd.exe"
+}

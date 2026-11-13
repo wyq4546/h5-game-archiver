@@ -1,0 +1,8 @@
+{
+  "diagnosis": "Error: MP4 导出失败，原始录制保留在 C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\video\\recording-2026-10-03T10-33-51-834Z\\.level-000029.capture.webm：原始编码开头丢帧，禁止用 CFR 重复画面掩盖：{\"frames\":111,\"maxGapMs\":80.99999999999996,\"gaps\":[{\"at\":1.2925999999940394,\"ms\":48.00000000000004},{\"at\":1.3695999999940394,\"ms\":55.000000000000156},{\"at\":1.4535999999940394,\"ms\":80.99999999999996},{\"at\":1.5345999999940394,\"ms\":40.000000000000036}]}\n    at Object.finish (file:///C:/code/h5-game-archiver/src/game-video-recorder.mjs:452:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async file:///C:/code/h5-game-archiver/download/Pencil-Rush-20261003-153217/scripts/internal/run-auto.mjs:44:15",
+  "sha256": "9C41650899ADF9B883D1069F0FB805EE468D03EDF3C69F7A76A4F6CB304016E1",
+  "at": "2026-10-03T11:33:13.1048013Z",
+  "mode": "recycled",
+  "file": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\video\\recording-2026-10-03T10-33-51-834Z\\.level-000029.capture.webm",
+  "bytes": 77802904
+}

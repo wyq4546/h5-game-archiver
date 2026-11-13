@@ -1,0 +1,271 @@
+[
+  {
+    "action": "recycled-concluded-temporary-file",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\accepted-end.png",
+    "sha256": "7592D55321BE3CF2F9258A2E439FD99EAE8AB34AB201164FB184FDFD82EB293E"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\boot-state.json",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\boot-state.json",
+    "sha256": "01C135BB4EC48DAAB5B95750D33B297702BE7A22AB21A899E9DB51FA9C20A68D"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\boot.log",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\boot.log",
+    "sha256": "B39D75324FCD11FC5F02BBB6B1B52703FF8EBCA1D8CF8C25A69A524DEDBFC225"
+  },
+  {
+    "action": "recycled-concluded-temporary-file",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\boot.png",
+    "sha256": "D13E9B43EB576F0D73E0208660C109E8C3424AED2D303D89188B34AD5EC22D6F"
+  },
+  {
+    "action": "recycled-concluded-temporary-file",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\business-readable.js",
+    "sha256": "9F23B82F73766470D39FA0F9554BB5083A6FD698B466BD6209EE95DF9E004276"
+  },
+  {
+    "action": "recycled-concluded-temporary-file",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\check-controller.mjs",
+    "sha256": "F2D843145839FF88B23E4C8C4FB1775CCE7CABA12865D292E3EC1EB8EEDE982C"
+  },
+  {
+    "action": "recycled-concluded-temporary-file",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\clean-end.png",
+    "sha256": "54CE6A2F8E4AEF5F252787ED67DAAB92F58CFD4FECF4598BC30346BCDA961F2C"
+  },
+  {
+    "action": "recycled-concluded-temporary-file",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\clean-play.png",
+    "sha256": "6F8D5CB487B9AB083F724B929CD5DBF723CA671C6114AC25493D71BAD941A785"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\cold29.log",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\cold29.log",
+    "sha256": "8C93795E0D0799ACC77E203481D6E24FAFDC3EC9F080ADE1A454B4A6C34D3436"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\colliders.json",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\colliders.json",
+    "sha256": "084891CC7A1AAB3913025082F7023F823E3B299B872AD2F8F38F43135AFBAEE1"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\controller.log",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\controller.log",
+    "sha256": "9EC9C3132B0D398BB7AAF2516C4AA0A0F24A432C4BF14132679B91D3B854647C"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\earned-scene.json",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\earned-scene.json",
+    "sha256": "E0F25FE07D42169E6A6688F80D0B097F9B7069FE4C983338DB835705CD7C13B9"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\earned-scene.log",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\earned-scene.log",
+    "sha256": "DF8DF68E79B74634A5967E9CD21929B7714CB07D0B419CB6D7B9603508485DB9"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\earned-storage.json",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\earned-storage.json",
+    "sha256": "D95267C718E76C7C91A667049B4B6190350215D20ABA40433D3BB7AEE527BAE5"
+  },
+  {
+    "action": "recycled-concluded-temporary-file",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\end-1.png",
+    "sha256": "FDA3D490C8A425734987BA8A76789C0F97EB2207C13BAC81E6CDF87B159C7C59"
+  },
+  {
+    "action": "recycled-concluded-temporary-file",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\end-2.png",
+    "sha256": "8AAF7281F7D6549286EFFDC315B2E7DD489E648474AD12A8D7A88E5FF4F72F70"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\failure.json",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\failure.json",
+    "sha256": "7F575A6621BF7DC00C77E48780D187F9162A0003793AC59CAE5A1552B985D8B8"
+  },
+  {
+    "action": "recycled-concluded-temporary-file",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\failure.png",
+    "sha256": "A23E1992BE6401B03F35FD44BADC752C8B2307336F62C304A6DA62F754AF9FC6"
+  },
+  {
+    "action": "recycled-concluded-temporary-file",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\final-end-1.png",
+    "sha256": "F17BF8CCDF8B7A0A353A5DDD9B301C69CE6FB6FBFD6F0695F6D1ED52421627C5"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\final-first-level.log",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\final-first-level.log",
+    "sha256": "C4895E37253995A2292FF8408F2077F333B371A1D4BF5D2D122BD1028C171E26"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\final-recording-resume13.log",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\final-recording-resume13.log",
+    "sha256": "1B96FD5548F3DAFA915D6C0EE145C049EDB799D52ACBCF835A5F38F6233BF0FD"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\final-recording-resume55.log",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\final-recording-resume55.log",
+    "sha256": "BC95065AFA2DA80749C2CAE1C6A9F50A8E90C882D1EE86A6711E502753C95E1B"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\final-recording.log",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\final-recording.log",
+    "sha256": "58F5AAD992B69B2319EE77524D783969E342748E1C59CEF6683D273875EDEDC2"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\final-visual-check.log",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\final-visual-check.log",
+    "sha256": "2895D7AC35554F197AC8F0D4BCE641F126C2CD58066830BE2E0EB0DE55D6BC49"
+  },
+  {
+    "action": "recycled-concluded-temporary-file",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\fov70.png",
+    "sha256": "239E4AD933B4BF5ABCDD019BC6D043BBC1BBF89115B32FA4FD942EBC019709D0"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\freeze-labels.log",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\freeze-labels.log",
+    "sha256": "FC290F32C0E33038BDFC00535FBF38380B70609F7F7C2EF52BA5D101F203744E"
+  },
+  {
+    "action": "recycled-concluded-temporary-file",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\inspect-collisions.mjs",
+    "sha256": "59EDBAB4D4AD0FBFA1822CEF05792F755A1719477E56EAB9795821770A05B556"
+  },
+  {
+    "action": "recycled-concluded-temporary-file",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\inspect-earned.mjs",
+    "sha256": "6787A0BD8FABD81CC4927AE412782F0AF754A94CAD0CBD59092EA3F09927F993"
+  },
+  {
+    "action": "recycled-concluded-temporary-file",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\inspect-native.mjs",
+    "sha256": "9F4DBB5DD509629E946F1C2D1EA6C2121D44F741759D9E4BC2E3ADC475C228D8"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\level-1.json",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\level-1.json",
+    "sha256": "E709F42EA588372CF4E565EDC74181E205F9CCF79C60AAB4B3BB43DF34588BEB"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\level-2.json",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\level-2.json",
+    "sha256": "5BDEC199F83BC62BB334E8A41830C7D5D9CDFDB3E434D0F1E16E904F3D1CAD36"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\native-samples.json",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\native-samples.json",
+    "sha256": "ABFFE25CADAF7C284DDFC74FE44F5CC63326595CE6CC7862B120037C46B0AF38"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\native.log",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\native.log",
+    "sha256": "53B2A07380223BBEA6BEB2CECFBECCB4362ED576C6802DC4438251AA20EF1FE2"
+  },
+  {
+    "action": "recycled-concluded-temporary-file",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\native.png",
+    "sha256": "C7F07540F87867F78AD4627E6B59241253470F156DD745EE2916CF2588656D2D"
+  },
+  {
+    "action": "recycled-concluded-temporary-file",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\probe-boot.mjs",
+    "sha256": "02C526F7BD4DF1BECA812EEF279C77040C75388AE0A65E9D04F33DB15F9D17B7"
+  },
+  {
+    "action": "recycled-concluded-temporary-file",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\probe-recording29.mjs",
+    "sha256": "0178FFCE0C74A85C5CAF683E2CCBA0978F99EDC4CEECB42D0A5A0BEE64EF615C"
+  },
+  {
+    "action": "recycled-concluded-temporary-file",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\probe-start.mjs",
+    "sha256": "E51755424B45BB3EE746630445AFAE2862C35346360C53D6F1D0225A0150B0E6"
+  },
+  {
+    "action": "recycled-concluded-temporary-file",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\recording-failure.png",
+    "sha256": "39D0497A6FBD0014F7E708D52C8085DB6B13E922F928765E0DB1C04A0073A834"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\recording.log",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\recording.log",
+    "sha256": "C23304F3D0E6B014080DA938572F41E73CE076981307863AAE2881DD9DC45728"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\rerecord-stage3-pose.log",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\rerecord-stage3-pose.log",
+    "sha256": "F909B8607AF229CDB926C30D2D8F34A88BF1B60E7F01C25FBF1B79BE23052490"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\rerecord-stage3-warmed.log",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\rerecord-stage3-warmed.log",
+    "sha256": "0570CE7D463F7E38D5E600F3A653E7BAD32BC6B89060AE79E21F38CCA28A9900"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\rerecord-stage3.log",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\rerecord-stage3.log",
+    "sha256": "EE521B3F95CD67238F627889893E806C261C153AC7AC285F555CA3D480902453"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\runtime-detail.json",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\runtime-detail.json",
+    "sha256": "2A0DB369BE0CD8679C0F1974514F38DE909D6A590EFAFE7DA13502C2AAA891AA"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\start-proof.json",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\start-proof.json",
+    "sha256": "78AF472FFA0508D8B3943CA1A88BBAB5FC3B12CA01AC58B3D33B92F60D3A3A75"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\start-proof.log",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\start-proof.log",
+    "sha256": "75E2BA8CE78F664A2FC3C5529B5E1A36833F98EA6996B18BA9329F06ECE8C7F8"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\warm29-2.log",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\warm29-2.log",
+    "sha256": "22F3745E9DC9DE2916228B5687D7AB4C21198428FB27779ED9E199F8FC3CF1AE"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\warm29-3.log",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\warm29-3.log",
+    "sha256": "7B5F3ADA7D9270D323DDFC41BE298EEC09D127DF745F3804472981C7C95942EA"
+  },
+  {
+    "action": "moved-evidence",
+    "path": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\.tmp\\warm29.log",
+    "destination": "C:\\code\\h5-game-archiver\\download\\Pencil-Rush-20261003-153217\\scripts\\logs\\development-20261003\\warm29.log",
+    "sha256": "68E5BD9AAE64FE206C1646CBC1D3637C7E59136E733F7A0A5DC267F052884D2F"
+  }
+]

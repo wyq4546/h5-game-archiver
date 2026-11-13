@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>XAPK Analyzer v1.4</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="app-shell">
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></div>
+        <div>
+          <div class="brand-title">XAPK Analyzer <span>v1.5</span></div>
+          <div class="brand-sub">Unity IL2CPP 静态分析工作台</div>
+        </div>
+      </div>
+      <div class="topbar-meta">
+        <span class="privacy-note">文件仅在本机处理</span>
+        <div class="local-pill"><i></i> LOCAL</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero-card" aria-labelledby="importTitle">
+      <div class="hero-left">
+        <div class="step-label"><span>01</span> 导入安装包</div>
+        <h1 id="importTitle">开始分析游戏包</h1>
+        <p>识别引擎、架构和 Metadata，自动匹配可用解析器。</p>
+        <div class="format-list"><span>XAPK</span><span>APK</span><span>ZIP</span></div>
+      </div>
+      <div id="drop" class="dropzone">
+        <div class="upload-icon" aria-hidden="true">↑</div>
+        <div class="drop-main">拖入安装包开始分析</div>
+        <div class="drop-sub">或点击浏览本机文件</div>
+        <input id="file" type="file" accept=".xapk,.apk,.zip">
+      </div>
+      <div id="progress" class="hero-status"></div>
+    </section>
+
+    <section class="env-strip">
+      <div class="env-left">
+        <div>
+          <div class="eyebrow">运行环境</div>
+          <div class="env-title">解析器</div>
+        </div>
+        <div class="env-summary">
+          <span id="dumperBadge" class="status-pill checking">Il2CppDumper 检查中</span>
+          <span id="cpp2ilBadge" class="status-pill checking">Cpp2IL 检查中</span>
+          <span id="ilspyBadge" class="status-pill checking">C# 反编译器检查中</span>
+        </div>
+      </div>
+      <div class="env-actions">
+        <button id="setupAllTools" class="btn btn-primary">一键安装全部插件</button>
+        <button id="toggleParsers" class="btn btn-ghost">管理解析器</button>
+      </div>
+    <div id="setupAllPanel" class="setup-all-panel hidden">
+        <div class="setup-all-head"><span class="spinner"></span><b id="setupAllTitle">正在准备工具...</b></div>
+        <div id="setupAllSteps" class="setup-all-steps"></div>
+      </div>
+    </section>
+
+    <section id="parserPanel" class="parser-panel hidden">
+      <div class="parser-grid">
+        <article class="parser-card">
+          <div class="parser-head">
+            <div>
+              <div class="parser-title">Il2CppDumper</div>
+              <div class="parser-desc">旧版 Unity IL2CPP metadata</div>
+            </div>
+          </div>
+          <div id="toolStatus" class="tool-status"></div>
+          <div id="dumperInstallProgress" class="install-progress hidden">
+            <span class="spinner"></span><span id="dumperInstallText">正在准备...</span>
+          </div>
+          <div class="button-row">
+            <button id="setupTool" class="btn">安装 / 更新</button>
+            <button id="reselectTool" class="btn btn-soft">重选版本</button>
+            <button id="refreshTool" class="btn btn-ghost">刷新</button>
+          </div>
+          <details class="details">
+            <summary>安装日志</summary>
+            <div class="details-tools">
+              <button class="btn btn-ghost btn-xs copy-log" data-target="setupLog">复制</button>
+            </div>
+            <pre id="setupLog" class="log log-small"></pre>
+          </details>
+        </article>
+
+        <article class="parser-card">
+          <div class="parser-head">
+            <div>
+              <div class="parser-title">Cpp2IL</div>
+              <div class="parser-desc">新版 Metadata / Unity 6 / ARMv7</div>
+            </div>
+          </div>
+          <div id="cpp2ilStatus" class="tool-status"></div>
+          <div id="cpp2ilInstallProgress" class="install-progress hidden">
+            <span class="spinner"></span><span id="cpp2ilInstallText">正在准备...</span>
+          </div>
+          <div class="button-row">
+            <button id="setupCpp2il" class="btn">安装 / 更新</button>
+            <button id="refreshCpp2il" class="btn btn-ghost">刷新</button>
+          </div>
+          <details class="details">
+            <summary>安装日志</summary>
+            <div class="details-tools">
+              <button class="btn btn-ghost btn-xs copy-log" data-target="cpp2ilSetupLog">复制</button>
+            </div>
+            <pre id="cpp2ilSetupLog" class="log log-small"></pre>
+          </details>
+        </article>
+
+        <article class="parser-card">
+          <div class="parser-head">
+            <div>
+              <div class="parser-title">ILSpyCmd</div>
+              <div class="parser-desc">恢复 DLL → 可读 C# 源码</div>
+            </div>
+          </div>
+          <div id="ilspyStatus" class="tool-status"></div>
+          <div id="ilspyInstallProgress" class="install-progress hidden">
+            <span class="spinner"></span><span id="ilspyInstallText">正在准备...</span>
+          </div>
+          <div class="button-row">
+            <button id="setupIlspy" class="btn">安装 / 更新</button>
+            <button id="refreshIlspy" class="btn btn-ghost">刷新</button>
+          </div>
+          <details class="details">
+            <summary>安装日志</summary>
+            <div class="details-tools">
+              <button class="btn btn-ghost btn-xs copy-log" data-target="ilspySetupLog">复制</button>
+            </div>
+            <pre id="ilspySetupLog" class="log log-small"></pre>
+          </details>
+        </article>
+      </div>
+    </section>
+
+    <div id="workArea" class="work-grid hidden">
+      <section id="projectCard" class="panel">
+        <div class="panel-head">
+          <div>
+            <div class="step-label"><span>02</span> 分析目标</div>
+            <h2>游戏信息</h2>
+          </div>
+          <div id="engineSummary" class="engine-chip"></div>
+        </div>
+
+        <div id="summary" class="summary-grid"></div>
+
+        <div class="analysis-toolbar">
+          <div class="toolbar-main">
+            <button id="autoAnalyze" class="btn btn-primary action-primary"><span class="btn-icon">▶</span>自动分析</button>
+            <span class="toolbar-divider" aria-hidden="true"></span>
+            <button id="runCpp2il" class="btn analyzer-btn">Cpp2IL</button>
+            <button id="runDumper" class="btn analyzer-btn">Il2CppDumper</button>
+            <button id="decompileCsharp" class="btn btn-accent analyzer-btn">反编译 C#</button>
+            <button id="analyzeNative" class="btn btn-accent analyzer-btn">提取关键类真实逻辑</button>
+          </div>
+          <div class="toolbar-secondary">
+            <button id="stopTask" class="btn btn-danger stop-btn" disabled>■ 停止任务</button>
+            <span class="toolbar-divider" aria-hidden="true"></span>
+            <button id="reindex" class="btn btn-ghost utility-btn">重建索引</button>
+            <button id="exportSource" class="btn btn-ghost utility-btn">导出源码 ZIP</button>
+            <button id="export" class="btn btn-ghost utility-btn">导出 JSON</button>
+            <button class="btn btn-ghost utility-btn copy-log" data-target="toolLog">复制日志</button>
+          </div>
+          <div id="decompileHint" class="action-hint" aria-live="polite"></div>
+        </div>
+
+        <div id="runtimeState" class="runtime hidden">
+          <div class="runtime-left"><span class="runtime-dot"></span>状态 <b id="taskState">-</b></div>
+          <div>运行时间 <b id="elapsed">00:00:00</b></div>
+        </div>
+
+        <div id="inputPanel" class="input-panel hidden">
+          <div id="inputHint"></div>
+          <div class="input-row">
+            <input id="taskInput" placeholder="输入值">
+            <button id="sendInput" class="btn">提交</button>
+            <button id="sendZero" class="btn btn-soft hidden">发送 0</button>
+          </div>
+        </div>
+
+        <details class="details run-details">
+          <summary>分析日志</summary>
+          <pre id="toolLog" class="log"></pre>
+        </details>
+      </section>
+
+      <section id="analysisCard" class="panel">
+        <div class="panel-head">
+          <div>
+            <div class="step-label"><span>03</span> 浏览结果</div>
+            <h2>游戏源码索引</h2>
+          </div>
+          <div class="scope-badge">Assembly-CSharp</div>
+        </div>
+
+        <div class="metric-grid">
+          <div class="metric game">
+            <div class="metric-label">游戏类</div>
+            <div id="gameClassMetric" class="metric-value">0</div>
+          </div>
+          <div class="metric game">
+            <div class="metric-label">游戏方法</div>
+            <div id="gameMethodMetric" class="metric-value">0</div>
+          </div>
+          <div class="metric game">
+            <div class="metric-label">游戏字段</div>
+            <div id="gameFieldMetric" class="metric-value">0</div>
+          </div>
+          <div class="metric">
+            <div class="metric-label">全部类</div>
+            <div id="allClassMetric" class="metric-value">0</div>
+          </div>
+          <div class="metric source">
+            <div class="metric-label">C# 源文件</div>
+            <div id="sourceFileMetric" class="metric-value">0</div>
+          </div>
+        </div>
+
+        <div class="search-card">
+          <div class="search-top">
+            <div>
+              <div class="search-title">搜索代码</div>
+              <div class="search-hint">默认只搜索游戏程序集</div>
+            </div>
+            <label class="toggle">
+              <input id="searchAll" type="checkbox">
+              <span></span>
+              全部程序集
+            </label>
+          </div>
+          <div class="search-row">
+            <input id="query" aria-label="搜索游戏代码" placeholder="搜索类、方法或字段，例如 Player、Level">
+            <button id="searchBtn" class="btn btn-primary">搜索</button>
+          </div>
+        </div>
+
+        <div class="result-layout">
+          <div class="result-pane">
+            <div class="result-head">
+              <div>
+                <h3>核心类候选</h3>
+                <p>游戏程序集智能筛选</p>
+              </div>
+              <span id="candidateCount" class="count-pill">0</span>
+            </div>
+            <div id="candidates" class="result-list"></div>
+          </div>
+
+          <div class="result-pane">
+            <div class="result-head">
+              <div>
+                <h3>搜索结果</h3>
+                <p id="searchScopeText">当前范围：游戏代码</p>
+              </div>
+              <span id="resultCount" class="count-pill">0</span>
+            </div>
+            <div id="results" class="result-list empty-state">输入关键词开始搜索</div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+</div>
+
+
+  <div id="classDrawerBackdrop" class="drawer-backdrop hidden"></div>
+  <aside id="classDrawer" class="class-drawer hidden">
+    <div class="drawer-head">
+      <div>
+        <div class="eyebrow">CLASS DETAIL</div>
+        <h2 id="detailClassName">类详情</h2>
+        <div id="detailNamespace" class="drawer-sub"></div>
+      </div>
+      <button id="closeDrawer" class="drawer-close">×</button>
+    </div>
+
+    <div id="detailUnavailable" class="detail-message hidden"></div>
+
+    <div id="detailBody" class="detail-body hidden">
+      <div class="detail-stats">
+        <div><span>字段</span><b id="detailFieldCount">0</b></div>
+        <div><span>方法</span><b id="detailMethodCount">0</b></div>
+        <div><span>真实逻辑</span><b id="detailLogicCount">0</b></div>
+        <div><span>空壳方法</span><b id="detailStubCount">0</b></div>
+      </div>
+      <div id="detailQuality" class="quality-banner"></div>
+
+      <div class="detail-section">
+        <div class="detail-title">文件</div>
+        <div id="detailFile" class="detail-path"></div>
+      </div>
+
+      <div class="detail-split">
+        <div class="detail-section">
+          <div class="detail-title">字段</div>
+          <div id="detailFields" class="member-list"></div>
+        </div>
+        <div class="detail-section">
+          <div class="detail-title">方法</div>
+          <div id="detailMethods" class="member-list"></div>
+        </div>
+      </div>
+
+      <div class="detail-section source-section">
+        <div class="detail-title-row">
+          <div class="detail-title">重建 C# 源码</div>
+          <button id="copySource" class="btn btn-ghost btn-xs">复制源码</button>
+        </div>
+        <pre id="detailSource" class="source-code"></pre>
+      </div>
+      <div class="detail-section source-section native-section">
+        <div class="detail-title-row">
+          <div class="detail-title">原生真实逻辑（ARM 汇编 / ISIL）</div>
+          <button id="copyNative" class="btn btn-ghost btn-xs">复制原生逻辑</button>
+        </div>
+        <div id="nativeUnavailable" class="native-unavailable">尚未提取。点击顶部“提取关键类真实逻辑”。</div>
+        <pre id="detailNative" class="source-code hidden"></pre>
+      </div>
+    </div>
+  </aside>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

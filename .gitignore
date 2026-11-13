@@ -1,0 +1,38 @@
+node_modules/
+output/
+download/*
+!download/README.txt
+.playwright/
+*.log
+
+data/
+.tmp/
+**/.tmp/
+.single-*.wasm
+tools/ghidra-[0-9]*/
+tools/jdk-*/
+tools/gradle-*/
+tools/.runtime/
+tools/ghidra-wasm-plugin/.gradle/
+tools/ghidra-wasm-plugin/build/
+tools/ghidra-wasm-plugin/dist/
+
+# --- 第三方二进制发行包（体积过大，不入库）---
+tools/ffmpeg*/
+tools/ffprobe-compat/
+tools/AssetRipper*
+tools/decompilation/
+tools/Il2CppDumper*
+tools/wabt/
+
+# --- 分析工具的二进制依赖与构建产物 ---
+integrations/xapk-analyzer/tools_built/
+integrations/xapk-analyzer/third_party/
+integrations/xapk-analyzer/workspace/
+integrations/xapk-analyzer/.venv*/
+__pycache__/
+*.pyc
+
+# --- 本机配置与工作数据 ---
+.claude/settings.local.json
+.workbuddy/

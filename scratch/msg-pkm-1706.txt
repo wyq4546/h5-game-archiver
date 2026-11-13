@@ -1,0 +1,8 @@
+我已经接管这台机器的录制任务，请不要再启动、重启或 kill 任何 run-auto / node / chrome 进程。
+
+现状：
+1. 你 16:46 那次 runner.mjs 改动（把 RoadHole 从 blockers 里剔除）导致第 6 关在 z=26 的墙角楔死，155 秒 timeout，批次中断。我已回退这一行，原文件备份为 runner.mjs.bak-1705。
+2. 同时修了卡住检测的 bug：原来 dist < bestDist - 1.0 也刷新计时器，角色原地来回弹时永远不算卡住；现在只认「离起点更远」。
+3. 批次已经在独立 tmux 会话 pkm 里跑起来（start-level 11 / end 60 / attempts 3），日志 /home/ubuntu/pkm.log。
+
+你要做的：什么都不用做，只观察。如果我要你改策略会再发消息。

@@ -1,0 +1,52 @@
+{
+  "name": "h5-game-archiver",
+  "version": "0.1.0",
+  "private": true,
+  "bin": {
+    "h5-game-archiver": "src/cli.mjs"
+  },
+  "type": "module",
+  "description": "Capture authorized HTML5 game sessions and their dynamically loaded resources.",
+  "scripts": {
+    "capture": "node src/cli.mjs",
+    "replay": "node src/cli.mjs replay",
+    "verify": "node src/cli.mjs verify",
+    "check": "node --check src/level-summary.mjs && node --check src/local-preview.mjs && node --check src/noise-url.mjs && node --check src/archive-cover.mjs && node --check src/capture-preview.mjs && node --check src/archive-actions.mjs && node --check src/archive-store.mjs && node --check src/game-name.mjs && node --check src/cli.mjs && node --check src/runtime-assets.mjs && node --check src/openfl-assets.mjs && node --check src/offline-cache.mjs && node --check src/asset-completer.mjs && node --check src/fairygui-assets.mjs && node --check src/capture-platforms.mjs && node --check src/capture.mjs && node --check src/source-analysis.mjs && node --check src/unity-analysis.mjs && node --check src/bot-kit.mjs && node --check src/bracelet-bot.mjs && node --check src/game-bot-policy.mjs && node --check src/launchers.mjs && node --check src/replay.mjs && node --check src/verify.mjs && node --check src/web.mjs && node --check src/utils.mjs && node --check src/wasm-function.mjs && node --check public/app.js && node --check scripts/run-game-script.mjs && node --check scripts/organize-archive.mjs && node --check scripts/add-archive-resources.mjs && node --check scripts/extract-unity-webdata.mjs && node --check src/construct-analysis.mjs && node --check scripts/analyze-construct.mjs && node --check src/il2cpp-wasm-method-map.mjs && node --check scripts/build-wasm-method-map.mjs && node --check src/playcanvas-analysis.mjs && node --check scripts/analyze-laya.mjs && node --check scripts/analyze-playcanvas.mjs && node --check src/legacy-string-scaffold.mjs && node --check src/offline-origin-player.mjs && node --check src/resource-aliases.mjs && node --check src/laya-published-variants.mjs",
+    "test": "node --test test/*.test.mjs",
+    "web": "node src/web.mjs",
+    "play:game": "node scripts/run-game-script.mjs",
+    "organize": "node scripts/organize-archive.mjs",
+    "method-map": "node scripts/build-wasm-method-map.mjs",
+    "deobfuscate": "node --no-node-snapshot node_modules/webcrack/src/cli-wrapper.js",
+    "restringer": "restringer",
+    "cpp2il": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File tools/run-cpp2il.ps1",
+    "assetripper": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File tools/run-assetripper.ps1",
+    "devtools:mcp": "node node_modules/chrome-devtools-mcp/build/src/bin/chrome-devtools-mcp.js --headless --isolated --no-usage-statistics --no-performance-crux --workspace=. --viewport=1080x1920 --chrome-arg=--ignore-gpu-blocklist --chrome-arg=--enable-gpu-rasterization --chrome-arg=--enable-zero-copy",
+    "ghidra": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File tools/run-ghidra.ps1",
+    "ghidra:headless": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File tools/run-ghidra.ps1 -Headless",
+    "construct": "node scripts/analyze-construct.mjs",
+    "playcanvas": "node scripts/analyze-playcanvas.mjs",
+    "laya": "node scripts/analyze-laya.mjs"
+  },
+  "dependencies": {
+    "@babel/generator": "7.29.8",
+    "@babel/parser": "7.29.9",
+    "@babel/traverse": "7.29.10",
+    "playwright": "^1.55.0",
+    "pngjs": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "devDependencies": {
+    "chrome-devtools-mcp": "1.10.1",
+    "ghost-cursor": "^1.4.2",
+    "pathfinding": "^0.4.18",
+    "restringer": "^2.3.0",
+    "spectorjs": "^0.9.33",
+    "webcrack": "2.16.0"
+  },
+  "allowScripts": {
+    "isolated-vm@6.2.0": true
+  }
+}

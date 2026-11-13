@@ -1,0 +1,1276 @@
+{
+  "createdAt": "2026-10-03T10:19:15.936Z",
+  "cause": "Recorder cold start; continuous native motion/drawing interrupted at 0.1–0.3 seconds. Historical native trace and raw PTS diagnosis retained.",
+  "files": [
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000001.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.3,
+          "end": 0.466667
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000002.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.283333,
+          "end": 0.45
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000003.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.316667,
+          "end": 0.483333
+        },
+        {
+          "start": 0.783333,
+          "duration": 0.1,
+          "end": 0.883333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000004.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.3,
+          "end": 0.466667
+        },
+        {
+          "start": 1.35,
+          "duration": 0.066667,
+          "end": 1.416667
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000005.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.35,
+          "end": 0.516667
+        },
+        {
+          "start": 0.783333,
+          "duration": 0.1,
+          "end": 0.883333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000006.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.316667,
+          "end": 0.483333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000007.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.283333,
+          "end": 0.45
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000008.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.3,
+          "end": 0.466667
+        },
+        {
+          "start": 0.533333,
+          "duration": 0.05,
+          "end": 0.583333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000009.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.283333,
+          "end": 0.45
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000010.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000011.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000012.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.35,
+          "end": 0.516667
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000013.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.316667,
+          "end": 0.483333
+        },
+        {
+          "start": 0.783333,
+          "duration": 0.1,
+          "end": 0.883333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000014.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.3,
+          "end": 0.466667
+        },
+        {
+          "start": 1.333333,
+          "duration": 0.083333,
+          "end": 1.416667
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000015.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        },
+        {
+          "start": 0.8,
+          "duration": 0.083333,
+          "end": 0.883333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000016.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.316667,
+          "end": 0.483333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000017.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.35,
+          "end": 0.516667
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000018.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.35,
+          "end": 0.516667
+        },
+        {
+          "start": 0.533333,
+          "duration": 0.05,
+          "end": 0.583333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000019.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000020.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000021.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.35,
+          "end": 0.516667
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000022.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000023.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        },
+        {
+          "start": 0.8,
+          "duration": 0.083333,
+          "end": 0.883333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000024.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.316667,
+          "end": 0.483333
+        },
+        {
+          "start": 1.316667,
+          "duration": 0.066667,
+          "end": 1.383333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000025.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        },
+        {
+          "start": 0.8,
+          "duration": 0.083333,
+          "end": 0.883333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000027.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.316667,
+          "end": 0.483333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000026.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.366667,
+          "end": 0.533333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000028.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.35,
+          "end": 0.516667
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000029.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.35,
+          "end": 0.516667
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000030.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.366667,
+          "end": 0.533333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000031.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.35,
+          "end": 0.516667
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000032.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.316667,
+          "end": 0.483333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000033.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.35,
+          "end": 0.516667
+        },
+        {
+          "start": 0.783333,
+          "duration": 0.1,
+          "end": 0.883333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000034.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        },
+        {
+          "start": 1.35,
+          "duration": 0.066667,
+          "end": 1.416667
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000035.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        },
+        {
+          "start": 0.766667,
+          "duration": 0.1,
+          "end": 0.866667
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000036.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000037.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.383333,
+          "end": 0.55
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000039.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.35,
+          "end": 0.516667
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000038.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        },
+        {
+          "start": 0.5,
+          "duration": 0.05,
+          "end": 0.55
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000040.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000041.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.366667,
+          "end": 0.533333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000042.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000043.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        },
+        {
+          "start": 0.783333,
+          "duration": 0.116667,
+          "end": 0.9
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000045.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.35,
+          "end": 0.516667
+        },
+        {
+          "start": 0.783333,
+          "duration": 0.1,
+          "end": 0.883333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000044.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.366667,
+          "end": 0.533333
+        },
+        {
+          "start": 1.333333,
+          "duration": 0.066667,
+          "end": 1.4
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000046.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000047.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.383333,
+          "end": 0.55
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000049.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.316667,
+          "end": 0.483333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000048.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.3,
+          "end": 0.466667
+        },
+        {
+          "start": 0.533333,
+          "duration": 0.05,
+          "end": 0.583333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000051.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.35,
+          "end": 0.516667
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000050.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.316667,
+          "end": 0.483333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000052.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000053.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.316667,
+          "end": 0.483333
+        },
+        {
+          "start": 0.783333,
+          "duration": 0.1,
+          "end": 0.883333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000054.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.3,
+          "end": 0.466667
+        },
+        {
+          "start": 1.35,
+          "duration": 0.066667,
+          "end": 1.416667
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000055.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.366667,
+          "end": 0.533333
+        },
+        {
+          "start": 0.783333,
+          "duration": 0.1,
+          "end": 0.883333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000056.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.3,
+          "end": 0.466667
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000057.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.316667,
+          "end": 0.483333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000058.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.35,
+          "end": 0.516667
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000059.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.35,
+          "end": 0.516667
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000061.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.316667,
+          "end": 0.483333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000060.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000062.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000063.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        },
+        {
+          "start": 0.783333,
+          "duration": 0.1,
+          "end": 0.883333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000064.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.366667,
+          "end": 0.533333
+        },
+        {
+          "start": 1.35,
+          "duration": 0.066667,
+          "end": 1.416667
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000065.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.3,
+          "end": 0.466667
+        },
+        {
+          "start": 0.766667,
+          "duration": 0.116667,
+          "end": 0.883333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000066.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.316667,
+          "end": 0.483333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000067.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.316667,
+          "end": 0.483333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000068.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.316667,
+          "end": 0.483333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000069.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.316667,
+          "end": 0.483333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000070.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.316667,
+          "end": 0.483333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000071.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.316667,
+          "end": 0.483333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000072.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000073.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        },
+        {
+          "start": 0.783333,
+          "duration": 0.1,
+          "end": 0.883333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000075.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.316667,
+          "end": 0.483333
+        },
+        {
+          "start": 0.8,
+          "duration": 0.083333,
+          "end": 0.883333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000074.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.316667,
+          "end": 0.483333
+        },
+        {
+          "start": 1.333333,
+          "duration": 0.066667,
+          "end": 1.4
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000077.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.316667,
+          "end": 0.483333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000076.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000078.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.3,
+          "end": 0.466667
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000079.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.35,
+          "end": 0.516667
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000080.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000081.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.316667,
+          "end": 0.483333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000082.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.4,
+          "end": 0.566667
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000083.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.383333,
+          "end": 0.55
+        },
+        {
+          "start": 0.783333,
+          "duration": 0.1,
+          "end": 0.883333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000085.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        },
+        {
+          "start": 0.783333,
+          "duration": 0.1,
+          "end": 0.883333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000084.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.316667,
+          "end": 0.483333
+        },
+        {
+          "start": 1.35,
+          "duration": 0.066667,
+          "end": 1.416667
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000086.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.3,
+          "end": 0.466667
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000087.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000088.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.416667,
+          "end": 0.583333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000089.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.35,
+          "end": 0.516667
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000090.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.316667,
+          "end": 0.483333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000091.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.316667,
+          "end": 0.483333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000092.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000093.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.316667,
+          "end": 0.483333
+        },
+        {
+          "start": 0.783333,
+          "duration": 0.1,
+          "end": 0.883333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000094.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.35,
+          "end": 0.516667
+        },
+        {
+          "start": 1.35,
+          "duration": 0.066667,
+          "end": 1.416667
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000095.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        },
+        {
+          "start": 0.783333,
+          "duration": 0.116667,
+          "end": 0.9
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000096.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.35,
+          "end": 0.516667
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000097.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.316667,
+          "end": 0.483333
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000098.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.35,
+          "end": 0.516667
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000099.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.35,
+          "end": 0.516667
+        }
+      ],
+      "coldStartPattern": true
+    },
+    {
+      "file": "C:\\code\\h5-game-archiver\\download\\Noodle-Stack-Runner-20261001-010716\\scripts\\video\\mobile-1-100\\level-000100.mp4",
+      "freezes": [
+        {
+          "start": 0.166667,
+          "duration": 0.333333,
+          "end": 0.5
+        }
+      ],
+      "coldStartPattern": true
+    }
+  ]
+}

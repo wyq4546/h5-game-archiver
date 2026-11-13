@@ -1,0 +1,68 @@
+{
+  "installedAt": "2026-10-10",
+  "updatedAt": "2026-10-11",
+  "ghidra": {
+    "version": "12.1.4",
+    "directory": "tools/ghidra-12.1.4",
+    "url": "https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_12.1.4_build/ghidra_12.1.4_PUBLIC_20260921.zip",
+    "sha256": "ddac49f903da9d5bac833e5cc79395098b9c33cfd3279be5f31bd00387d2d4db"
+  },
+  "wasmPlugin": {
+    "version": "2.4.0",
+    "sourceDirectory": "tools/ghidra-wasm-plugin",
+    "sourceUrl": "https://codeload.github.com/nneonneo/ghidra-wasm-plugin/zip/refs/tags/v2.4.0",
+    "sourceSha256": "5faf0a5ec585890336da109fb4bdb5222ad0af7529015b098e173dd515b69398",
+    "targetGhidraVersion": "12.1.4",
+    "languageId": "Wasm:LE:32:default",
+    "localPatchNotes": "tools/ghidra-wasm-plugin/PROJECT_PATCHES.md",
+    "builtArchive": "tools/ghidra-wasm-plugin/dist/ghidra_12.1.4_PUBLIC_20261010_ghidra-wasm-plugin.zip",
+    "builtArchiveSha256": "b81df485c9146840daeed5120b867f50fd60fe0888ad28163a9964cb5381982c"
+  },
+  "jdk": {
+    "version": "21.0.12.1+1",
+    "distribution": "Temurin Windows x64 HotSpot",
+    "directory": "tools/jdk-21",
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jdk_x64_windows_hotspot_21.0.12.1_1.zip",
+    "sha256": "f9d6e191ab098c0d416e7d588a24420a8621cd2f4720dab2459b8b7b2d2d8b4e"
+  },
+  "gradle": {
+    "version": "8.14.3",
+    "directory": "tools/gradle-8.14.3",
+    "url": "https://services.gradle.org/distributions/gradle-8.14.3-bin.zip",
+    "sha256": "bd71102213493060956ec229d946beee57158dbd89d0e62b91bca0fa2c5f3531"
+  },
+  "unity": {
+    "cpp2il": {
+      "version": "2022.1.0",
+      "executable": "integrations/xapk-analyzer/third_party/Cpp2IL/Cpp2IL/bin/Release/net10.0/Cpp2IL.exe",
+      "launcher": "tools/run-cpp2il.ps1"
+    },
+    "assetRipper": {
+      "version": "2.0.0",
+      "directory": "tools/AssetRipper",
+      "executable": "tools/AssetRipper/AssetRipper.GUI.Free.exe",
+      "launcher": "tools/run-assetripper.ps1"
+    },
+    "il2CppDumper": {
+      "directory": "tools/Il2CppDumper",
+      "binDirectory": "tools/Il2CppDumper-bin"
+    },
+    "wabt": {
+      "directory": "tools/wabt",
+      "jsDirectory": "tools/wabt-js"
+    }
+  },
+  "python": {
+    "unitypy": "1.25.4"
+  },
+  "npm": {
+    "webcrack": "2.16.0",
+    "restringer": "2.3.0",
+    "spectorjs": "0.9.33",
+    "ghost-cursor": "1.4.2",
+    "pathfinding": "0.4.18",
+    "chrome-devtools-mcp": "1.10.1",
+    "isolated-vm": "6.2.0"
+  },
+  "mcpConfig": ".codex/config.toml"
+}

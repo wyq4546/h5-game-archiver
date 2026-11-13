@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {layaSkeletonAssets} from '../src/fairygui-assets.mjs';
+const utf=s=>{const b=Buffer.from(s),h=Buffer.alloc(2);h.writeUInt16LE(b.length);return Buffer.concat([h,b]);};
+test('Laya skeleton reads native atlas table, deduplicates and rejects truncation',()=>{const head=Buffer.concat([utf('LAYAANIMATION:1.7.0'),utf('Dragon'),utf('idle')]),meta=Buffer.alloc(9);meta.writeUInt32LE(head.length+9,5);const n=Buffer.alloc(4);n.writeInt32LE(2);const file=Buffer.concat([head,meta,n,utf('atlas.png\narm\natlas.png\nleg'),Buffer.alloc(64)]);assert.deepEqual(layaSkeletonAssets(file),['atlas.png']);assert.throws(()=>layaSkeletonAssets(file.subarray(0,-1)),/Truncated/);assert.deepEqual(layaSkeletonAssets(utf('not a skeleton')),[]);});
+

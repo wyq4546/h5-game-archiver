@@ -1,0 +1,113 @@
+{
+  "startedAt": "2026-10-03T11:05:42.136Z",
+  "status": "failed",
+  "phases": [
+    {
+      "game": "Man-Runner-2048-20261003-095019",
+      "batch": "recording-2026-10-03T14-16-20-824Z",
+      "status": "recording",
+      "qualityRetries": [
+        {
+          "level": 61,
+          "at": "2026-10-03T15:48:13.529Z",
+          "raw": "C:\\code\\h5-game-archiver\\download\\Man-Runner-2048-20261003-095019\\scripts\\video\\recording-2026-10-03T14-16-20-824Z\\.level-000061.capture.webm",
+          "metrics": {
+            "cutAt": null,
+            "trimHeadSeconds": 1.5175999999940395,
+            "averageRefreshFps": 60.00091371948919,
+            "encodedOpening": {
+              "frames": 121,
+              "firstFrameAtMs": 16.400000005960536,
+              "maxGapMs": 18.999999999999908,
+              "gaps": []
+            },
+            "encodedContinuity": {
+              "frames": 2366,
+              "durationSeconds": 39.347,
+              "averageEncodedFps": 60.10623427453173,
+              "maxGapMs": 37.00000000000081,
+              "gaps": [
+                {
+                  "at": 7.39740000000596,
+                  "ms": 37.00000000000081
+                }
+              ],
+              "note": "Raw encoder timestamps before CFR; gaps and frame rate require native motion/idle correlation."
+            },
+            "motionWindows": [
+              {
+                "start": 0.048,
+                "end": 28.845
+              },
+              {
+                "start": 28.86340000000596,
+                "end": 29.37729999999702
+              }
+            ]
+          }
+        },
+        {
+          "level": 74,
+          "at": "2026-10-03T16:03:02.358Z",
+          "raw": "C:\\code\\h5-game-archiver\\download\\Man-Runner-2048-20261003-095019\\scripts\\video\\recording-2026-10-03T14-16-20-824Z\\.level-000074.capture.webm",
+          "metrics": {
+            "cutAt": null,
+            "trimHeadSeconds": 1.5147999999970199,
+            "averageRefreshFps": 59.998715230937236,
+            "encodedOpening": {
+              "frames": 121,
+              "firstFrameAtMs": 0.20000000298003862,
+              "maxGapMs": 21.000000000000128,
+              "gaps": []
+            },
+            "encodedContinuity": {
+              "frames": 2338,
+              "durationSeconds": 38.882,
+              "averageEncodedFps": 60.104932873823365,
+              "maxGapMs": 36.000000000001364,
+              "gaps": [
+                {
+                  "at": 9.185200000002979,
+                  "ms": 36.000000000001364
+                }
+              ],
+              "note": "Raw encoder timestamps before CFR; gaps and frame rate require native motion/idle correlation."
+            },
+            "motionWindows": [
+              {
+                "start": 0.03720000000298023,
+                "end": 28.35659999999404
+              },
+              {
+                "start": 28.37740000000596,
+                "end": 28.88920000000298
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "pencilProgress": {
+    "status": "complete",
+    "levels": 100
+  },
+  "pencilBatch": "recording-2026-10-03T11-43-41-849Z",
+  "active": {
+    "game": "Man-Runner-2048-20261003-095019",
+    "args": [
+      "scripts/internal/run-auto.mjs",
+      "--end",
+      "100",
+      "--resume",
+      "scripts/video/recording-2026-10-03T14-16-20-824Z"
+    ],
+    "logFile": "C:\\code\\h5-game-archiver\\scripts\\logs\\recording-regressions-20261003\\Man-Runner-2048-20261003-095019-record.log",
+    "at": "2026-10-03T16:03:02.359Z"
+  },
+  "pencilVerified": true,
+  "failure": {
+    "at": "2026-10-03T16:20:54.374Z",
+    "message": "Error: Man-Runner-2048-20261003-095019-record stopped with exit 1; inspect C:\\code\\h5-game-archiver\\scripts\\logs\\recording-regressions-20261003\\Man-Runner-2048-20261003-095019-record.log\n    at run (file:///C:/code/h5-game-archiver/.tmp/recording-regression-queue.mjs:23:20)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async file:///C:/code/h5-game-archiver/.tmp/recording-regression-queue.mjs:48:10"
+  }
+}

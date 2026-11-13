@@ -1,0 +1,22 @@
+【别跑第三局了，我直接改了脚本，你只负责跑】
+
+远程 scripts/test-air-steer.mjs 已更新（25190 字节，原版备份 test-air-steer.mjs.bak-1505），node --check 通过。
+
+改动只有一处：getTargetX 开头（第 172 行）加了一条硬规则
+    if (z >= 316 && z <= 344) return -2;
+
+理由：
+1. 你 25 秒那轮想出的 Weights_WingBody 周期 3.6 秒是对的，但 8 秒等待那局仍然 maxZ=329（elapsed 31547ms）—— 摆锤在动，球却是"站着被顶住"，等多久都不动，所以 stagnantFrames 不是根因。
+2. 根因在 getTargetX 的 isCandidateSafe：它要求 horizon 16 层里每层都有瓦片且无障碍。但 z=334→344 是 10 个 z 的悬崖，中间本来就没瓦片（靠 z=336 的 Pusher 起跳越过）。算法理解不了跳跃 → 退化到只看眼前几层 → 选最近的 x≈0 死守 → 到 z=332 右边没地面才掉。
+3. 按你自己解出的几何：z=332 起 x>=0 无地面；x=-2 在 z=334 有 Diamond 6，z=336 有 Pusher。所以提前到 z=316 就锁死左道，才有横移时间。
+
+【你要做的】
+不要改任何代码，直接跑一局：
+  cd ~/GoGy-Rocking-Sky-Trip-20261104-162647
+  node scripts/test-air-steer.mjs
+贴出 maxZ / deathZ / deathX / diamonds，以及轨迹在 z>=316 段的 target 和 x。
+
+判断标准：
+a) maxZ 越过 344 → 通了，继续往下推 z=344+
+b) 死在 z=330 附近且 deathX≈-2 → Weights 相位问题，下一步再谈"到 z=326 停一拍等窗口"，先别自己改
+c) 死在 z=332~336 且 deathX≈-2 → 没吃到 Pusher，我要看 x 有没有真的到 -2

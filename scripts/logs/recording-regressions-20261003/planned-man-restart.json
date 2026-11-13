@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-03T15:04:11.4088117Z",
+  "queuePid": 37736,
+  "browserPids": [
+    49028,
+    22164,
+    47448,
+    7884,
+    11392,
+    43164,
+    46672,
+    43268,
+    8856,
+    41884
+  ],
+  "reason": "Apply pre-recording phase wait and new raw-frame gate; resume only actual native checkpoint"
+}

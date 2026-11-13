@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-03T10:55:47.713Z",
+  "note": "Only auxiliary files moved; existing movie bytes untouched. Native source snapshots preserved.",
+  "roots": [
+    {
+      "video": "C:\\code\\h5-game-archiver\\download\\Color-Maze-Puzzle-20260923-044000\\scripts\\video",
+      "data": "C:\\code\\h5-game-archiver\\download\\Color-Maze-Puzzle-20260923-044000\\scripts\\recording-data"
+    },
+    {
+      "video": "C:\\code\\h5-game-archiver\\download\\Color-Maze-Puzzle-2-20260923-044200\\scripts\\video",
+      "data": "C:\\code\\h5-game-archiver\\download\\Color-Maze-Puzzle-2-20260923-044200\\scripts\\recording-data"
+    },
+    {
+      "video": "C:\\code\\h5-game-archiver\\download\\Tap-To-Color-Painting-Book-20261002-182432\\scripts\\video",
+      "data": "C:\\code\\h5-game-archiver\\download\\Tap-To-Color-Painting-Book-20261002-182432\\scripts\\recording-data"
+    }
+  ]
+}

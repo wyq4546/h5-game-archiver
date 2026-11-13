@@ -1,0 +1,42 @@
+﻿[
+    {
+        "skill":  "test-driven-development",
+        "repo":  "obra/superpowers",
+        "commit":  "b36e0829c6d0140e93cfef2ca599b1b07d4a7797"
+    },
+    {
+        "skill":  "systematic-debugging",
+        "repo":  "obra/superpowers",
+        "commit":  "b36e0829c6d0140e93cfef2ca599b1b07d4a7797"
+    },
+    {
+        "skill":  "writing-plans",
+        "repo":  "obra/superpowers",
+        "commit":  "b36e0829c6d0140e93cfef2ca599b1b07d4a7797"
+    },
+    {
+        "skill":  "code-review",
+        "repo":  "mattpocock/skills",
+        "commit":  "3cca18b368ae95cdbdebbff572ccafa662551015"
+    },
+    {
+        "skill":  "codebase-design",
+        "repo":  "mattpocock/skills",
+        "commit":  "3cca18b368ae95cdbdebbff572ccafa662551015"
+    },
+    {
+        "skill":  "spec-driven-development",
+        "repo":  "addyosmani/agent-skills",
+        "commit":  "6ca0cd7db39b41b1c37e26d335c507ee92382c6d"
+    },
+    {
+        "skill":  "security-and-hardening",
+        "repo":  "addyosmani/agent-skills",
+        "commit":  "6ca0cd7db39b41b1c37e26d335c507ee92382c6d"
+    },
+    {
+        "skill":  "mcp-builder",
+        "repo":  "anthropics/skills",
+        "commit":  "34040c9c568585f6929bedeaad110ad08f079624"
+    }
+]

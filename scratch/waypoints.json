@@ -1,0 +1,11 @@
+{
+  "level": 1,
+  "levelLength": 1000,
+  "source": "scene-tree-graph-search",
+  "waypoints": [
+    {
+      "z": 52,
+      "x": null
+    }
+  ]
+}

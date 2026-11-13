@@ -1,0 +1,26 @@
+【进程我已接管，别再 kill / 重启】
+
+你那条 `--start 1 --end 60 --attempts 15` 我停掉了。不是它跑错，是 attempts 只有 15：
+一旦 43 关连着失败 15 次，进程就退出，下次启动又要快进 1-42 关（20-30 分钟）。
+
+现在跑的是长期驻留进程，在 tmux 会话 auto43 里，日志 /home/ubuntu/auto43.log：
+  node scripts/internal/run-auto.mjs --batch recording-2026-11-10T06-02-34-390Z --start 1 --end 60 --attempts 999
+  15:38:02 启动，启动日志已确认「本轮从 43 开始」（1-42 只快进不录，因为 report.json 里 42 关全是 acceptance.passed=true）
+
+【三条硬规矩】
+
+1. 不要 kill 这个进程，不要重启它。
+   关卡进度在 Unity 运行时内存里，进程一死就得重新快进 1-42 关，一次 20-30 分钟。
+   这是这台机器真正浪费时间的地方，比你改策略的时间贵得多。
+
+2. 到 43 关要改策略，只改 scripts/internal/strategy.mjs。
+   runner 每个 attempt 都会 import(strategy.mjs + '?t=' + Date.now()) 热重载，改完下一轮自动生效，不需要重启进程。
+
+3. 我改过 run-auto.mjs：现在任何 --start 1 都会被 checkpoint 拦下、自动改成 43。
+   真要全部重录，必须显式加 --force-restart。原版备份在 run-auto.mjs.bak-1536。
+
+【现在做什么】
+
+等。15:38 开始快进，预计 15:58-16:05 到第 43 关开始录制。
+这期间不要开第二个 run-auto（两个 chromium 会抢同一个游戏实例，两个都会崩）。
+到 43 关后如果卡住，把 stuck-L43.json 和 run.log 对应片段贴给我，我们只改 strategy.mjs。

@@ -1,0 +1,687 @@
+[
+  {
+    "id": "Man-Runner-2048-20261003-095019",
+    "name": "Man Runner 2048",
+    "engine": "Unity WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Man-Runner-2048-20261003-095019",
+    "args": [
+      "scripts/internal/run-auto.mjs",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "scripts/video"
+  },
+  {
+    "id": "Count-Masters-20260928-175220",
+    "name": "Count Masters",
+    "engine": "LayaAir 3D",
+    "targetLevels": 100,
+    "cwdRel": "download/Count-Masters-20260928-175220/scripts",
+    "args": [
+      "internal/run-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Coffee-Stack-20261002-060813",
+    "name": "Coffee Stack",
+    "engine": "LayaAir 3D",
+    "targetLevels": 100,
+    "cwdRel": "download/Coffee-Stack-20261002-060813",
+    "args": [
+      "scripts/internal/run-auto.mjs",
+      "--record",
+      "--start-level",
+      "1",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "scripts/video"
+  },
+  {
+    "id": "Noodle-Stack-Runner-20261001-010716",
+    "name": "Noodle Stack Runner",
+    "engine": "LayaAir 3D",
+    "targetLevels": 100,
+    "cwdRel": "download/Noodle-Stack-Runner-20261001-010716/scripts",
+    "args": [
+      "internal/run-auto.mjs",
+      "--record",
+      "--start-level",
+      "1",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Draw-Path-To-Home-20261002-232839",
+    "name": "Draw Path to Home",
+    "engine": "Unity WebGL",
+    "targetLevels": 43,
+    "cwdRel": "download/Draw-Path-To-Home-20261002-232839",
+    "args": [
+      "scripts/internal/run-auto.mjs",
+      "--end",
+      "43"
+    ],
+    "checkBatchDir": "scripts/video"
+  },
+  {
+    "id": "Bubble-Shooter-Classic-Pop-20261001-142030",
+    "name": "Bubble Shooter Classic Pop",
+    "engine": "Cocos Creator",
+    "targetLevels": 100,
+    "cwdRel": "download/Bubble-Shooter-Classic-Pop-20261001-142030",
+    "args": [
+      "scripts/internal/run-auto.mjs",
+      "--record",
+      "--start-level",
+      "1",
+      "--levels",
+      "100"
+    ],
+    "checkBatchDir": "scripts/video"
+  },
+  {
+    "id": "Build-A-Queen-Christmas-Beauty-20260930-200244",
+    "name": "Build A Queen - Christmas Beauty",
+    "engine": "LayaAir 3D",
+    "targetLevels": 100,
+    "cwdRel": "download/Build-A-Queen-Christmas-Beauty-20260930-200244/scripts",
+    "args": [
+      "internal/run-auto.mjs",
+      "--record",
+      "--start-level",
+      "1",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Snake-Run-Race-20260929-231315",
+    "name": "Snake Run Race",
+    "engine": "LayaAir 3D",
+    "targetLevels": 68,
+    "cwdRel": "download/Snake-Run-Race-20260929-231315/scripts",
+    "args": [
+      "internal/run-auto.mjs",
+      "--start-level",
+      "1",
+      "--end",
+      "68",
+      "--record"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Join-Blob-Clash-20260929-164518",
+    "name": "Join Blob Clash",
+    "engine": "LayaAir 3D",
+    "targetLevels": 100,
+    "cwdRel": "download/Join-Blob-Clash-20260929-164518/scripts",
+    "args": [
+      "internal/run-auto.mjs",
+      "--start-level",
+      "1",
+      "--levels",
+      "100",
+      "--record",
+      "--speed",
+      "1.0"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Merge-Rush-2048-20260927-113252",
+    "name": "Merge Rush 2048",
+    "engine": "LayaAir 3D",
+    "targetLevels": 100,
+    "cwdRel": "download/Merge-Rush-2048-20260927-113252/scripts",
+    "args": [
+      "internal/run-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Pencil-Rush-20261003-153217",
+    "name": "Pencil Rush",
+    "engine": "PlayCanvas",
+    "targetLevels": 100,
+    "cwdRel": "download/Pencil-Rush-20261003-153217",
+    "args": [
+      "scripts/internal/run-auto.mjs",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "scripts/video"
+  },
+  {
+    "id": "Arrow-Slide-Puzzle-20261004-232041",
+    "name": "Arrow Slide Puzzle",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Arrow-Slide-Puzzle-20261004-232041/scripts",
+    "args": [
+      "internal/run-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Tap-To-Color-Painting-Book-20261002-182432",
+    "name": "Tap To Color: Painting Book",
+    "engine": "Unity WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Tap-To-Color-Painting-Book-20261002-182432",
+    "args": [
+      "scripts/internal/run-auto.mjs",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "scripts/video"
+  },
+  {
+    "id": "Barrel-Roller-20260828-185000",
+    "name": "Barrel Roller",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Barrel-Roller-20260828-185000/scripts",
+    "args": [
+      "internal/record-from-level.mjs",
+      "--start-level",
+      "1",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Battery-Run-3D-20260910-051700",
+    "name": "Battery Run 3D",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Battery-Run-3D-20260910-051700/scripts",
+    "args": [
+      "internal/play-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Bricks-And-Balls-Crusher-20261004-235108",
+    "name": "Bricks And Balls Crusher",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Bricks-And-Balls-Crusher-20261004-235108/scripts",
+    "args": [
+      "internal/run-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Cake-Art-3D-20260914-034400",
+    "name": "Cake Art 3D",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Cake-Art-3D-20260914-034400/scripts",
+    "args": [
+      "internal/play-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Chicken-Scream-20261009-001115",
+    "name": "Chicken Scream",
+    "engine": "Unity WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Chicken-Scream-20261009-001115/scripts",
+    "args": [
+      "internal/run-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Color-Music-Hop-Ball-Games-20261009-002057",
+    "name": "Color Music Hop Ball Games",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Color-Music-Hop-Ball-Games-20261009-002057",
+    "args": [
+      "scripts/internal/run-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "scripts/video"
+  },
+  {
+    "id": "Color-Snake-3D-Online-20260823-064700",
+    "name": "Color Snake 3D Online",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Color-Snake-3D-Online-20260823-064700/scripts",
+    "args": [
+      "internal/record-from-level.mjs",
+      "--start-level",
+      "1",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Count-Master-Match-Color-Run-20260925-010943",
+    "name": "Count Master Match Color Run",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Count-Master-Match-Color-Run-20260925-010943/scripts",
+    "args": [
+      "internal/run-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Hair-Challenge-Online-20260909-092100",
+    "name": "Hair Challenge Online",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Hair-Challenge-Online-20260909-092100/scripts",
+    "args": [
+      "internal/play-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Help-The-Girl-Save-The-Prince-20261009-003227",
+    "name": "Help The Girl Save The Prince",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Help-The-Girl-Save-The-Prince-20261009-003227",
+    "args": [
+      "scripts/internal/run-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "scripts/video"
+  },
+  {
+    "id": "Hula-Hoop-Race-20261004-231410",
+    "name": "Hula Hoop Race",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Hula-Hoop-Race-20261004-231410/scripts",
+    "args": [
+      "internal/run-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Maze-Paint-3D-20260923-044500",
+    "name": "Maze Paint 3D",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Maze-Paint-3D-20260923-044500/scripts",
+    "args": [
+      "internal/play-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Nail-Stack-20260906-083100",
+    "name": "Nail Stack",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Nail-Stack-20260906-083100/scripts",
+    "args": [
+      "internal/play-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Number-Master-Run-And-Merge-20260928-222712",
+    "name": "Number Master Run And Merge",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Number-Master-Run-And-Merge-20260928-222712/scripts",
+    "args": [
+      "internal/run-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Potato-Rush-20260906-023900",
+    "name": "Potato Rush",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Potato-Rush-20260906-023900/scripts",
+    "args": [
+      "internal/record-from-level.mjs",
+      "--start-level",
+      "1",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Prom-Run-20261008-171953",
+    "name": "Prom Run",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Prom-Run-20261008-171953",
+    "args": [
+      "scripts/internal/run-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "scripts/video"
+  },
+  {
+    "id": "Rubber-Ball-3D-20260911-051000",
+    "name": "Rubber Ball 3D",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Rubber-Ball-3D-20260911-051000/scripts",
+    "args": [
+      "internal/play-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Run-Healthy-2-20261008-145125",
+    "name": "Run Healthy 2",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Run-Healthy-2-20261008-145125",
+    "args": [
+      "scripts/internal/run-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "scripts/video"
+  },
+  {
+    "id": "Smile-Rush-20261010-000244",
+    "name": "Smile Rush",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Smile-Rush-20261010-000244",
+    "args": [
+      "scripts/internal/run-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "scripts/video"
+  },
+  {
+    "id": "Spiral-Roll-20260924-192735",
+    "name": "Spiral Roll",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Spiral-Roll-20260924-192735/scripts",
+    "args": [
+      "internal/run-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Through-The-Wall-20261004-231228",
+    "name": "Through The Wall",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Through-The-Wall-20261004-231228/scripts",
+    "args": [
+      "internal/run-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Twerk-Race-3D-20261004-230413",
+    "name": "Twerk Race 3D",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Twerk-Race-3D-20261004-230413/scripts",
+    "args": [
+      "internal/run-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Upgrade-The-Supercar-3D-20261004-230806",
+    "name": "Upgrade The Supercar 3D",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Upgrade-The-Supercar-3D-20261004-230806/scripts",
+    "args": [
+      "internal/run-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Watermelon-Run-3D-20260923-170700",
+    "name": "Watermelon Run 3D",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Watermelon-Run-3D-20260923-170700/scripts",
+    "args": [
+      "internal/run-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Animal-One-Line-20261011-013824",
+    "name": "Animal One Line",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Animal-One-Line-20261011-013824/scripts",
+    "args": [
+      "internal/run-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "CatRunner-20261010-160705",
+    "name": "CatRunner",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/CatRunner-20261010-160705/scripts",
+    "args": [
+      "internal/run-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Color-Maze-Puzzle-2-20260923-044200",
+    "name": "Color Maze Puzzle 2",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Color-Maze-Puzzle-2-20260923-044200/scripts",
+    "args": [
+      "internal/play-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Color-Maze-Puzzle-20260923-044000",
+    "name": "Color Maze Puzzle",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Color-Maze-Puzzle-20260923-044000/scripts",
+    "args": [
+      "internal/play-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Honk-20261011-014735",
+    "name": "Honk",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Honk-20261011-014735/scripts",
+    "args": [
+      "internal/run-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Longcat-20261010-145810",
+    "name": "Longcat",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Longcat-20261010-145810/scripts",
+    "args": [
+      "internal/run-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Monster-Draft-20261010-163237",
+    "name": "Monster Draft",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Monster-Draft-20261010-163237/scripts",
+    "args": [
+      "internal/run-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Rodha-2-20261010-144610",
+    "name": "Rodha 2",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Rodha-2-20261010-144610/scripts",
+    "args": [
+      "internal/run-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "SSSPICY-20261011-021010-1",
+    "name": "SSSPICY",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/SSSPICY-20261011-021010-1/scripts",
+    "args": [
+      "internal/run-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Subway-Surfers-20261010-153851",
+    "name": "Subway Surfers",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Subway-Surfers-20261010-153851/scripts",
+    "args": [
+      "internal/run-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  },
+  {
+    "id": "Tilo-20261011-024029",
+    "name": "Tilo",
+    "engine": "H5 WebGL",
+    "targetLevels": 100,
+    "cwdRel": "download/Tilo-20261011-024029/scripts",
+    "args": [
+      "internal/run-auto.mjs",
+      "--record",
+      "--end",
+      "100"
+    ],
+    "checkBatchDir": "video"
+  }
+]

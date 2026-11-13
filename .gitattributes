@@ -1,0 +1,37 @@
+# Auto-detect text files and perform LF normalization for source code
+* text=auto
+
+# Windows batch files MUST use CRLF line endings
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Shell scripts and modern code use LF line endings
+*.sh text eol=lf
+*.mjs text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.py text eol=lf
+
+# Binary files
+*.wasm binary
+*.data binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.ico binary
+*.mp4 binary
+*.webm binary
+*.ogg binary
+*.mp3 binary
+*.wav binary
+*.zip binary
+*.har binary
+*.har.gz binary
